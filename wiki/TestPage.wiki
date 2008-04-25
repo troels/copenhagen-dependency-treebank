@@ -1,1 +1,4 @@
 ﻿This is a wiki test.
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/test.png
+
