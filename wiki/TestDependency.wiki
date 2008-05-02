@@ -1,0 +1,6 @@
+﻿==TestDependency: determine dependency relation==
+
+You have identified two words X and Y. 
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/test.png
+
