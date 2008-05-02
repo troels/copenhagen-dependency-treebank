@@ -1,6 +1,14 @@
-﻿==TestDependency: determine dependency relation==
+﻿
+|| Head/dependent || A || C || I || N || P || R || S || U || V || X ||
+|| A (adjective) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| C (conjunction) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| I (interjection) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| N (noun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| P (pronoun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| R (adverbial) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| S (preposition) ||  ||  ||  || [DepPobj] ||  ||  ||  ||  ||  ||  ||
+|| U (unique) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| V (verb) ||  ||  ||  ||  || [DepSubj] ||  ||  ||  ||  || [DepPunct pnct] ||
+|| X (extra-linguistic) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 
-You have identified two words X and Y. 
-
-http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/test.png
 
