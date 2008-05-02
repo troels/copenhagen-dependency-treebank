@@ -6,9 +6,9 @@
 || N (noun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || P (pronoun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || R (adverbial) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| S (preposition) ||  ||  ||  || [DepPobj] ||  ||  ||  ||  ||  ||  ||
+|| S (preposition) ||  ||  ||  || [DepPobj pobj] ||  ||  ||  ||  ||  ||  ||
 || U (unique) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| V (verb) ||  ||  ||  ||  || [DepSubj] ||  ||  ||  ||  || [DepPunct pnct] ||
+|| V (verb) ||  ||  ||  ||  || [DepSubj subj] ||  ||  ||  ||  || [DepPunct pnct] ||
 || X (extra-linguistic) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 
 
