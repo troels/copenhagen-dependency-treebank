@@ -1,14 +1,12 @@
-﻿
-|| Head/dependent || A || C || I || N || P || R || S || U || V || X ||
-|| A (adjective) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| C (conjunction) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| I (interjection) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| N (noun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| P (pronoun) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| R (adverbial) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| S (preposition) ||  ||  ||  || [DepPobj pobj] ||  ||  ||  ||  ||  ||  ||
-|| U (unique) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| V (verb) ||  ||  ||  ||  || [DepSubj subj] ||  ||  ||  ||  || [DepPunct pnct] ||
-|| X (extra-linguistic) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-
-
+|| Head/dependent || *?* || *A* || *C* || *I* || *N* || *P* || *R* || *S* || *U* || *V* || *X* ||
+|| *?* ||  || || || || || || || || || || ||
+|| *A* ||  ||[DepMod mod] [DepConj conj] [DepNobj nobj] [DepTobj tobj] ||[DepCoord coord] [DepPobj pobj] || ||[DepNobj nobj] [DepPossd possd] [DepList list] [Dep[nobj] [nobj]] [DepConj conj] [DepMod mod] ||[DepNobj nobj] [DepMod mod] ||[DepMod mod] [DepRef ref] ||[DepPobj pobj] [DepMod mod] ||[DepRef ref] [DepMod mod] ||[DepRel rel] [DepMod mod] [DepList list] ||[DepPnct pnct] [DepNobj nobj] ||
+|| *C* ||  ||[DepConj conj] [DepNobj nobj] ||[DepConj conj] [DepCoord coord] || ||[DepConj conj] [DepNobj nobj] ||[DepConj conj] [DepNobj nobj] ||[DepMod mod] [DepConj conj] [DepRef ref] [Dep<mod> <mod>] ||[DepConj conj] [Dep<mod> <mod>] [DepObl obl] ||[DepConj conj] ||[DepVobj vobj] [DepConj conj] ||[DepPnct pnct] [DepConj conj] ||
+|| *I* ||  || || || || || || || || ||[DepConj conj] ||[DepPnct pnct] ||
+|| *N* ||  ||[DepMod mod] [DepNobj nobj] [DepNumm numm] [DepList list] [DepPossd possd] [DepName name] [DepModp modp] ||[DepCoord coord] [DepNobj nobj] || ||[DepNamef namef] [DepPossd possd] [DepNobj nobj] [DepConj conj] [DepTitle title] [DepAppr appr] [DepMod mod] [DepName name] [DepAppa appa] [DepNamel namel] [DepList list] [Dep[possd] [possd]] [DepXpl xpl] ||[DepAppa appa] [DepMod mod] [DepNumm numm] ||[DepMod mod] [DepRef ref] [DepPobj pobj] ||[DepPobj pobj] [DepMod mod] [DepLobj lobj] [Dep[pobj] [pobj]] [DepList list] ||[DepRef ref] [DepMod mod] [DepNobj nobj] [DepPobj pobj] ||[DepRel rel] [DepMod mod] [DepList list] [DepXpl xpl] ||[DepPnct pnct] [DepCoord coord] [DepMod mod] [DepNobj nobj] [DepTitle title] ||
+|| *P* ||  ||[DepMod mod] [DepNobj nobj] [DepPossd possd] ||[DepCoord coord] [DepNobj nobj] [DepPobj pobj] || ||[DepNobj nobj] [DepPossd possd] [DepAppa appa] [DepAppr appr] [DepConj conj] [Dep[nobj] [nobj]] ||[DepNobj nobj] [DepMod mod] [DepAppa appa] [DepConj conj] [DepRef ref] ||[DepMod mod] [DepRef ref] ||[DepMod mod] [DepPobj pobj] ||[DepRef ref] [DepNobj nobj] [DepMod mod] ||[DepRel rel] [DepMod mod] [DepVobj vobj] [DepXpl xpl] ||[DepPnct pnct] [DepNobj nobj] [DepMod mod] ||
+|| *R* ||  ||[DepMod mod] [DepTobj tobj] ||[DepNobj nobj] [DepCoord coord] || ||[DepNobj nobj] [DepTobj tobj] || ||[DepMod mod] [DepRef ref] ||[DepMod mod] [DepPobj pobj] ||[DepPobj pobj] [DepNobj nobj] [DepRef ref] ||[DepRel rel] [DepVobj vobj] ||[DepPnct pnct] ||
+|| *S* ||  ||[DepNobj nobj] [DepMod mod] [DepTobj tobj] [Dep[nobj] [nobj]] [DepAobj aobj] ||[DepNobj nobj] [DepCoord coord] || ||[DepNobj nobj] [Dep[nobj] [nobj]] ||[DepNobj nobj] [Dep[nobj] [nobj]] ||[DepMod mod] [DepPart part] [DepAvobj avobj] [DepNobj nobj] [DepPred pred] ||[DepPobj pobj] [DepPred pred] [DepMod mod] [DepConj conj] ||[DepNobj nobj] [DepPred pred] ||[DepVobj vobj] [DepPred pred] [DepNobj nobj] ||[DepPnct pnct] [DepNobj nobj] ||
+|| *U* ||  ||[DepNobj nobj] ||[DepCoord coord] || ||[DepNobj nobj] ||[DepNobj nobj] [DepPred pred] ||[DepMod mod] [DepAvobj avobj] ||[DepObl obl] || ||[DepVobj vobj] ||[DepPnct pnct] ||
+|| *V* ||  ||[DepPred pred] [DepMod mod] [DepDobj dobj] [DepSubj subj] [Dep[subj] [subj]] [DepAobj aobj] [DepLobj lobj] [Dep[dobj] [dobj]] [DepTobj tobj] [Dep[pred] [pred]] ||[DepCoord coord] [DepMod mod] [DepDobj dobj] [DepQobj qobj] [DepPred pred] [DepXtop xtop] [DepSubj subj] [DepPobj pobj] ||[DepQobj qobj] ||[DepSubj subj] [DepDobj dobj] [Dep[subj] [subj]] [DepPred pred] [DepMod mod] [DepIobj iobj] [Dep[dobj] [dobj]] [DepVoc voc] [DepQobj qobj] [DepTobj tobj] ||[DepSubj subj] [DepDobj dobj] [Dep[subj] [subj]] [DepPred pred] [DepMod mod] [Dep[dobj] [dobj]] [DepIobj iobj] [Dep[pred] [pred]] [DepRef ref] [DepLobj lobj] [DepTobj tobj] ||[DepMod mod] [DepLobj lobj] [DepPred pred] [DepAvobj avobj] [DepPart part] [DepPobj pobj] [Dep[mod] [mod]] [DepDobj dobj] [DepRef ref] [Dep<mod> <mod>] ||[DepMod mod] [DepPobj pobj] [DepLobj lobj] [DepPred pred] [DepTobj tobj] [Dep[pobj] [pobj]] ||[DepSubj subj] [DepExpl expl] [DepDobj dobj] [Dep[subj] [subj]] [DepMod mod] [Dep[expl] [expl]] [DepPobj pobj] [DepPred pred] [DepRef ref] ||[DepVobj vobj] [DepQobj qobj] [DepConj conj] [DepMod mod] [DepPred pred] [DepXpl xpl] [DepRel rel] [DepXtop xtop] ||[DepPnct pnct] [DepSubj subj] [DepDobj dobj] [DepMod mod] [DepPred pred] [DepVobj vobj] ||
+|| *X* ||  ||[DepMod mod] [DepConj conj] [DepNobj nobj] ||[DepCoord coord] || ||[DepNobj nobj] [DepConj conj] ||[Dep[subj] [subj]] || ||[DepPobj pobj] [DepMod mod] || || ||[DepPnct pnct] [DepConj conj] [DepMod mod] [DepNobj nobj] [DepErr err] ||
