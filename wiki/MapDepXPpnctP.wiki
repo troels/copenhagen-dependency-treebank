@@ -2,5 +2,5 @@
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* || || || || ||
-|| *Super* || [MapDepX_P X] [MapDepXpnct X] [MapDep__P ANY] [MapDep_pnct ANY] || [MapDepXP ANY] [MapDepX_P ANY] [MapDep__P ANY] || [MapDepXP ANY] [MapDepXPpnct ANY] [MapDepXpnct ANY] [MapDep_pnct ANY] ||  ||
-|| *Sub* || [MapDepXpnctPI X] [MapDep_pnctPD ] [MapDep_pnctPI ] || [MapDepXP_PD ] || [MapDepXP_PD PD] [MapDepXPpnctPD PD] [MapDepXPpnctPI PI] [MapDepXpnctPI PI] [MapDep_pnctPD PD] [MapDep_pnctPI PI] ||  ||
+|| *Super* || [MapDepXpnctP X] || [MapDepXP_P ANY] || [MapDepXPpnct ANY] ||  ||
+|| *Sub* ||  ||  || [MapDepXPpnctPD PD] [MapDepXPpnctPI PI] ||  ||
