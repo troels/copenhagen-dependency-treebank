@@ -1,0 +1,6 @@
+== MapDepX_N ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDep__N ANY] ||  || [MapDepX ANY] ||  ||
+|| *Sub* || [MapDepXP_N XP] || [MapDepXpnctN pnct] || [MapDepX_NC NC] [MapDepX_NP NP] ||  ||

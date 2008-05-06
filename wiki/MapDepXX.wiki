@@ -1,0 +1,6 @@
+== MapDepXX ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDepX X] ||  ||  ||  ||
+|| *Sub* ||  ||  ||  ||  ||

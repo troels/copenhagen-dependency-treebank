@@ -1,0 +1,6 @@
+== MapDepX_P ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDep__P ANY] ||  || [MapDepX ANY] ||  ||
+|| *Sub* || [MapDepXP_P XP] || [MapDepXpnctP pnct] || [MapDepX_PD PD] [MapDepX_PI PI] ||  ||
