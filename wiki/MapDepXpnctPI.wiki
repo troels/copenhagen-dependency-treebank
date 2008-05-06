@@ -1,0 +1,6 @@
+== MapDepXpnctPI ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDep_pnctPI ANY] || [MapDepX_PI ANY] || [MapDepXpnctP P] ||  ||
+|| *Sub* || [MapDepXPpnctPI XP] ||  ||  ||  ||

@@ -1,0 +1,6 @@
+== MapDepXpnctS ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDep_pnctS ANY] || [MapDepX_S ANY] || [MapDepXpnct ANY] ||  ||
+|| *Sub* || [MapDepXPpnctS XP] ||  || [MapDepXpnctSP SP] ||  ||
