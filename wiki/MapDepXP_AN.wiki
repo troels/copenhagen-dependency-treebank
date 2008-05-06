@@ -1,0 +1,6 @@
+== MapDepXP_AN ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDepX_AN X] ||  || [MapDepXP_A A] ||  ||
+|| *Sub* ||  || [MapDepXPpnctAN pnct] ||  ||  ||
