@@ -2,5 +2,5 @@
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* || || || || ||
-|| *Super* || [MapDepXpnct X] || [MapDepXP ANY] ||  ||  ||
-|| *Sub* ||  ||  || [MapDepXPpnctA A] [MapDepXPpnctC C] [MapDepXPpnctN N] [MapDepXPpnctP P] [MapDepXPpnctS S] [MapDepXPpnctV V] ||  ||
+|| *Super* || [MapDep ANY] [MapDepX X] || [MapDep ANY] [MapDepX ANY] ||  ||  ||
+|| *Sub* || [MapDepXpnctA X] [MapDepXpnctC X] [MapDepXpnctN X] [MapDepXpnctP X] [MapDepXpnctS X] [MapDepXpnctV X] [MapDep_pnctA ] [MapDep_pnctC ] [MapDep_pnctN ] [MapDep_pnctP ] [MapDep_pnctS ] [MapDep_pnctV ] || [MapDepXP_A ] [MapDepXP_C ] [MapDepXP_N ] [MapDepXP_P ] [MapDepXP_S ] [MapDepXP_V ] || [MapDepXP_A A] [MapDepXP_C C] [MapDepXP_N N] [MapDepXP_P P] [MapDepXP_S S] [MapDepXP_V V] [MapDepXPpnctA A] [MapDepXPpnctC C] [MapDepXPpnctN N] [MapDepXPpnctP P] [MapDepXPpnctS S] [MapDepXPpnctV V] [MapDepXpnctA A] [MapDepXpnctC C] [MapDepXpnctN N] [MapDepXpnctP P] [MapDepXpnctS S] [MapDepXpnctV V] [MapDep_pnctA A] [MapDep_pnctC C] [MapDep_pnctN N] [MapDep_pnctP P] [MapDep_pnctS S] [MapDep_pnctV V] ||  ||
