@@ -1,0 +1,6 @@
+== MapDepXPpnctCC ==
+
+|| || *Dependent* || *Relation* || *Governor* || *Language* ||
+|| *This* || || || || ||
+|| *Super* || [MapDepX_CC X] [MapDepXpnctC X] [MapDep__CC ANY] [MapDep_pnctC ANY] || [MapDepXP_C ANY] [MapDepX_CC ANY] [MapDep__CC ANY] || [MapDepXP_C C] [MapDepXPpnctC C] [MapDepXpnctC C] [MapDep_pnctC C] ||  ||
+|| *Sub* ||  ||  ||  ||  ||
