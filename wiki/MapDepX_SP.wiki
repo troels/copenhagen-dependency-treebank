@@ -3,4 +3,4 @@
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* || || || || ||
 || *Super* || [MapDep__S ANY] [MapDep__SP ANY] ||  || [MapDepX ANY] [MapDep__S S] ||  ||
-|| *Sub* || [MapDepXPpnctSP XP] [MapDepXPpnctSP XP] || [MapDepXPpnctSP pnct] [MapDepXPpnctSP pnct] ||  ||  ||
+|| *Sub* || [MapDepXP_S XP] [MapDepXPpnctS XP] [MapDepXPpnctSP XP] [MapDep_pnctSP ] || [MapDepXPpnctS pnct] [MapDepXPpnctSP pnct] [MapDep_pnctSP pnct] || [MapDepXP_S S] [MapDepXPpnctS S] ||  ||

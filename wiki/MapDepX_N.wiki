@@ -3,4 +3,4 @@
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* || || || || ||
 || *Super* || [MapDep__N ANY] ||  || [MapDepX ANY] ||  ||
-|| *Sub* || [MapDepXPpnctN XP] [MapDepXPpnctN XP] [MapDepXPpnctNP XP] || [MapDepXPpnctN pnct] [MapDepXPpnctN pnct] [MapDepXPpnctNP pnct] || [MapDepXPpnctNP NP] [MapDepX_NC NC] ||  ||
+|| *Sub* || [MapDepC_NP C] [MapDepNPnamefNP NP] [MapDepN_NP N] [MapDepXPpnctN XP] [MapDepXPpnctNP XP] [MapDep_coordNP ] [MapDep_modNP ] [MapDep_nobjNP ] [MapDep_pnctNC ] [MapDep_possdNP ] || [MapDepNPnamefNP namef] [MapDepXPpnctN pnct] [MapDepXPpnctNP pnct] [MapDep_coordNP coord] [MapDep_modNP mod] [MapDep_nobjNP nobj] [MapDep_pnctNC pnct] [MapDep_possdNP possd] || [MapDepC_NP NP] [MapDepNPnamefNP NP] [MapDepN_NP NP] [MapDepXPpnctNP NP] [MapDepX_NC NC] [MapDep_coordNP NP] [MapDep_modNP NP] [MapDep_nobjNP NP] [MapDep_pnctNC NC] [MapDep_possdNP NP] ||  ||
