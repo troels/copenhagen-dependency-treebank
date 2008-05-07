@@ -3,37 +3,37 @@
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* ||X ||  || V ||  ||
 || *Super* || [MapDep__V ANY] ||  || [MapDepX ANY] ||  ||
-|| *Sub* || [MapDepXP_V XP/402/98%] || [MapDepXpnctV pnct/402/98%] || [MapDepX_VA VA/407/99%] ||  ||
+|| *Sub* || [MapDepXP_V XP]/98% || [MapDepXpnctV pnct]/98% || [MapDepX_VA VA]/99% ||  ||
 
 
 == Examples ==
-*text:* Dette er det voldsomste angreb hidtil .
+*text:* men hos mange ... er holdningen en anden : " Vi vil ikke være de næste , der skal ... . "
 
-*source:* /tmp/00.tag:2692
+*source:* /tmp/00.tag:1326
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0169-XPpnctVA.png
 ----
-*text:* Det er ligeledes interessant , hvad ... vil ... " siger Pelle Voigt .
+*text:* De føder skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
 
-*source:* /tmp/00.tag:1093
+*source:* /tmp/00.tag:237
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0172-XPpnctVA.png
 ----
-*text:* " Min far har stukket sin ... op ... , " meddelte en åndssvag pige via staveplade , og det resulterede i ... .
+*text:* Hvis vi ikke var gået ... , var arbejdet blevet stillet frit , og så ville ... 150 ... ikke være ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
 
-*source:* /tmp/00.tag:3574
+*source:* /tmp/00.tag:1200
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0173-XPpnctVA.png
 ----
-*text:* Det kan betyde priskrig , bekræfter P. E. Pedersen .
+*text:* Det kan betyde priskrig , bekræfter P. ... Pedersen .
 
-*source:* /tmp/00.tag:1436
+*source:* /tmp/00.tag:1431
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
 ----
-*text:* På_grund_af Yvonne Sølysts nye adresse ... skulle børneværnet i byen afprøve tvangsfjernelsen ud fra ... .
+*text:* " Besluttet er så meget sagt , vi fik ikke noget valg .
 
-*source:* /tmp/00.tag:5380
+*source:* /tmp/00.tag:1147
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0171-XPpnctVA.png
 ----
