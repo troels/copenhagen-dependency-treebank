@@ -1,7 +1,6 @@
 == MapDepX_V: dependent X + governor V (409 instances) ==
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* ||X ||  || V ||  ||
 || *Super* || [MapDep__V ANY] ||  || [MapDepX ANY] ||  ||
 || *Sub* || [MapDepXP_V XP]/98% || [MapDepXpnctV pnct]/98% || [MapDepX_VA VA]/99% ||  ||
 
