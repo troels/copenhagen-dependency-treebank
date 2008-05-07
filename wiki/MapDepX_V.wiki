@@ -1,4 +1,4 @@
-== MapDepX_V (409 instances) ==
+== Map: dependent X + governor V (409 instances) ==
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* ||X ||  || V ||  ||
@@ -7,30 +7,31 @@
 
 
 == Examples ==
-*text:* men hos mange ... er holdningen en anden : " Vi vil ikke vï¿½re de nï¿½ste , der skal ... . "
+*text:* men hos mange ... er holdningen en anden : " Vi vil ikke være de næste , der skal ... . "
+
 *source:* /tmp/00.tag:1326
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0169-XPpnctVA.png
 ----
-*text:* De fï¿½der skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
+*text:* De føder skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
 
 *source:* /tmp/00.tag:237
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0172-XPpnctVA.png
 ----
-*text:* Hvis vi ikke var gï¿½et ... , var arbejdet blevet stillet frit , og sï¿½ ville ... 150 ... ikke vï¿½re ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
+*text:* Hvis vi ikke var gået ... , var arbejdet blevet stillet frit , og så ville ... 150 ... ikke være ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
 
 *source:* /tmp/00.tag:1200
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0173-XPpnctVA.png
 ----
-*text:* Det kan betyde priskrig , bekrï¿½fter P. ... Pedersen .
+*text:* Det kan betyde priskrig , bekræfter P. ... Pedersen .
 
 *source:* /tmp/00.tag:1431
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
 ----
-*text:* " Besluttet er sï¿½ meget sagt , vi fik ikke noget valg .
+*text:* " Besluttet er så meget sagt , vi fik ikke noget valg .
 
 *source:* /tmp/00.tag:1147
 
