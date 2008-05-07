@@ -9,30 +9,30 @@
 *text:* men hos mange ... er holdningen en anden : " Vi vil ikke være de næste , der skal ... . "
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0169-XPpnctVA.png
-----
 *source:* /tmp/00.tag:1326
 
+----
 *text:* De føder skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0172-XPpnctVA.png
-----
 *source:* /tmp/00.tag:237
 
+----
 *text:* Hvis vi ikke var gået ... , var arbejdet blevet stillet frit , og så ville ... 150 ... ikke være ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0173-XPpnctVA.png
-----
 *source:* /tmp/00.tag:1200
 
+----
 *text:* Det kan betyde priskrig , bekræfter P. ... Pedersen .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
-----
 *source:* /tmp/00.tag:1431
 
+----
 *text:* " Besluttet er så meget sagt , vi fik ikke noget valg .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0171-XPpnctVA.png
-----
 *source:* /tmp/00.tag:1147
 
+----
