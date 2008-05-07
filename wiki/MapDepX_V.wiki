@@ -1,4 +1,4 @@
-== Map: dependent X + governor V (409 instances) ==
+== MapDep: dependent X + governor V (409 instances) ==
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
 || *This* ||X ||  || V ||  ||
@@ -9,31 +9,31 @@
 == Examples ==
 *text:* men hos mange ... er holdningen en anden : " Vi vil ikke være de næste , der skal ... . "
 
-*source:* /tmp/00.tag:1326
-
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0169-XPpnctVA.png
 ----
-*text:* De føder skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
+*source:* /tmp/00.tag:1326
 
-*source:* /tmp/00.tag:237
+*text:* De føder skuffelser og leder til_sidst til ... , hvad vi allerede har set og ... vil ... . "
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0172-XPpnctVA.png
 ----
-*text:* Hvis vi ikke var gået ... , var arbejdet blevet stillet frit , og så ville ... 150 ... ikke være ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
+*source:* /tmp/00.tag:237
 
-*source:* /tmp/00.tag:1200
+*text:* Hvis vi ikke var gået ... , var arbejdet blevet stillet frit , og så ville ... 150 ... ikke være ... , og ... " sagde Bjarne og ... , umiddelbart efter morgenens ... .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0173-XPpnctVA.png
 ----
-*text:* Det kan betyde priskrig , bekræfter P. ... Pedersen .
+*source:* /tmp/00.tag:1200
 
-*source:* /tmp/00.tag:1431
+*text:* Det kan betyde priskrig , bekræfter P. ... Pedersen .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
 ----
-*text:* " Besluttet er så meget sagt , vi fik ikke noget valg .
+*source:* /tmp/00.tag:1431
 
-*source:* /tmp/00.tag:1147
+*text:* " Besluttet er så meget sagt , vi fik ikke noget valg .
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0171-XPpnctVA.png
 ----
+*source:* /tmp/00.tag:1147
+
