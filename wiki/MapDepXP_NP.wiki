@@ -1,6 +1,39 @@
-== MapDepXP_NP ==
+== MapDepXP_NP (26 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||XP ||  || NP ||  ||
 || *Super* || [MapDepX_NP X] ||  || [MapDepXP_N N] ||  ||
-|| *Sub* ||  || [MapDepXPpnctNP pnct] ||  ||  ||
+|| *Sub* ||  || [MapDepXPpnctNP pnct/26/100%] ||  ||  ||
+
+
+== Examples ==
+*text:* uden for Paris og London , hvor dejlige damer allerede kravlede op på ... i vinterkulden
+
+*source:* /tmp/00.tag:3821
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0498-XPpnctNP.png
+----
+*text:* hvor han fik en ... for " The Healer " ,
+
+*source:* /tmp/00.tag:4424
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0499-XPpnctNP.png
+----
+*text:* Statsministeren ... bedt sin departementschef , Peter Wiese , undersøge sagen
+
+*source:* /tmp/00.tag:1018
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0500-XPpnctNP.png
+----
+*text:* Det var sandelig godt , ... " siger Leif Nielsen , 43 .
+
+*source:* /tmp/00.tag:5276
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0501-XPpnctNP.png
+----
+*text:* Afhørt ... afviste kriminalassistent Villy Nielsen , Frederikshavn politi , som sammen ... foretog afhøringen ... på ... under ... , imidlertid , at ... .
+
+*source:* /tmp/00.tag:3464
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0502-XPpnctNP.png
+----

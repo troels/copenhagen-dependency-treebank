@@ -1,6 +1,39 @@
-== MapDepX_VA ==
+== MapDepX_VA (407 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||X ||  || VA ||  ||
 || *Super* || [MapDep__VA ANY] ||  || [MapDepX_V V] ||  ||
-|| *Sub* || [MapDepXP_VA XP] || [MapDepXpnctVA pnct] ||  ||  ||
+|| *Sub* || [MapDepXP_VA XP/400/98%] || [MapDepXpnctVA pnct/400/98%] ||  ||  ||
+
+
+== Examples ==
+*text:* Dette er det voldsomste angreb hidtil .
+
+*source:* /tmp/00.tag:2692
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0169-XPpnctVA.png
+----
+*text:* Det kan betyde priskrig , bekræfter P. E. Pedersen .
+
+*source:* /tmp/00.tag:1436
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
+----
+*text:* På_grund_af Yvonne Sølysts nye adresse ... skulle børneværnet i byen afprøve tvangsfjernelsen ud fra ... .
+
+*source:* /tmp/00.tag:5380
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0171-XPpnctVA.png
+----
+*text:* Det er ligeledes interessant , hvad ... vil ... " siger Pelle Voigt .
+
+*source:* /tmp/00.tag:1093
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0172-XPpnctVA.png
+----
+*text:* " Min far har stukket sin ... op ... , " meddelte en åndssvag pige via staveplade , og det resulterede i ... .
+
+*source:* /tmp/00.tag:3574
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0173-XPpnctVA.png
+----

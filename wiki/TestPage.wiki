@@ -1,6 +1,0 @@
-﻿This is a wiki test. Linking to [TestPage2 the second testpage]
-
-Hvordan går det med danske bogstaver æøå?
-
-http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/test.png
-

@@ -1,6 +1,39 @@
-== MapDepXpnctNC ==
+== MapDepXpnctNC (30 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||X || pnct || NC ||  ||
 || *Super* || [MapDep_pnctNC ANY] || [MapDepX_NC ANY] || [MapDepXpnctN N] ||  ||
-|| *Sub* || [MapDepXPpnctNC XP] ||  ||  ||  ||
+|| *Sub* || [MapDepXPpnctNC XP/30/100%] ||  ||  ||  ||
+
+
+== Examples ==
+*text:* uden en " jernnæve "
+
+*source:* /tmp/00.tag:61
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0079-XPpnctNC.png
+----
+*text:* hunden ligner en gris , tapir eller ...
+
+*source:* /tmp/00.tag:4170
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0080-XPpnctNC.png
+----
+*text:* Kl. 01.44 , dansk tid , brød helvede løs igen over ... .
+
+*source:* /tmp/00.tag:2646
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0081-XPpnctNC.png
+----
+*text:* MED adresse ... til rockmusikerne , der stiller op til ... med ... den ... .
+
+*source:* /tmp/00.tag:4925
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0082-XPpnctNC.png
+----
+*text:* sin mor , ... Sølyst ... og bedsteforældre , Ulla og Leif Nielsen
+
+*source:* /tmp/00.tag:5186
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0083-XPpnctNC.png
+----

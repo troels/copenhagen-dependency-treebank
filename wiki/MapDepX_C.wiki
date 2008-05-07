@@ -1,6 +1,39 @@
-== MapDepX_C ==
+== MapDepX_C (23 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||X ||  || C ||  ||
 || *Super* || [MapDep__C ANY] ||  || [MapDepX ANY] ||  ||
-|| *Sub* || [MapDepXP_C XP] || [MapDepXpnctC pnct] || [MapDepX_CC CC] ||  ||
+|| *Sub* || [MapDepXP_C XP/23/100%] || [MapDepXpnctC pnct/23/100%] || [MapDepX_CC CC/21/91%] ||  ||
+
+
+== Examples ==
+*text:* Men de er jo smukke  -  ikke grimme . "
+
+*source:* /tmp/00.tag:4226
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0363-XPpnctCC.png
+----
+*text:* Men selv_om ... havde ... fik vi aldrig nogen ordentlig styring på midtbanen .
+
+*source:* /tmp/00.tag:3169
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0366-XPpnctCC.png
+----
+*text:* Og denne gang kan Poul-Erik Billeskov ikke sige sig fri ... .
+
+*source:* /tmp/00.tag:739
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0367-XPpnctCC.png
+----
+*text:* Og det er altså i de ... .
+
+*source:* /tmp/00.tag:803
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0364-XPpnctCC.png
+----
+*text:* " Men der er ingen organisk sammenhæng ... , " understreger han .
+
+*source:* /tmp/00.tag:687
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0365-XPpnctCC.png
+----

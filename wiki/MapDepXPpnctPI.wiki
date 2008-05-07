@@ -1,6 +1,39 @@
-== MapDepXPpnctPI ==
+== MapDepXPpnctPI (15 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||XP || pnct || PI ||  ||
 || *Super* || [MapDepXpnctPI X] || [MapDepXP_PI ANY] || [MapDepXPpnctP P] ||  ||
 || *Sub* ||  ||  ||  ||  ||
+
+
+== Examples ==
+*text:* der måtte mangle en side  -  den med hendes ...
+
+*source:* /tmp/00.tag:3442
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0041-XPpnctPI.png
+----
+*text:* Et andet øjenvidne : " De begyndte at skyde ... ... lige meget om ... . "
+
+*source:* /tmp/00.tag:2319
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0042-XPpnctPI.png
+----
+*text:* en anden ... angående ... : " I en ... mødte jeg en lille dreng , der næppe var højere end ... .
+
+*source:* /tmp/00.tag:4257
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0043-XPpnctPI.png
+----
+*text:* En infernalsk larm af bomber , eksplosioner og ... .
+
+*source:* /tmp/00.tag:2665
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0044-XPpnctPI.png
+----
+*text:* du ... at krænke andre piger , som måske ikke får samme familiemæssige støtte som ... , og ... risikerer ...
+
+*source:* /tmp/00.tag:5480
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0045-XPpnctPI.png
+----

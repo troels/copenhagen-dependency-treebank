@@ -1,6 +1,69 @@
-== MapDepXpnct ==
+== MapDepXpnct (581 instances)
 
 || || *Dependent* || *Relation* || *Governor* || *Language* ||
-|| *This* || || || || ||
+|| *This* ||X || pnct ||  ||  ||
 || *Super* || [MapDep_pnct ANY] || [MapDepX ANY] ||  ||  ||
-|| *Sub* || [MapDepXPpnct XP] ||  || [MapDepXpnctA A] [MapDepXpnctC C] [MapDepXpnctN N] [MapDepXpnctP P] [MapDepXpnctS S] [MapDepXpnctV V] ||  ||
+|| *Sub* || [MapDepXPpnct XP/581/100%] ||  || [MapDepXpnctA A/29/4%] [MapDepXpnctC C/23/3%] [MapDepXpnctN N/56/9%] [MapDepXpnctP P/39/6%] [MapDepXpnctS S/24/4%] [MapDepXpnctV V/402/69%] ||  ||
+
+
+== Examples ==
+*text:* ...
+
+*source:* /tmp/00.tag:977
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0368-XPpnctAC.png
+----
+*text:* MED adresse ... til rockmusikerne , der stiller op til ... med ... den ... .
+
+*source:* /tmp/00.tag:4925
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0082-XPpnctNC.png
+----
+*text:* Den måde , hvorpå rocken sejrer sig til_døde ved at ... " skriver Jensen .
+
+*source:* /tmp/00.tag:4984
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0569-XPpnctPD.png
+----
+*text:* en egentlig gennemgang af , hvad FET går og ... ,
+
+*source:* /tmp/00.tag:1086
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0289-XPpnctSP.png
+----
+*text:* Det kan betyde priskrig , bekræfter P. E. Pedersen .
+
+*source:* /tmp/00.tag:1436
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0170-XPpnctVA.png
+----
+*text:* " Det virker " fåret " , men ... er ... .
+
+*source:* /tmp/00.tag:1029
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0034-XPpnctAN.png
+----
+*text:* " Men der er ingen organisk sammenhæng ... , " understreger han .
+
+*source:* /tmp/00.tag:687
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0365-XPpnctCC.png
+----
+*text:* Det var sandelig godt , ... " siger Leif Nielsen , 43 .
+
+*source:* /tmp/00.tag:5276
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0501-XPpnctNP.png
+----
+*text:* En infernalsk larm af bomber , eksplosioner og ... .
+
+*source:* /tmp/00.tag:2665
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0044-XPpnctPI.png
+----
+*text:* elskere af ... og takke inderligt og ... for , at ... Hooker kom til ... dengang ...
+
+*source:* /tmp/00.tag:4470
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ex0290-XPpnctSP.png
+----
