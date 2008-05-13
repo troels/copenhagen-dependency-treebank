@@ -4,7 +4,7 @@
 
 ==  Verbal Complement ==
 
-'''Verbal complement''' The label vobj is used for (non-finite only?) verbal complements. Bare infinitives occur as verbal complements of modal verb and verbs of perception and permission:
+*Verbal complement* The label vobj is used for (non-finite only?) verbal complements. Bare infinitives occur as verbal complements of modal verb and verbs of perception and permission:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/inf-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/vobj-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dobj-01.png
 

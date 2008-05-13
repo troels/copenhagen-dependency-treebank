@@ -17,12 +17,12 @@ There are obviously many ways to store the dependency analyses in the treebank. 
 
 The word itself is enclosed within the &lt;W&gt; tags, and the attributes of the &lt;W&gt; tag are used to encode arbitrary variables associated with the word, as well as incoming and outgoing edges to other words. The reserved attribute names are shown below:
 
-  * '''msd''': PAROLE tag
-  * '''lemma''': PAROLE lemma
-  * '''gloss''': English gloss
-  * '''lexeme''': lexeme name in the lexicon
-  * '''in''': list of in-coming edges of the form "$rpos:$edge", separated by "|", where $rpos is the relative position of the governor ("+1" means next word, "+2" two words ahead, "-1" previous word, etc.), and $edge is the type of the edge.
-  * '''out''': list of out-going edges of the form "$rpos:$edge", separated by "|", where $rpos is the relative position of the dependent.
+  * *msd*: PAROLE tag
+  * *lemma*: PAROLE lemma
+  * *gloss*: English gloss
+  * *lexeme*: lexeme name in the lexicon
+  * *in*: list of in-coming edges of the form "$rpos:$edge", separated by "|", where $rpos is the relative position of the governor ("+1" means next word, "+2" two words ahead, "-1" previous word, etc.), and $edge is the type of the edge.
+  * *out*: list of out-going edges of the form "$rpos:$edge", separated by "|", where $rpos is the relative position of the dependent.
 
 The annotation format is an extension of the notation used in the Danish PAROLE corpus. The tagging software treats all non-&lt;W&gt; tags as comments, so these tags are left unchanged by the software.
 

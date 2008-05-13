@@ -8,9 +8,9 @@
 
 External topics are sentence-initial or sentence-final phrases that are duplicated by a pronoun within the sentence. These are tagged with the special adjunct edge xtop.
 
-  * '''Marie''', hun er da lidt underlig idag.
-  * Er hun ikke lidt underlig idag, '''hende Marie'''?
-  * '''Marie''', hende har jeg ikke set meget til på det seneste.
+  * *Marie*, hun er da lidt underlig idag.
+  * Er hun ikke lidt underlig idag, *hende Marie*?
+  * *Marie*, hende har jeg ikke set meget til på det seneste.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/xtop-01.png
 

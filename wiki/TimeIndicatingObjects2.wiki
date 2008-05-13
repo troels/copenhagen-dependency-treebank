@@ -6,7 +6,7 @@
 
 ==== Time-indicating objects in relative indications of time ====
 
-'''Adverbial use'''
+*Adverbial use*
 
 Time indications that are relative to a fixed point in time all follow a certain pattern in construction. They are headed by an adverb, an adjectiv (used as an adverb) or a preposition (used as an adverb), e.g. før, siden, tilbage, tidligere. Some can take an object, in which case they are "converted into" a preposition or a subordinating conjunction (CS), if the object is a sentence (e.g. før/før brylluppet/før festen begyndte). They all allow a preceeding modification by a time specification, e.g. "to timer før". This time-specification is analysed as a time-indicating object (tobj).
 
@@ -44,7 +44,7 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine42.png
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine44.png
 
-'''Nominal use'''
+*Nominal use*
 
 The analyses above apply only to adverbial uses. The same adverbs combined with relative indications of time allow a nominal use also. Take a look at these contrastive examples:
 
@@ -62,8 +62,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine45.png 
 
 ==== Special constructions with "ikke" ====
 
-  * ikke mere ("han kommer her '''ikke mere'''"/"... at han '''ikke''' kommer her '''mere'''") in both cases both adverbs are modifiers to the finite verb.
-  * ikke længere ("hun er her '''ikke længere'''"/"... at hun '''ikke''' er her '''længere'''") in both cases both adverbs are modifiers to the finite verb.
+  * ikke mere ("han kommer her *ikke mere*"/"... at han *ikke* kommer her *mere*") in both cases both adverbs are modifiers to the finite verb.
+  * ikke længere ("hun er her *ikke længere*"/"... at hun *ikke* er her *længere*") in both cases both adverbs are modifiers to the finite verb.
 
 
 ====See also====

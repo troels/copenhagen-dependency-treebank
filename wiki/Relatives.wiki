@@ -6,8 +6,8 @@
 
 Relative clauses that modify a clause are analyzed as adjuncts of the finite verb. For these we use the special adjunct edge rel, which is also used for relative clauses that modify nominals.
 
-  * Jeg har lavet kage, '''som du bad mig om'''.
-  * De har restaureret kirken, '''hvilket har pyntet en hel del'''.
+  * Jeg har lavet kage, *som du bad mig om*.
+  * De har restaureret kirken, *hvilket har pyntet en hel del*.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-09.png
 
@@ -21,10 +21,10 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-18.png
 
 The relative pronoun is analyzed as a dependent of some head inside the relative clause. In the case of subject and object relatives, the governor is a verb. In other cases the relative pronoun is a dependent of a preposition:
 
-  * kvinden '''til hvem han sendte brevet'''
-  * ham '''på hvem vi ser'''
-  * ham '''som vi ser på'''
-  * det tidspunkt '''på hvilket han mente vi var skøre'''
+  * kvinden *til hvem han sendte brevet*
+  * ham *på hvem vi ser*
+  * ham *som vi ser på*
+  * det tidspunkt *på hvilket han mente vi var skøre*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-14.png
 
@@ -44,8 +44,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-02.png h
 
 Relative clauses that modify a clause are analyzed as adjuncts of the finite verb. For these we use the special adjunct edge rel, which is also used for relative clauses that modify nominals.
 
-  * Jeg har lavet kage, '''som du bad mig om'''.
-  * De har restaureret kirken, '''hvilket har pyntet en hel del'''.
+  * Jeg har lavet kage, *som du bad mig om*.
+  * De har restaureret kirken, *hvilket har pyntet en hel del*.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-09.png
 
@@ -58,17 +58,17 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine17.png
   * *Den dygtigste, der vinder prisen, er det"
   * Det, der vinder prisen, er den dygtigste
 
-'''Free relatives / embedded wh-questions.''' Free relatives are relatives where the relativized phrase is a wh-phrase. Some examples are shown below:
+*Free relatives / embedded wh-questions.* Free relatives are relatives where the relativized phrase is a wh-phrase. Some examples are shown below:
 
-  * De spurgte '''hvem der stjal kagerne'''.
-  * Han spiste '''hvad de havde'''.
-  * Gør '''hvad du vil'''. (PFGA, p. 156)
-  * Jeg brød mig ikke om '''hvad jeg så'''. (PFGA, p. 156)
-  * Han vidste '''hvornår jeg ankom'''.
-  * Han spurgte '''hvad de manglede'''.
-  * '''Hvem de valgte''', er ikke afgørende.
-  * Debatten handlede om '''hvorvidt stavepladen var fup'''.
-  * '''Hvor der ikke er mødepligt''', vil der være opgaver.
+  * De spurgte *hvem der stjal kagerne*.
+  * Han spiste *hvad de havde*.
+  * Gør *hvad du vil*. (PFGA, p. 156)
+  * Jeg brød mig ikke om *hvad jeg så*. (PFGA, p. 156)
+  * Han vidste *hvornår jeg ankom*.
+  * Han spurgte *hvad de manglede*.
+  * *Hvem de valgte*, er ikke afgørende.
+  * Debatten handlede om *hvorvidt stavepladen var fup*.
+  * *Hvor der ikke er mødepligt*, vil der være opgaver.
 
 These examples are analyzed just like normal relative clauses:
 
@@ -103,15 +103,15 @@ In German (PJ, "Tysk Grammatik"):
 
 Han spurgte hvem der kom" and "Han spurgte hvem. A class of more problematic examples are listed below:
 
-  * Vi opdagede '''til hvem han sendte brevene'''.
-  * Han redegjorde for '''på hvilket tidspunkt og under hvilke omstændigheder han købte maleriet'''.
-  * Han redegjorde for '''på hvilket tidspunkt han købte maleriet ?(og) under hvilke omstændigheder'''.
-  * Spørgsmålet om '''hvor stor (en) andel af forskningsmidlerne forskerne frit kan råde over'''.
+  * Vi opdagede *til hvem han sendte brevene*.
+  * Han redegjorde for *på hvilket tidspunkt og under hvilke omstændigheder han købte maleriet*.
+  * Han redegjorde for *på hvilket tidspunkt han købte maleriet ?(og) under hvilke omstændigheder*.
+  * Spørgsmålet om *hvor stor (en) andel af forskningsmidlerne forskerne frit kan råde over*.
 
-  * Han gav noget til nogen. Jeg ved ikke '''hvem/hvad/hvor/hvorfor/hvordan/hvornår/med hvem/til hvem/af hvilken årsag/på hvilket grundlag'''.
-  * Jeg kan ikke forklare '''hvor/hvorfor/hvordan/hvornår/med hvem/til hvem'''.
-  * Han gav kuverten til nogen. Jeg så ikke '''til hvem'''.
-  * Vi havde uforholdsmæssigt mange røverier , uden at jeg kan forklare '''hvorfor'''.
+  * Han gav noget til nogen. Jeg ved ikke *hvem/hvad/hvor/hvorfor/hvordan/hvornår/med hvem/til hvem/af hvilken årsag/på hvilket grundlag*.
+  * Jeg kan ikke forklare *hvor/hvorfor/hvordan/hvornår/med hvem/til hvem*.
+  * Han gav kuverten til nogen. Jeg så ikke *til hvem*.
+  * Vi havde uforholdsmæssigt mange røverier , uden at jeg kan forklare *hvorfor*.
 
   * Det er derfor at han siger det.
   * Hvorfor det er han siger det.
@@ -121,23 +121,23 @@ These are sometimes called head-less relative clause (with reference to the fact
 
 Independent relatives have the same form as embedded interrogatives, but the two can be distinguished by their semantics, as reflected by the subcategorization properties of their governor:
 
-  * Han spiste {'''hvad de havde'''} [independent relative]
-  * Han spurgte {'''hvad de havde'''/*den} [embedded interrogative]
+  * Han spiste {*hvad de havde*} [independent relative]
+  * Han spurgte {*hvad de havde*/*den} [embedded interrogative]
 
-'''Embedded interrogatives.''' Interrogatives can occur as dependents to an external governor. Embedded wh-interrogatives are analyzed like relative clauses.
+*Embedded interrogatives.* Interrogatives can occur as dependents to an external governor. Embedded wh-interrogatives are analyzed like relative clauses.
 
-'''VPs and APs as relativized phrases.''' Relative clause typically modify nouns, but (non-restrictive) relative clauses can also modify a verb or adjective:
+*VPs and APs as relativized phrases.* Relative clause typically modify nouns, but (non-restrictive) relative clauses can also modify a verb or adjective:
 
   * Jeg har lavet kage, som du bad mig om.
   * Huset er grønt, hvilket er en dejlig farve.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/rel-09.png
 
-'''Reduced relatives.'''
+*Reduced relatives.*
 
-  * vin '''købt specielt til lejligheden''' (cf. vin '''som er''' købt specielt til lejligheden)
-  * huer '''strikket i ren uld''' (cf. huer '''som er''' strikket i ren uld)
-  * en maskine '''konstrueret efter særlige principper''' (cf. en maskine '''som er''' konstrueret efter særlige principper)
+  * vin *købt specielt til lejligheden* (cf. vin *som er* købt specielt til lejligheden)
+  * huer *strikket i ren uld* (cf. huer *som er* strikket i ren uld)
+  * en maskine *konstrueret efter særlige principper* (cf. en maskine *som er* konstrueret efter særlige principper)
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/mod-01.png
 
@@ -156,7 +156,7 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/interrogativ
 
   * The fact that the two constructions display the same word order follows naturally.
   * The tagger need not distinguish the two constructions in the treebank.
-  * It provides a natural explanation for the occurrence of "der" in embedded subject interrogatives, an otherwise puzzling fact (Diderichsen 1957: 183): "Han spurgte hvem '''der''' kom."
+  * It provides a natural explanation for the occurrence of "der" in embedded subject interrogatives, an otherwise puzzling fact (Diderichsen 1957: 183): "Han spurgte hvem *der* kom."
 
  Arguments against the relative clause analysis:
 
@@ -173,12 +173,12 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/interrogativ
 
  Arguments against the interrogative analysis: It provides no obvious account of the presence of "der" in embedded subject interrogatives. Several analyses are possible, but none of them are without problems.
 
-  * "der" is an expletive subject, "hvem" is a dobj (compare: der kom en mand). '''advantages''': uses existing analysis (of expletive constructions). '''problems''': the use of "der" in embedded subject interrogatives is less restricted than ordinary expletive constructions (han spurgte hvem der havde taget af kagen -- *der havde taget en mand af kagen)
-  * "der" is a modifier to the finite embedded verb (I believe this is the analysis proposed in diderichsen (1957:183) where it is stated that in this use "der" is 'clearly an adverbial and not a subject pronoun'. '''advantages:''' no comparison with expletive constructions. '''problems''': ad hoc, such modifiers are not allowed elsewhere
-  * "der" is a modifier to "hvem". '''advantages''': no comparison with expletive constructions. '''problems''': ad hoc, such modifiers are not allowed elsewhere.
-  * "der" is a modifier to the embedding verb. '''advantages''': no comparison with expletive constructions. '''problems''': ad hoc, such modifiers are not allowed elsewhere
+  * "der" is an expletive subject, "hvem" is a dobj (compare: der kom en mand). *advantages*: uses existing analysis (of expletive constructions). *problems*: the use of "der" in embedded subject interrogatives is less restricted than ordinary expletive constructions (han spurgte hvem der havde taget af kagen -- *der havde taget en mand af kagen)
+  * "der" is a modifier to the finite embedded verb (I believe this is the analysis proposed in diderichsen (1957:183) where it is stated that in this use "der" is 'clearly an adverbial and not a subject pronoun'. *advantages:* no comparison with expletive constructions. *problems*: ad hoc, such modifiers are not allowed elsewhere
+  * "der" is a modifier to "hvem". *advantages*: no comparison with expletive constructions. *problems*: ad hoc, such modifiers are not allowed elsewhere.
+  * "der" is a modifier to the embedding verb. *advantages*: no comparison with expletive constructions. *problems*: ad hoc, such modifiers are not allowed elsewhere
 
-'''What the other treebanks do.''' Corpus Gespokenes Nederlands (CGN Syntactische Annotatie pp. 47-48))) distinguishes independent relatives (`hoofdloze relatiefzinnen') from embedded interrogatives (`afhankelijke vraagzinnen'), and give some tests for how to distinguish them in the corpus (e.g. whether one can insert a personal pronoun in front of the relative pronoun - if yes, it is a relative clause, if no, it is an embedded interrogative.)
+*What the other treebanks do.* Corpus Gespokenes Nederlands (CGN Syntactische Annotatie pp. 47-48))) distinguishes independent relatives (`hoofdloze relatiefzinnen') from embedded interrogatives (`afhankelijke vraagzinnen'), and give some tests for how to distinguish them in the corpus (e.g. whether one can insert a personal pronoun in front of the relative pronoun - if yes, it is a relative clause, if no, it is an embedded interrogative.)
 
 Penn Treebank (1995 Bracketing Guidelines pp. 169-170)) also distinguishes independent relatives ('head-less relatives' in their terminology) from embedded interrogatives ('indirect questions' in their terminology). They give semantic criteria for distinguishing the two.
 

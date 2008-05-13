@@ -6,9 +6,9 @@
 
 == Danish Dependency Treebank v. 1.0 ==
 
-''' [http://copenhagen-dependency-treebank.googlecode.com/svn/ Matthias T. Kromann][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (project coordinator, main author) '''
+* [http://copenhagen-dependency-treebank.googlecode.com/svn/ Matthias T. Kromann][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (project coordinator, main author) *
 
-''' [http://www.id.cbs.dk/~stine Stine Kern Lynge][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (research assistant) '''
+* [http://www.id.cbs.dk/~stine Stine Kern Lynge][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (research assistant) *
 
 The Danish Dependency Treebank v. 1.0 consists of 536 Parole texts, consisting of 5.540 sentences, 100.195 words, or 34.4% of the morphosyntactically annotated part of the Danish Parole corpus. The treebank is distributed under the GNU Public License, an open-source license. The treebank is encoded both in in [http://www.id.cbs.dk/~mtk/dtag DTAG format] and in [http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TigerXML.html TIGER-XML]. You can download the treebank compressed with either "zip" (Windows) or "tar" and "gzip" (UNIX) by clicking on the appropriate link below.
 

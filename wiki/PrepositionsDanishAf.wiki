@@ -4,13 +4,13 @@
 
 ==  Prepositions Danish Af ==
 
-'''AF''' Occurs with full range of complements.
+*AF* Occurs with full range of complements.
 
   * PAROLE sammensatninger: af_sted, af_og_til, på_grund_af
   * Special constructions
-    * partitives: en '''af''' deres artikler, to '''af''' de fjorten, et utal '''af''' skoler:
+    * partitives: en *af* deres artikler, to *af* de fjorten, et utal *af* skoler:
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-54.png
-    * passives: det blev købt '''af''' et hollandsk firma
+    * passives: det blev købt *af* et hollandsk firma
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-55.png
   * Fixed expressions
     * i kraft af, ved siden af, på trods af

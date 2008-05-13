@@ -6,10 +6,10 @@
 
 A ''proper name'' cannot be inflected as a noun, but can be modified by other names and nouns. We distinguish between ''first names'' (eg, "Peter"), ''last names'' (eg, "Nielsen"), ''non-person names'' (eg, "Volvo", "Buller", "København"), ''titles'' (eg, "Hr."), and ''professions'' (eg, "doktor", "bager"). The analysis of proper names is guided by the following rules (with the edge type shown in bold):
 
-  * '''title''': a title can modify a following profession or last name.
-  * '''title''': a profession can modify a following last name, or a preceding first name.
-  * '''namef''': a first name can modify a preceding first name, or a following last name.
-  * '''namel''': a last name can modify a following last name.
+  * *title*: a title can modify a following profession or last name.
+  * *title*: a profession can modify a following last name, or a preceding first name.
+  * *namef*: a first name can modify a preceding first name, or a following last name.
+  * *namel*: a last name can modify a following last name.
 
 Note that a profession is always an indefinite singular noun (eg, "bager", "sanger", "direktør"), and that definite nouns followed by a proper noun (eg, "komponisten Carl Nielsen") are analyzed as [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#__Apposition restrictive apposition]. The principles above result in the analyses below:
 
@@ -17,8 +17,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/name-01.png 
 
 In a name consisting of a proper name and a noun, the noun is analyzed as "nobj"-dependent of the proper name. In a name consisting of two proper names which cannot be analyzed in terms of first names and last names, the second name is analyzed as a "name"-dependent of the first name. This can be expressed by the following rules:
 
-  * '''nobj''': a name can sometimes take a following particular noun as its complement.
-  * '''name''': a non-person name can sometimes take a following particular non-person name as its complement.
+  * *nobj*: a name can sometimes take a following particular noun as its complement.
+  * *name*: a non-person name can sometimes take a following particular non-person name as its complement.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/name-04.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/name-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/name-06.png
 

@@ -15,7 +15,7 @@ VPE constructions without proforms are analyzed in terms of [vobj] fillers also 
   * Marie kan synge rent, men Susan kan ikke.
   * Vi besøgte de byer (som) I gjorde.
 
- The last example involves antecedent contained deletion, and that here the proform is impossible: *Vi besøgte de byer (som) I gjorde '''det'''.
+ The last example involves antecedent contained deletion, and that here the proform is impossible: *Vi besøgte de byer (som) I gjorde *det*.
 
 
 ====See also====

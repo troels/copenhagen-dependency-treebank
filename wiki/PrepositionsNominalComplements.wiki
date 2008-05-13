@@ -4,7 +4,7 @@
 
 ==  Prepositions Nominal Complements ==
 
-'''Nominal complements''' Nominal complements to prepositions, including complements headed by "at", are tagged as nobj:
+*Nominal complements* Nominal complements to prepositions, including complements headed by "at", are tagged as nobj:
 
   * i haven
   * på torsdag

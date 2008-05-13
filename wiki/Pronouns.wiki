@@ -6,26 +6,26 @@
 
 Pronouns are characterized by their ability to appear as subjects and direct objects on their own, without any complements.
 
-  * '''subject test:''' if a word can appear as a subject on its own, and it is not a common noun, proper name, or type-shifted adjective, then it is a pronoun.
-  * '''partitive test:''' pronouns allow a partitive "af" prepositional complement.
-  * ''''''
+  * *subject test:* if a word can appear as a subject on its own, and it is not a common noun, proper name, or type-shifted adjective, then it is a pronoun.
+  * *partitive test:* pronouns allow a partitive "af" prepositional complement.
+  * **
 
 Pronouns are subdivided into definite/indefinite, mass/singular/plural, common/neuter:
 
-  * '''adjectival definiteness test:''' a singular pronoun is definite if an associated adjectival modifier is e-marked -- eg, "en gammel" (indefinite) vs. "den gamle" (definite).
+  * *adjectival definiteness test:* a singular pronoun is definite if an associated adjectival modifier is e-marked -- eg, "en gammel" (indefinite) vs. "den gamle" (definite).
   *
 
 The table below lists our analysis of different classes of Danish pronouns with respect to type, complements and adjunct governors. We distinguish between common nouns, pronouns, and adjectives, with three kinds of number (mass, singular and plural), and two kinds of definiteness (definite and indefinite), using the following notation:
 
-  * '''word class:''' '''N''' = common noun, '''P''' = pronoun, '''A''' = adjective
-  * '''number:''' '''m''' = mass, '''s''' = singular, '''p''' = plural, '''c''' = countable = singular or plural
-  * '''definiteness:''' '''d''' = definite, '''i''' = indefinite
+  * *word class:* *N* = common noun, *P* = pronoun, *A* = adjective
+  * *number:* *m* = mass, *s* = singular, *p* = plural, *c* = countable = singular or plural
+  * *definiteness:* *d* = definite, *i* = indefinite
 
 The paradigms of "mange af X" allows definite plural nouns and pronouns, but not indefinite plurals; the paradigm of "de X" is the reverse. This can be used to classify possible plural nominals with respect to definiteness.
 
  Tests:
 
-  * '''adjectival agreement:''' does the pronoun require singular adjectival modifiers to be definite or indefinite? Eg: "en/enhver/ingen gammel mand" / "den/denne gamle mand"
+  * *adjectival agreement:* does the pronoun require singular adjectival modifiers to be definite or indefinite? Eg: "en/enhver/ingen gammel mand" / "den/denne gamle mand"
 
 || type || words || comps || adjs || examples ||
 || Pi[[BR]]A || to tre ... få/færre/færrest mange/flere/flest samtlige samme || Ni,(ud)+af+NPd || - || to mænd[[BR]] flere af alle byens indbyggere[[BR]] to mænd ud af hundrede ||

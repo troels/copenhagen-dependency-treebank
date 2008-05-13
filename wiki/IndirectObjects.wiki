@@ -6,10 +6,10 @@
 
 We use "iobj" for indirect objects of ditransitive verbs.
 
-  * Det har taget '''mig''' lang tid.
-  * Det blev '''forældrene''' for meget.
-  * Jeg købte '''mig''' en ny cykel.
-  * Han er '''mig''' noget langsom.
+  * Det har taget *mig* lang tid.
+  * Det blev *forældrene* for meget.
+  * Jeg købte *mig* en ny cykel.
+  * Han er *mig* noget langsom.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-03.png
 

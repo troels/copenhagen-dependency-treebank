@@ -4,7 +4,7 @@
 
 ==  Prepositions Danish Om ==
 
-'''OM''' Occurs with full range of complements.
+*OM* Occurs with full range of complements.
 
   * PAROLE sammensatninger: om_muligt, om_end, selv_om, som_om (these are based on "om" as a coordinator), om_bord
   * Fixed expressions

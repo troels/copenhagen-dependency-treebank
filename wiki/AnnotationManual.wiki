@@ -8,11 +8,11 @@
 
 === Annotation guide ===
 
-''' [http://copenhagen-dependency-treebank.googlecode.com/svn/ Matthias T. Kromann][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (project coordinator, main author) '''
+* [http://copenhagen-dependency-treebank.googlecode.com/svn/ Matthias T. Kromann][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (project coordinator, main author) *
 
-''' [http://people.ucsc.edu/~lmikkels Line Mikkelsen][[BR]][http://ling.ucsc.edu Department of Linguistics][[BR]][http://www.ucsc.edu University of California, Santa Cruz][[BR]] (research assistant) '''
+* [http://people.ucsc.edu/~lmikkels Line Mikkelsen][[BR]][http://ling.ucsc.edu Department of Linguistics][[BR]][http://www.ucsc.edu University of California, Santa Cruz][[BR]] (research assistant) *
 
-''' [http://www.id.cbs.dk/~stine Stine Kern Lynge][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (research assistant) '''
+* [http://www.id.cbs.dk/~stine Stine Kern Lynge][[BR]][http://www.id.cbs.dk Department of Computational Linguistics][[BR]][http://www.cbs.dk Copenhagen Business School][[BR]] (research assistant) *
 
 === Purpose ===
 
@@ -48,15 +48,15 @@ More specific references can be found in our list of [http://copenhagen-dependen
 
 In the annotation manual, we have used the following color coding to distinguish between different types of text.
 
-'''old:''' Text on red background is old deprecated stuff which has been marked for deletion by Stine. It may contain a lot of errors and should be ignored when reading the annotation manual.
+*old:* Text on red background is old deprecated stuff which has been marked for deletion by Stine. It may contain a lot of errors and should be ignored when reading the annotation manual.
 
-'''question:''' Text on orange background is used when an author wants to insert a question into the annotation manual, directed to the other authors of the manual.
+*question:* Text on orange background is used when an author wants to insert a question into the annotation manual, directed to the other authors of the manual.
 
-'''stine:''' Text on yellow background indicates additions to the tagging manual created by Stine.
+*stine:* Text on yellow background indicates additions to the tagging manual created by Stine.
 
-'''discussion:''' Text on green background indicates that the text presents alternative analyses and theoretical discussions. Note that the analyses presented here are usually ''not'' recommended by the annotation manual.
+*discussion:* Text on green background indicates that the text presents alternative analyses and theoretical discussions. Note that the analyses presented here are usually ''not'' recommended by the annotation manual.
 
-'''example:''' Text on cyan background is used in some example boxes.
+*example:* Text on cyan background is used in some example boxes.
 
 === Links ===
 

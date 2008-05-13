@@ -8,10 +8,10 @@
 
 Expletive subjects (labeled "expl") mostly occur with the word "der", but locative PPs and the place adverbial "her" is sometimes used as expletive subject as well. Any verb that does not have a direct object can undergo expletive shift -- that is, the subject of the verb is converted into a direct object (labeled "dobj") with the restriction that the new direct object must be indefinite, and a locative or temporal adverbial (usually "der") becomes the expletive subject (labeled "expl").
 
-  * '''Der''' mangler en gaffel.
-  * '''Her''' er tale om et klokkeklart mord.
-  * '''Der''' er tilfaldet den ældste datter en stor pengesum.
-  * '''I en drøm''' vil åbenbares Guds formål med dig, Johannes.
+  * *Der* mangler en gaffel.
+  * *Her* er tale om et klokkeklart mord.
+  * *Der* er tilfaldet den ældste datter en stor pengesum.
+  * *I en drøm* vil åbenbares Guds formål med dig, Johannes.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/expl-03.png
 

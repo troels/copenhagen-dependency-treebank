@@ -4,7 +4,7 @@
 
 ==  Appositions ==
 
-The treebank distinguishes between ''parenthetical apposition'' and ''restrictive apposition''. In '''parenthetical apposition''', a definite noun is modified by a following coreferential NP (with edge "appa"), which is parenthetical in the sense that the semantic reference of the first NP can be determined from the first NP alone -- ie, the second NP is not needed to determine the reference, but merely provides additional information about the first NP. Parenthetical apposition is easily recognized because the apposition is always enclosed in commas, dashes, or parentheses. An example of parenthetical apposition is shown below:
+The treebank distinguishes between ''parenthetical apposition'' and ''restrictive apposition''. In *parenthetical apposition*, a definite noun is modified by a following coreferential NP (with edge "appa"), which is parenthetical in the sense that the semantic reference of the first NP can be determined from the first NP alone -- ie, the second NP is not needed to determine the reference, but merely provides additional information about the first NP. Parenthetical apposition is easily recognized because the apposition is always enclosed in commas, dashes, or parentheses. An example of parenthetical apposition is shown below:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-01.png
 
@@ -12,7 +12,7 @@ A parenthetical apposition may also modify a verb, if the apposition can be used
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-06.png
 
-In '''restrictive apposition''', a definite NP is modified by a following noun phrase (with edge "appr"), which must denote a name. The second NP is normally more specific in terms of semantic reference than the first NP, and the two NPs are never separated by any punctuation.
+In *restrictive apposition*, a definite NP is modified by a following noun phrase (with edge "appr"), which must denote a name. The second NP is normally more specific in terms of semantic reference than the first NP, and the two NPs are never separated by any punctuation.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-04.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/appo-08.png
 

@@ -8,8 +8,8 @@
 
 Comparatives always subcategorize for "end":
 
-  * '''Mange flere mænd end kvinder''' er syge.
-  * '''*Mange mænd end kvinder''' er syge.
+  * *Mange flere mænd end kvinder* er syge.
+  * **Mange mænd end kvinder* er syge.
 
   * andet (N) end X
   * mere/flere (N) end X

@@ -6,9 +6,9 @@
 
 Adjectival complements bear the dependency label aobj.
 
-  * Han kørte '''træt'''.
-  * De for '''vild'''.
-  * Hunden gik '''amok'''.
+  * Han kørte *træt*.
+  * De for *vild*.
+  * Hunden gik *amok*.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/aobj-01.png
 

@@ -4,7 +4,7 @@
 
 ==  Indirect Objects2 ==
 
-'''Indirect object''' We use iobj for indirect objects of ditransitive verbs. This argument expresses the beneficiary or recipient.
+*Indirect object* We use iobj for indirect objects of ditransitive verbs. This argument expresses the beneficiary or recipient.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-03.png
 

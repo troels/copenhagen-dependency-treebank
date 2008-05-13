@@ -16,7 +16,7 @@ In Discontinuous Grammar and treebanks that encode morphological structure, the 
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/poss-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/poss-03.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/poss-04.png
 
-'''Special possesives'''[[BR]] Some possesives are not so clearly possesive as the examples above. We have decided to analyse them as possesives, even if they have some characteristics of being modifying phrases instead. Here are some examples:
+*Special possesives*[[BR]] Some possesives are not so clearly possesive as the examples above. We have decided to analyse them as possesives, even if they have some characteristics of being modifying phrases instead. Here are some examples:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine63a.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine64a.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine65a.png
 
@@ -24,7 +24,7 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine63a.png
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine63b.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine64b.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine65b.png
 
-'''Possesive or "fuge-s"?'''[[BR]] These examples could look like possesives, but they really are not. We analyse them as modifiers, and in fact they should be written and understood as one word, making it clear that the s is a "fuge-s": "en treværelses lejlighed" should be written "en treværelseslejlighed" according to the rules for danish orthography. Here are som examples of analysis:
+*Possesive or "fuge-s"?*[[BR]] These examples could look like possesives, but they really are not. We analyse them as modifiers, and in fact they should be written and understood as one word, making it clear that the s is a "fuge-s": "en treværelses lejlighed" should be written "en treværelseslejlighed" according to the rules for danish orthography. Here are som examples of analysis:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine66.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine67.png
 

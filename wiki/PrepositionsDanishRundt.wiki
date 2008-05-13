@@ -4,15 +4,15 @@
 
 ==  Prepositions Danish Rundt ==
 
-'''RUNDT''' Can behave as a preposition, when "rundt" occurs with a locational meaning:
+*RUNDT* Can behave as a preposition, when "rundt" occurs with a locational meaning:
 
-  * De kørte '''landet rundt'''
+  * De kørte *landet rundt*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine80.png
 
  as opposed to a time-indicating meaning:
 
-  * De fester '''året rundt'''
+  * De fester *året rundt*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine81.png
 

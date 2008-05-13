@@ -14,13 +14,13 @@ Several modifiers apply specifically to positive adjectives:
 
 The adjectival modifier "nok" ("enough") may take the following prepositional objects when modifying an adjective:
 
-  * '''nok + til + noun:''' "god nok til os", "god nok til at glæde os", "god nok til at vi jublede"
-  * '''nok + til + finite verb:''' "god nok til vi jublede". PRONOUN
-  * '''nok + af + noun:''' "nok af problemer"
-  * '''nok + (NOUN) + at + verb:''' "nok (mad) at tage af"
-  * '''nok + (NOUN) + med + noun:''' "nok (vrøvl) med ham"
-  * '''nok + om + noun:''' "nok om problemerne"
-  * '''nok + (NOUN) + på + noun:''' "nok på bankbogen"
+  * *nok + til + noun:* "god nok til os", "god nok til at glæde os", "god nok til at vi jublede"
+  * *nok + til + finite verb:* "god nok til vi jublede". PRONOUN
+  * *nok + af + noun:* "nok af problemer"
+  * *nok + (NOUN) + at + verb:* "nok (mad) at tage af"
+  * *nok + (NOUN) + med + noun:* "nok (vrøvl) med ham"
+  * *nok + om + noun:* "nok om problemerne"
+  * *nok + (NOUN) + på + noun:* "nok på bankbogen"
   * selvom han er nok så mærkelig
   * en nok så vigtig tilføjelse
   * penge nok til at rejse

@@ -4,7 +4,7 @@
 
 ==  Copulas ==
 
-'''Copula constructions:''' These are basically covered in the sections on 'pred' and 'expl'. One remaining question is whether we should distinguish between predicative and equative/specificational/identificational copula clauses, when both dependents are nominals:
+*Copula constructions:* These are basically covered in the sections on 'pred' and 'expl'. One remaining question is whether we should distinguish between predicative and equative/specificational/identificational copula clauses, when both dependents are nominals:
 
   * Han er en stærk svømmer. (predicative)
   * Den stærkeste svømmer på holdet er ham. (specificational)

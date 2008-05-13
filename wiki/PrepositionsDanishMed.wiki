@@ -4,18 +4,18 @@
 
 ==  Prepositions Danish Med ==
 
-'''MED''' Occurs with full range of complements.
+*MED* Occurs with full range of complements.
 
   * PAROLE sammensatninger: med_hensyn_til, med_rette
   * Special constructions: [Verb + part + pobj]
-    * Den skrumper ind '''med''' 50%.
-    * De holdt op '''med''' at synge.
-    * De dirigerede rundt '''med''' ham.
+    * Den skrumper ind *med* 50%.
+    * De holdt op *med* at synge.
+    * De dirigerede rundt *med* ham.
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-29.png
   * Fixed expressions
-    * sammen '''med''' ham
+    * sammen *med* ham
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-30.png
-    * i forbindelse '''med''' festen [same structure as "i stedet for ham"]
+    * i forbindelse *med* festen [same structure as "i stedet for ham"]
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-31.png
   * Adverbial uses (tagged as RG)
     * "med" can be used as a particle with many verbs, including spille, synge, tage, skulle, være, følge, komme, and have.

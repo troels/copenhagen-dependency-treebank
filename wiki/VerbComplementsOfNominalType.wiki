@@ -20,12 +20,12 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/inf-01.png h
 
 Different noun complement roles can be disambiguated with the following linguistic tests:
 
-  * '''subj vs dobj''': (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test, (6) expletive test
-  * '''subj vs iobj''': (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test
-  * '''subj vs pred''': (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test
-  * '''dobj vs iobj''': (1) question test, (6) expletive test, (8) PP-paraphrase
-  * '''dobj vs pred''': (5) paradigm test, (6) expletive test, (7) agreement test
-  * '''iobj vs pred''': (5) paradigm test, (6) expletive test, (7) agreement test, (8) PP-paraphrase
+  * *subj vs dobj*: (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test, (6) expletive test
+  * *subj vs iobj*: (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test
+  * *subj vs pred*: (1) question test, (2) modal verb test, (3) adverbial test, (4) case marking test
+  * *dobj vs iobj*: (1) question test, (6) expletive test, (8) PP-paraphrase
+  * *dobj vs pred*: (5) paradigm test, (6) expletive test, (7) agreement test
+  * *iobj vs pred*: (5) paradigm test, (6) expletive test, (7) agreement test, (8) PP-paraphrase
 
 
 ====See also====

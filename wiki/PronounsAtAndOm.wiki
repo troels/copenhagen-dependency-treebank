@@ -56,17 +56,17 @@ The examples below show "at" and "om" phrases appearing as nominal objects of pr
   * Elefanten var træt af at blive skubbet til.[[BR]]''Elephant-the was tired of to be pushed to.''
   * Hånden var ret våd og klam efter at være blevet spist af.[[BR]]''Hand-the was rather wet and moist after to be been eaten of.''
 
-'''Analysis of frequent constructions'''
+*Analysis of frequent constructions*
 
-'''"At" in it-clefts: "Det ... at + VP":'''
+*"At" in it-clefts: "Det ... at + VP":*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine11.png
 
-'''"At" in "Så AN ... at + VP":'''
+*"At" in "Så AN ... at + VP":*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine12.png
 
-'''Analysis of the expression "en måde at ..." ("a way to ..."):'''
+*Analysis of the expression "en måde at ..." ("a way to ..."):*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine13.png
 
@@ -74,10 +74,10 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine49.png
 
 In some examples it can be difficult to tell, whether "at" should attach to the adjectiv in the noun phrase or to the common noun. We believe that the following test may help:
 
-  * "at" should be attached to the '''adjective''' if the phrase '''allows''' a predicative paraphrase, that is, if it is possible to say "N er A at...", with preservation of meaning. Example: "et rart gulv at gå på" -&gt; "gulvet er rart at gå på".
-  * "at" should be attached to the '''common noun''' if the phrase '''does not allow''' a predicative paraphrase, that is, if it is not possible to say "N er A at...", with preservation of meaning. Example: "en sjov måde at gå på" -&gt; "*måden er sjov at gå på".
+  * "at" should be attached to the *adjective* if the phrase *allows* a predicative paraphrase, that is, if it is possible to say "N er A at...", with preservation of meaning. Example: "et rart gulv at gå på" -&gt; "gulvet er rart at gå på".
+  * "at" should be attached to the *common noun* if the phrase *does not allow* a predicative paraphrase, that is, if it is not possible to say "N er A at...", with preservation of meaning. Example: "en sjov måde at gå på" -&gt; "*måden er sjov at gå på".
 
-'''Analysis of "få + at + VP":''' There seems to be two parallel expressions in the corpus: "Få noget at vide" and "Få at vide, at/om jeg kan fortsætte". The expressions being so parallel, we would like the analysis of them to be identical. The last one seems straightforward:
+*Analysis of "få + at + VP":* There seems to be two parallel expressions in the corpus: "Få noget at vide" and "Få at vide, at/om jeg kan fortsætte". The expressions being so parallel, we would like the analysis of them to be identical. The last one seems straightforward:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine14.png
 
@@ -91,7 +91,7 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine48.png
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine47.png
 
-'''Rules for other constructions with "at":'''
+*Rules for other constructions with "at":*
 
 "At" can attach to both adjectives and nouns. If it is uncertain whether "at" attaches to the noun or the adjectiv in a particular noun phrase, we presented a guiding principle above. Usually though, there is not any problems determining what "at" attaches to, but rather what kind of attachment "at" represents. As a special kind of noun, "at" should be analysed as nobj, if "at" plays the role of an object in the sentence, and "at" should carry the label mod, if "at" is the head of a modifier. To tell wheter "at" in a certain construction should be analysed as nobj or mod, we have used the following principle:
 
@@ -100,8 +100,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine47.png
  Here is a table with examples:
 
 ||  || Restricted Use (Not Generally Replaceable)[[BR]] Nominal Object (nobj) || Non-Restricted Use (Generally Replaceable)[[BR]] Modifier (mod) ||
-|| '''Adjectiv''' || 1) ?Det gjorde ondt at se på || 3) Den stol er vanskelig at flytte ||
-|| '''Noun''' || 2) Han fik det indtryk, at alt var godt || 4) De fik en øl at drikke til maden ||
+|| *Adjectiv* || 1) ?Det gjorde ondt at se på || 3) Den stol er vanskelig at flytte ||
+|| *Noun* || 2) Han fik det indtryk, at alt var godt || 4) De fik en øl at drikke til maden ||
 
 In our tagged corpus 2) and 3) are the most frequent examples, while 1) and 4) are very poorly represented with 1 and 3 occurences.
 

@@ -4,7 +4,7 @@
 
 ﻿==  Verbs Old ==
 
-'''Subject''' The dependency label subj is used for the subject of a finite (tensed?) verb. The subject can be a nominal, an infinitive construction headed by "at", or a finite clause headed by "at":
+*Subject* The dependency label subj is used for the subject of a finite (tensed?) verb. The subject can be a nominal, an infinitive construction headed by "at", or a finite clause headed by "at":
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/inf-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/subject-02.png
 
@@ -12,7 +12,7 @@ Verbal complements of a modal or auxiliary verb share the subject via a [subj] f
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/inf-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/subject-01.png
 
-'''Expletive subject''' Any verb that does not have a direct object can undergo expletive shift -- that is, the subject is converted into a direct object, with the additional restriction that it must be indefinite, and a locative or temporal adverbial (usually "der") becomes a formal subject (expl) (an observation due to Richard Hudson). This provides a method for determining whether the object in a verb with a single object is a direct or indirect object.
+*Expletive subject* Any verb that does not have a direct object can undergo expletive shift -- that is, the subject is converted into a direct object, with the additional restriction that it must be indefinite, and a locative or temporal adverbial (usually "der") becomes a formal subject (expl) (an observation due to Richard Hudson). This provides a method for determining whether the object in a verb with a single object is a direct or indirect object.
 
   * Der mangler en gaffel.
   * Her tales om et klokkeklart mord.
@@ -25,7 +25,7 @@ Complements of the finite verb share the expletive subject via a [expl] filler.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/expl-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/expl-02.png
 
-'''Direct object''' We use the dependency label dobj for the direct object of a verb, including the single, non-subject, nominal complement of transitive verbs, the theme argument of ditransitive verbs, and the accusative object of accusative-with-infinite constructions:
+*Direct object* We use the dependency label dobj for the direct object of a verb, including the single, non-subject, nominal complement of transitive verbs, the theme argument of ditransitive verbs, and the accusative object of accusative-with-infinite constructions:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-03.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dobj-01.png
 
@@ -33,22 +33,22 @@ Note that dobj is also used for complements headed by "at", consistent with our 
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dobj-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dobj-03.png
 
-'''Indirect object''' We use iobj for indirect objects of ditransitive verbs. This argument expresses the beneficiary or recipient.
+*Indirect object* We use iobj for indirect objects of ditransitive verbs. This argument expresses the beneficiary or recipient.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-03.png
 
 Note that when this argument is expressed with a preposition ("Han viste den til hende") it is tagged as a prepositional object, and not an indirect object (jvf. ex 31).
 
-'''Prepositional object'''We use pobj for complements headed by a preposition. Some prepositional complement express a (physical) location or direction, others express more abstract relations. In the latter case the verb typically subcategorizes for a specific preposition.
+*Prepositional object*We use pobj for complements headed by a preposition. Some prepositional complement express a (physical) location or direction, others express more abstract relations. In the latter case the verb typically subcategorizes for a specific preposition.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/val-04.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/pobj-01.png
 
 It is important to distinguish prepositional complements from prepositional modifiers:
 
-  * Han ventede '''på dem''' (pobj)
-  * Han ventede '''på stationen''' (mod)
+  * Han ventede *på dem* (pobj)
+  * Han ventede *på stationen* (mod)
 
-'''Verbal complement''' The label vobj is used for (non-finite only?) verbal complements. Bare infinitives occur as verbal complements of modal verb and verbs of perception and permission:
+*Verbal complement* The label vobj is used for (non-finite only?) verbal complements. Bare infinitives occur as verbal complements of modal verb and verbs of perception and permission:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/inf-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/vobj-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dobj-01.png
 
@@ -56,7 +56,7 @@ Past participles occur as vobj of auxiliary verbs, including the passive auxilia
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/subject-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/vobj-02.png
 
-'''Predicative complement''' The dependecy label pred is used for predicative complements. Semantically, these can be oriented towards the subject or the object. Subject-oriented predicative complements occur with copula verbs like "være", "synes", "blive":
+*Predicative complement* The dependecy label pred is used for predicative complements. Semantically, these can be oriented towards the subject or the object. Subject-oriented predicative complements occur with copula verbs like "være", "synes", "blive":
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-04.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-10.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/pred-03.png
 
@@ -76,7 +76,7 @@ and as the predicative complement of a verb like "finde":
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/pred-02.png
 
-'''Particle''' We use the label part for verbal particles. These are (always?) separable prefixes, which elsewhere occur together with the verb in a complex word form:
+*Particle* We use the label part for verbal particles. These are (always?) separable prefixes, which elsewhere occur together with the verb in a complex word form:
 
   * Hun gav op. [cf. Hun opgav]
   * Han meldte sig til [cf. Han tilmeldte sig]
@@ -143,9 +143,9 @@ In imperatives, the subject is always absent and always refers to the intended l
 
 Vocatives are characterized by being either:
 
-  * '''pronouns (2nd person):''' du, I
-  * '''definite adjectives (pos./superlative):''' (du/I/min) elskede, søde, gamle, sødeste
-  * '''indefinite noun:''' dreng, gamle mand, far, smed, hest, brumlebi
+  * *pronouns (2nd person):* du, I
+  * *definite adjectives (pos./superlative):* (du/I/min) elskede, søde, gamle, sødeste
+  * *indefinite noun:* dreng, gamle mand, far, smed, hest, brumlebi
 
 The vocative must be placed either at the beginning or the end of the sentence. A vocative can also be placed in the right field of a verbal phrase before any nominal or prepositional objects, and before any adverbials, but possibly before verbal objects and "at"-infinitives. Examples:
 

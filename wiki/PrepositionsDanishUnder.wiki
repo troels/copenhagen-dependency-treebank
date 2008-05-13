@@ -4,20 +4,20 @@
 
 ==  Prepositions Danish Under ==
 
-'''UNDER''' Occurs only with nominal complements!
+*UNDER* Occurs only with nominal complements!
 
   * Special constructions
-    * på '''under''' 10 minutter
+    * på *under* 10 minutter
   * Adverbial uses (tagged as RG)
     * skrive under (på X)
     * bukke under (for X)
     * gå under
 
-'''MELLEM''' Occurs, at least in principle, with all types of complements
+*MELLEM* Occurs, at least in principle, with all types of complements
 
   * Adverbial uses (tagged as RG): none!
 
-'''UDEN''' Occurs with full range of complements.
+*UDEN* Occurs with full range of complements.
 
   * Adverbial uses (tagged as RG)
     * uden for stationen
@@ -26,28 +26,28 @@
   * Tagged as subordinate conjunction
     * De gjorde det uden jeg vidste det. -- could this be analyzed as prep + finite clause?
 
-'''HOS''' Occurs with nominal complements only!
+*HOS* Occurs with nominal complements only!
 
   * Special constructions
     * han er med hos os
   * Adverbial uses (tagged as RG):None!
 
-'''GENNEM''' Seems to occur only with nominal complements
+*GENNEM* Seems to occur only with nominal complements
 
   * Special constructions
     * {frem/ned/ud/ind} gennem
   * Adverbial uses (tagged as RG): None!
 
-'''OMKRING''' Seems to occur only with nominal complements (but there is a change from "om" -&gt; "omkring" which widens the complementation of "omkring")
+*OMKRING* Seems to occur only with nominal complements (but there is a change from "om" -&gt; "omkring" which widens the complementation of "omkring")
 
   * Special constructions
-    * fra/på '''omkring''' 15 kroner (i betydingen ca.)
+    * fra/på *omkring* 15 kroner (i betydingen ca.)
   * Adverbial uses (tagged as RG)
     * {ude/vidt/rundt} omkring
     * gå/krybe/løbe omkring
     * se sig omkring
 
-'''BAG''' Occurs only with nominal complements
+*BAG* Occurs only with nominal complements
 
   * Special constructions
     * dukke frem bag avisen
@@ -57,15 +57,15 @@
     * komme bag på
     * Ligge bag, stå bag
 
-'''RUNDT''' Can behave as a preposition, when "rundt" occurs with a locational meaning:
+*RUNDT* Can behave as a preposition, when "rundt" occurs with a locational meaning:
 
-  * De kørte '''landet rundt'''
+  * De kørte *landet rundt*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine80.png
 
  as opposed to a time-indicating meaning:
 
-  * De fester '''året rundt'''
+  * De fester *året rundt*
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine81.png
 
@@ -74,31 +74,31 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine81.png
   * You can paraphrase the locational "De kørte landet rundt" to "De kørte rundt i landet" or to "De kørte rundt"; this indicates that "rundt" is the more important part of the phrase "landet rundt", and therefore "rundt" should be the head of the phrase.
   * You can paraphrase the time-indicating "De fester året rundt" to "De fester hele året" or "De fester året igennem"; this indicates that "året" is the more important part of the phrase "året rundt", and therefore "året" should be the head of the phrase.
 
-'''OTHERS:''' blandt (75) ad (68) pr. (63) siden (53) før (53) på_grund_af (52) ifølge (49) inden (46) igennem (41) trods (38) via (37) imod (34) foran (33) Foran (2) indtil (22) overfor (20)
+*OTHERS:* blandt (75) ad (68) pr. (63) siden (53) før (53) på_grund_af (52) ifølge (49) inden (46) igennem (41) trods (38) via (37) imod (34) foran (33) Foran (2) indtil (22) overfor (20)
 
 === Adverbials ===
 
-  * Peter kom tidligt '''i_går''' morges
+  * Peter kom tidligt *i_går* morges
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine94.png
-  * Hunden sad '''midt''' i rosenbedet
+  * Hunden sad *midt* i rosenbedet
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine92.png
-  * Der var store forberedelser '''forud''' for brylluppet
+  * Der var store forberedelser *forud* for brylluppet
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine93.png
-  * '''Så''' pyt med at vi kommer for sent
+  * *Så* pyt med at vi kommer for sent
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine95.png
-  * Det er for så '''vidt''' korrekt
+  * Det er for så *vidt* korrekt
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine60.png
-  * Det er '''langt fra''' tilfældet ("langt fra" with an adverbial function, meaning "not at all").
+  * Det er *langt fra* tilfældet ("langt fra" with an adverbial function, meaning "not at all").
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine58.png
-  * Huset ligger '''langt''' fra hovedvejen ("langt fra" with a locativ meaning).
+  * Huset ligger *langt* fra hovedvejen ("langt fra" with a locativ meaning).
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine59.png
-  * Inden '''længe''' var hun rask igen.
+  * Inden *længe* var hun rask igen.
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine96.png
-  * Pengene strømmede ind som aldrig '''før'''.
+  * Pengene strømmede ind som aldrig *før*.
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine97.png
-  * Benet vil for '''altid''' gøre ondt.
+  * Benet vil for *altid* gøre ondt.
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine98.png
-  * Marie laver aldrig noget som '''helst'''.
+  * Marie laver aldrig noget som *helst*.
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine99.png
 
 ==== Expressions with verb + adverbial + PP ====
@@ -117,32 +117,32 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-08.png
 The answer to the second question seems to be negative: this is not a uniform construction, though we might decide to gloss over the differences in the treebank analyses, for reasons of simplicity and manageability. One can distinguish at least the following types of construction:
 
   * 1. The string forms a dependency chain where no element can be left out (without changing the meaning of the others)
-    * ex: det '''går ud over barnet''', de '''fandt ud af det''', de '''går ind for ideen'''
+    * ex: det *går ud over barnet*, de *fandt ud af det*, de *går ind for ideen*
     * Possible analysis:
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-09.png
     * Seems like [adv + PP] cannot be a modifier.
   * 2. The adverbial can be left out with minimal change of meaning, and [adv + PP] can be replaced with ["der"-Adv]:
-    * ex: de '''kørte hen i skoven''', de '''gik oppe på loftet''', de '''gik ned i kælderen'''
+    * ex: de *kørte hen i skoven*, de *gik oppe på loftet*, de *gik ned i kælderen*
     * jvf: de kørte i skoven, de kørte derhen.
     * Possible analysis:
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-10.png
-    * Similar [adv + PP] expressions can occur as modifiers: de byggede hus '''henne i skoven'''
-    * In some cases the string is ambiguous, e.g. "de '''gik ned i kælderen'''":
+    * Similar [adv + PP] expressions can occur as modifiers: de byggede hus *henne i skoven*
+    * In some cases the string is ambiguous, e.g. "de *gik ned i kælderen*":
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-11.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-12.png
     * Q: is "i kælderen" a pobj in the right-hand example, or perhaps a modifier of the verb (as in type 4)?
   * 3. The noun (nobj of the preposition) can be left out (under recoverability), in which case the adverb and the preposition is written as one word.
-    * ex: vi '''gik uden om busken''', vi '''stod over for skolen''', vi '''blev inden for rammerne'''
+    * ex: vi *gik uden om busken*, vi *stod over for skolen*, vi *blev inden for rammerne*
     * jvf: de gik udenom, de stod overfor, vi blev indenfor
   * 4. The PP can be left out, and there is no dependency relation between the adverb and the PP.
-    * ex: den '''røg ud under alle omstændigheder''', det har '''ligget her i flere år''', vi '''var med fra første færd'''
+    * ex: den *røg ud under alle omstændigheder*, det har *ligget her i flere år*, vi *var med fra første færd*
     * jvf: den røg ud, den har ligget her, vi var med
     * Possible analysis:
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-13.png
   * 5. The PP can be left out, but cannot be replaced with ["der"-Adv].
-    * ex: de '''skiftede ham ud med en anden'''
+    * ex: de *skiftede ham ud med en anden*
     * jvf: de skiftede ham ud, *de skiftede ham derud.
   * 6. The adverbial can be left out or the PP can be left out, or both.
-    * ex: de '''satte sig ned på bænken''', hun '''skrev det op på tavlen'''
+    * ex: de *satte sig ned på bænken*, hun *skrev det op på tavlen*
     * jvf: de satte sig ned, de satte sig på bænken, de satte sig.
 
 The marked paragraph above was written before the labels avobj and lobj came into this manual-world. These two labels solve some of the problems discussed above. All of the examples in the paragraph above would now be analysed as lobj, except "gå ud over": this would be analysed as avobj + pobj. Below follow some general remarks:
@@ -155,7 +155,7 @@ The marked paragraph above was written before the labels avobj and lobj came int
 
 ==== Time-indicating objects in relative indications of time ====
 
-'''Adverbial use'''
+*Adverbial use*
 
 Time indications that are relative to a fixed point in time all follow a certain pattern in construction. They are headed by an adverb, an adjectiv (used as an adverb) or a preposition (used as an adverb), e.g. før, siden, tilbage, tidligere. Some can take an object, in which case they are "converted into" a preposition or a subordinating conjunction (CS), if the object is a sentence (e.g. før/før brylluppet/før festen begyndte). They all allow a preceeding modification by a time specification, e.g. "to timer før". This time-specification is analysed as a time-indicating object (tobj).
 
@@ -193,7 +193,7 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine42.png
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine44.png
 
-'''Nominal use'''
+*Nominal use*
 
 The analyses above apply only to adverbial uses. The same adverbs combined with relative indications of time allow a nominal use also. Take a look at these contrastive examples:
 
@@ -211,8 +211,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine45.png 
 
 ==== Special constructions with "ikke" ====
 
-  * ikke mere ("han kommer her '''ikke mere'''"/"... at han '''ikke''' kommer her '''mere'''") in both cases both adverbs are modifiers to the finite verb.
-  * ikke længere ("hun er her '''ikke længere'''"/"... at hun '''ikke''' er her '''længere'''") in both cases both adverbs are modifiers to the finite verb.
+  * ikke mere ("han kommer her *ikke mere*"/"... at han *ikke* kommer her *mere*") in both cases both adverbs are modifiers to the finite verb.
+  * ikke længere ("hun er her *ikke længere*"/"... at hun *ikke* er her *længere*") in both cases both adverbs are modifiers to the finite verb.
 
 ==== Så ====
 
@@ -226,11 +226,11 @@ For analysis of "så længe + [sentence]", see the paragraph "Relatives" under [
 
 Sometimes prepositional phrases and adverbials occur in a sentence in such a way that a) one tends to analyse it as a modifier since different types of phrases can occur here, but at the same time b) it is not optional in the way modifiers normally are. We have decided to label these "obligatory modifiers" (edge: obl). Here are some examples:
 
-  * CS+SP: "Det er bedre '''end i skolen'''" ("It is better than in the school") (15 examples in the corpus)
-  * U=+SP: "Det er den samme '''som i skolen'''" (It is the same as in the scholl") (13 examples in the corpus)
-  * SP+SP: "Der sker ikke noget, '''førend i syvende måned'''" ("Nothing happens until in the seventh month") (5 examples in the corpus)
-  * CS+RG: "Hun var stærkere '''end nogensinde'''" ("She was stronger than ever") (5 examples in the corpus)
-  * CS+CS: "De kan bedre lide det, når de får en is, '''end når''' de får en pose slik" ("They like it better when they have an ice creme, than when they have a bag of sweets") (1 example in the corpus)
+  * CS+SP: "Det er bedre *end i skolen*" ("It is better than in the school") (15 examples in the corpus)
+  * U=+SP: "Det er den samme *som i skolen*" (It is the same as in the scholl") (13 examples in the corpus)
+  * SP+SP: "Der sker ikke noget, *førend i syvende måned*" ("Nothing happens until in the seventh month") (5 examples in the corpus)
+  * CS+RG: "Hun var stærkere *end nogensinde*" ("She was stronger than ever") (5 examples in the corpus)
+  * CS+CS: "De kan bedre lide det, når de får en is, *end når* de får en pose slik" ("They like it better when they have an ice creme, than when they have a bag of sweets") (1 example in the corpus)
 
 Both "end" and "som" are a little bit like gapping constructions: "Det er bedre end i skolen" could be analysed as a short form of "Det er bedre end det er i skolen". In that case the analysis should look like this:
 

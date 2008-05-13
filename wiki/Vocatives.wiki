@@ -6,15 +6,15 @@
 
 The adjunct label voc is used for nominals that refer to the intended listener, but serve no complement function with respect to the verb.
 
-  * Luk så den dør, '''Marie'''!
-  * '''Marie''', vil du/I godt lukke den dør?
-  * '''Marie''', jeg lukker døren nu.
+  * Luk så den dør, *Marie*!
+  * *Marie*, vil du/I godt lukke den dør?
+  * *Marie*, jeg lukker døren nu.
 
 Vocatives are characterized by being either:
 
-  * '''pronouns (2nd person):''' du, I
-  * '''definite adjectives (pos./superlative):''' (du/I/min) elskede, søde, gamle, sødeste
-  * '''indefinite noun:''' dreng, gamle mand, far, smed, hest, brumlebi
+  * *pronouns (2nd person):* du, I
+  * *definite adjectives (pos./superlative):* (du/I/min) elskede, søde, gamle, sødeste
+  * *indefinite noun:* dreng, gamle mand, far, smed, hest, brumlebi
 
 The vocative must be placed either at the beginning or the end of the sentence. A vocative can also be placed in the right field of a verbal phrase before any nominal or prepositional objects, and before any adverbials, but possibly before verbal objects and "at"-infinitives. Examples:
 

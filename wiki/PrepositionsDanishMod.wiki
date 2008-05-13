@@ -4,11 +4,11 @@
 
 ==  Prepositions Danish Mod ==
 
-'''MOD''' Occurs with full range of complements.
+*MOD* Occurs with full range of complements.
 
   * Special constructions
-    * gå {frem/hen/op/ind/over/ud} '''mod''' byen
-    * op '''mod''' 100 mennesker
+    * gå {frem/hen/op/ind/over/ud} *mod* byen
+    * op *mod* 100 mennesker
   * Fixed expressions
     * på vej mod
     * Adverbial uses (tagged as RG): None!

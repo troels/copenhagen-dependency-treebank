@@ -18,14 +18,14 @@ Our view is that complements and adjuncts represent different mechanisms for enc
 || Selection || The possible governors are characterized by having a large easily definable syntactic and/or semantic class. || The possible complements are characterized by having a large easily definable syntactic and/or semantic class. ||
 || Semantics || The adjunct has a natural rule for computing the interpretation of the combined phrase, given the semantic representation of the governor as its argument. || The governor has a natural rule for computing the interpretation of the combined phrase, given the semantic representation of the complements as its argument. ||
 
-'''Example 1.''' To illustrate these ideas, we will analyze the sentence "Peter will paint the wall today" within a dependency framework. This means that we have to hypothesize complement and adjunct rules for all the words involved, and test whether these rules generate all grammatical sentences in English (and only those sentences). The first step is to look for the grammatical category of each phrase: ie, "Peter" and "wall" are nouns, "the" is a pronoun (or determiner, if you like), "will" and "paint" are verbs, and "today" is an adverb. The second step is to look for minimal construction schemata, like: "X paints Y", "X will Y", "the X", etc. These often correspond to complement schemata, so it would be natural to hypothesize the following complement structures:
+*Example 1.* To illustrate these ideas, we will analyze the sentence "Peter will paint the wall today" within a dependency framework. This means that we have to hypothesize complement and adjunct rules for all the words involved, and test whether these rules generate all grammatical sentences in English (and only those sentences). The first step is to look for the grammatical category of each phrase: ie, "Peter" and "wall" are nouns, "the" is a pronoun (or determiner, if you like), "will" and "paint" are verbs, and "today" is an adverb. The second step is to look for minimal construction schemata, like: "X paints Y", "X will Y", "the X", etc. These often correspond to complement schemata, so it would be natural to hypothesize the following complement structures:
 
-  * '''Peter:''' no complements
-  * '''X will Y:''' X=subject noun (the agent), Y=verbal complement (what the agent will do)
-  * '''X paints Y:''' X=subject noun (the agent who paints), Y=direct object noun (what is painted)
-  * '''the X:''' X=noun complement
-  * '''wall:''' no complements
-  * '''today:''' no complements
+  * *Peter:* no complements
+  * *X will Y:* X=subject noun (the agent), Y=verbal complement (what the agent will do)
+  * *X paints Y:* X=subject noun (the agent who paints), Y=direct object noun (what is painted)
+  * *the X:* X=noun complement
+  * *wall:* no complements
+  * *today:* no complements
 
 From these lexical rules, we can deduce that the only possibility is that "will" must be the governor of the whole sentence, with "paint" as its verbal complement and "Peter" as its subject complement (note that "Peter" agrees with "will", but not with "paint": "Peter paints/*paint the wall"); that "Peter" must be the subject of "paint" as well (so "Peter" is the complement of two verbs, but without subject agreement with the second verb "paint"), and that "the wall" is the direct object of "paint"; and, finally, that "wall" is the noun complement of "the". The only remaining word is "today". It does not seem to be a complement of "paint" or "will", since it can occur with any verb (and indeed most nouns as well); nor can it be the head of the whole sentence, because it does not have the same syntactic or semantic type as the whole sentence (for example, you can say: "I wonder whether X" where X can be "Peter will paint the wall today", "Peter will", "Peter paints the wall", but you cannot say "*I wonder whether today"). Thus, the only remaining possibility is to analyze "today" as an adjunct of "paint" (or perhaps "will"). This gives the following dependency graph:
 
