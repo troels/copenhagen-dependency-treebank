@@ -2,7 +2,7 @@
 
 The three graphs below show three possible visual representations of the same syntax graph: the arc layout used in the Danish Dependency Treebank, the layout used in classical dependency theory, and the phrase-structure layout used in discontinuous phrase-structure theories.
 
-http://copenhagen-dependency-treebank.googlecode.com/svn/figs/graph1.png http://copenhagen-dependency-treebank.googlecode.com/svn/figs/tree2.png http://copenhagen-dependency-treebank.googlecode.com/svn/figs/tree3.png
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/graph1.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/tree2.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/tree3.png
 
 The treebank uses the ''arc layout'' on the left, where relations are drawn as circular arrows from heads to subordinate words, with a label below each arrow head that indicates the type of the relation (ie, "subj"=subject, "dobj"=direct object, etc). Arcs that encode primary dependencies (ie, complements and adjuncts without fillers, and gapping dependents) are shown above the words, arcs that encode fillers, landing sites, and coreference are displayed below the words. The word class is indicated with a PAROLE tag below each word (eg, NC, VA, etc).
 
