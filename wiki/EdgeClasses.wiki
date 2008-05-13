@@ -60,7 +60,7 @@ The following edges are not used in the tagging, but are reserved for future ann
 
 The edges used in the treebank are ordered in a type hiearchy:
 
-http://code.google.com/p/copenhagen-dependency-treebank/svn/trunk/figs/edges.png
+http://copenhagen-dependency-treebank.googlecode.com/svn/figs/edges.png
 
 Complements are subdivided into the following types:
 
