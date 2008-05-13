@@ -1,4 +1,5 @@
-#labels Draft
+﻿#labels Draft
+#summary This is the summary.
 ==  External Topics ==
 
 External topics are sentence-initial or sentence-final phrases that are duplicated by a pronoun within the sentence. These are tagged with the special adjunct edge xtop.
