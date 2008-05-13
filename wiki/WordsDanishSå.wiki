@@ -1,0 +1,9 @@
+==  Words Danish Så ==
+
+==== Så ====
+
+Like in the discussion of "hvor" in "hun ved, hvor svært det kan være" (see the discussion under [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbs.html  verbs ], relatives) we have been troubled by examples with "så AN ..., at ..." ("so AN ... that ..."). Here we have chosen to analyse "så" as a modifier to the AN, and "at" as a nominal object to "så", like this:
+
+http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine06.png
+
+For analysis of "så længe + [sentence]", see the paragraph "Relatives" under [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbs Verbs].

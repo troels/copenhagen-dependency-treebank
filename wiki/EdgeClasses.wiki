@@ -56,7 +56,7 @@ The following edges are not used in the tagging, but are reserved for future ann
   * '''loc (?-&gt;?):''' locative adjunct
   * '''fill (?-&gt;filler):''' dependency from filler licensor to filler (subtype of '''land''')
   * '''gap (?-&gt;filler):''' dependency from a gap licensor to the gap in a gapping coordination
-  * '''relz (N-&gt;�):''' a landing site dependency between a relativized noun and the relative pronoun (or PP containing a relative pronoun) which comes right after the relativized noun.
+  * '''relz (N-&gt;Ñ):''' a landing site dependency between a relativized noun and the relative pronoun (or PP containing a relative pronoun) which comes right after the relativized noun.
 
 The edges used in the treebank are ordered in a type hiearchy:
 

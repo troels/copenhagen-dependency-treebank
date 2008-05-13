@@ -1,0 +1,9 @@
+==  Noun Map ==
+
+|| Dependent || Complement roles || Adjunct roles ||
+|| noun || nominal object (nobj)[[BR]] possessed ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_possd possd])[[BR]] multiplicative numeral ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_numm numm])[[BR]] additive numeral ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_numa numa]) || parenthetical apposition ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_appa appa])[[BR]] restrictive apposition ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_appr appr])[[BR]] first name ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_namef namef])[[BR]] last name ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_namel namel])[[BR]] title ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_title title]) ||
+|| verb || verbal object (vobj) || relative ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbsT.html#_rel rel])[[BR]] modifier (mod) ||
+|| adjective || adjectival object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_aobj aobj]) || modifier (mod) ||
+|| preposition || prepositional object (pobj) || modifier (mod) ||
+|| adverbial ||  || modifier (mod) ||
+|| other ||  || coordinator ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_coord coord])[[BR]] punctuation ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_pnct pnct]) ||

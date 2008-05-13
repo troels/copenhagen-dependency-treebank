@@ -1,0 +1,10 @@
+==  Adverbial Types ==
+
+  * '''locational adverbs''' (''bilen var fastgjort ___'')[[BR]] bagved borte fremme henne (henover) her hjemme inde indenfor nede nedenfor nedenunder (nedover) opad_til oppe ovenfor ovenpå overfor ovre ude udenfor (udover) (væk)
+  * '''locational prep.''' (''bilen var fastgjort ___ bjælken'')[[BR]] bag bagved efter foran forbi fra i inden indenfor indtil langs nedenunder om omkring over overfor på til under ved
+  * '''directional adverbs''' (''han gik ___ til hende'')[[BR]] frem fremad hen hjem ind ned nedad nedenunder op opad over rundt tilbage ud udad videre væk
+  * '''directional prep.''' (''han gik ___ hende'')[[BR]] bag bagved efter imellem ned_under nedenunder over på til under ved
+  * '''durational adv.''' (''det varede ___'')[[BR]] lidt længe
+  * '''temporal adv.''' (''det fandt først sted ___'')[[BR]] derefter efter før inden samtidig
+  * '''temporal prep.''' (''det fandt sted ___ middagen'')[[BR]] efter før inden
+  * '''other:''' sammen med lige ad uden

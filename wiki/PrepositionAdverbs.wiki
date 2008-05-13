@@ -1,0 +1,28 @@
+==  Preposition Adverbs ==
+
+  * '''locational adverbs''' (''bilen var fastgjort ___'')[[BR]] bagved borte fremme henne (henover) her hjemme inde indenfor nede nedenfor nedenunder (nedover) opad_til oppe ovenfor ovenpå overfor ovre ude udenfor (udover) (væk)
+  * '''locational prep.''' (''bilen var fastgjort ___ bjælken'')[[BR]] bag bagved efter foran forbi fra i inden indenfor indtil langs nedenunder om omkring over overfor på til under ved
+  * '''directional adverbs''' (''han gik ___ til hende'')[[BR]] frem fremad hen hjem ind ned nedad nedenunder op opad over rundt tilbage ud udad videre væk
+  * '''directional prep.''' (''han gik ___ hende'')[[BR]] bag bagved efter imellem ned_under nedenunder over på til under ved
+  * '''durational adv.''' (''det varede ___'')[[BR]] lidt længe
+  * '''temporal adv.''' (''det fandt først sted ___'')[[BR]] derefter efter før inden samtidig
+  * '''temporal prep.''' (''det fandt sted ___ middagen'')[[BR]] efter før inden
+  * '''other:''' sammen med lige ad uden
+
+  * Han gik i døren.[[BR]]''Han var i døren. Han gik.''
+  * Han gik (ind (i laden)).[[BR]]''≠ Han var i laden. Han gik ind.''[[BR]]''= Først var han ikke i laden. Derefter gik han ind i den.''
+  * Han gik (ind (i døren)).[[BR]]''&amp;ne Han var i døren. Derefter gik han ind.''[[BR]]''= Først var han ikke i døren. Derefter gik han ind i den.''
+
+  * Han gik ind i laden.[[BR]]''= han var inde i laden og gik ind i traktoren.[[BR]] = han var uden for laden og gik ind i laden.[[BR]]''
+  * Han gik ind i laden.[[BR]]''Det var i laden han gik ind.''
+  * Han tog hatten af for hende.[[BR]]''Det var for hende han tog hatten af.''
+  * Han stod inde i laden.[[BR]]''*Det var i laden han stod inde.''
+  * De dirigerede rundt med ham.[[BR]]''Det var med ham de dirigerede rundt.''
+  * De var sammen med ham.[[BR]]''?Det var med ham de var sammen.''
+  * De sang med på omkvædet.[[BR]]''Det var på omkvædet de sang med.''
+  * De boede oppe på bjerget.[[BR]]''*Det var på bjerget de boede oppe.''
+  * Det går ud på at overleve.[[BR]]''*Det er på at overleve det går ud.''
+  * De afleverede opgaven sidst på ugen.[[BR]]''*Det var på ugen de afleverede opgaven sidst.''
+  * De meldte sig ind i partiet.[[BR]]''Det var i partiet de meldte sig ind.''
+  * De kom af med gælden.[[BR]]''*Det var med gælden de kom af.''
+  * Der er noget forkert i at snyde.
