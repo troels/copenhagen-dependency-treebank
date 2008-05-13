@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Appositions ==
 
 The treebank distinguishes between ''parenthetical apposition'' and ''restrictive apposition''. In '''parenthetical apposition''', a definite noun is modified by a following coreferential NP (with edge "appa"), which is parenthetical in the sense that the semantic reference of the first NP can be determined from the first NP alone -- ie, the second NP is not needed to determine the reference, but merely provides additional information about the first NP. Parenthetical apposition is easily recognized because the apposition is always enclosed in commas, dashes, or parentheses. An example of parenthetical apposition is shown below:
@@ -38,3 +42,8 @@ This can perhaps be explained by a strong semantic preference for assigning comm
   * Folketingsmedlemmet var uenig/?uenigt med ministeren.
   * Barnet var uenig/?uenigt med sine forældre.
   * Pop-idolet var vred/?vredt på sine fans.
+
+
+====See also====
+
+

@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Danish Af ==
 
 '''AF''' Occurs with full range of complements.
@@ -16,3 +20,8 @@
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-57.png
     * være af med, komme af med, blive af med
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-58.png
+
+
+====See also====
+
+

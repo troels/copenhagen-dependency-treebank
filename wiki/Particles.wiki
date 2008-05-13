@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Particles ==
 
 We use the label part for verbal particles. These are adverbs or prepositions without a complement, which form a close semantic union with the verb.
@@ -43,3 +47,8 @@ In a limited number of cases adjectives can play the part of a particle. Here ar
   * fritstille - stille frit
   * fastholde - holde fast
   * fastslå - slå fast
+
+
+====See also====
+
+

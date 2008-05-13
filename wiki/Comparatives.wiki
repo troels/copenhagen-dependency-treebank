@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Comparatives ==
 
 === Comparatives ===
@@ -14,3 +18,8 @@ Comparatives always subcategorize for "end":
   * Det skyldes mere omstændigheder end ønske fra vores side.
   * anderledes end vi kunne ønske
   * Ingen, end ikke Kongen, kunne lyve sig fra det. "betaler mere i skat end de kan"
+
+
+====See also====
+
+

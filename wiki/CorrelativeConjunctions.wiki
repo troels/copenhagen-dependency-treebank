@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Correlative Conjunctions ==
 
 Correlative conjunctions ("både - og", "enten - eller", "hverken - eller", "dels - dels", "ikke - men", etc.) are analyzed as obligatorily extracted modifiers of the coordinator.
@@ -33,3 +37,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine72.png
 Instead of using the first conjunct as the head of the coordination, an alternative analysis is to analyze the coordinator as the head of the coordination. This analysis is however problematic when we look at extraction data: in extractions, it is possible to separate the first conjunct from the coordinator, but the second conjunct is always adjacent to the coordinator. This suggests that the coordinator and the second conjunct form a phrase. Thus, we have discontinuous coordinations and extractions from the first conjunct such as:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-22.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-23.png
+
+
+====See also====
+
+

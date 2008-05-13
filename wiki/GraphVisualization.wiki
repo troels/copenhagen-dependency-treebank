@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Graph Visualization ==
 
 The three graphs below show three possible visual representations of the same syntax graph: the arc layout used in the Danish Dependency Treebank, the layout used in classical dependency theory, and the phrase-structure layout used in discontinuous phrase-structure theories.
@@ -17,3 +21,8 @@ Compared to the classical dependency layout and the phrase-structure layout, the
 || Phrasal nodes || no problem || awkward (but not used in a dependency framework) ||
 
 Since our linguistic theory uses multiple heads, cyclicity, discontinuities, and empty categories, but not phrasal nodes, the arc layout is the best choice of graphical representation in our framework -- especially because sentences in our corpus can be quite long (up to 70-90 words), and because we intend to eventually encode entire discourse structures in one graph, ie, we eventually need to create graphs that span entire texts. One relative advantage of the classical dependency layout and the phrase-structure layout is that most linguists are familiar with them. But the arc layout has been used in a few syntax theories, including [http://www.phon.ucl.ac.uk/home/dick/enc-gen.htm Word Grammar].
+
+
+====See also====
+
+

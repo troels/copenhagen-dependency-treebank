@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Verbs Map ==
 
 || Dependent || Complement roles || Adjunct roles ||
@@ -7,3 +11,8 @@
 || preposition || locational-directional object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_lobj lobj])[[BR]] prepositional object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_Vpobj pobj])[[BR]] predicative ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predV pred]) || modifier (mod) ||
 || adverbial || locational-directional object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_ lobj])[[BR]] temporal-durational object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_ tobj])[[BR]] adverbial object ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_ avobj])[[BR]] predicative ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predV pred]) || modifier (mod) ||
 || other ||  || coordinator ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_coord coord])[[BR]] conjunct ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_conj conj])[[BR]] punctuation ([http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_pnct pnct]) ||
+
+
+====See also====
+
+

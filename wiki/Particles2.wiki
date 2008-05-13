@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Particles2 ==
 
 '''Particle''' We use the label part for verbal particles. These are (always?) separable prefixes, which elsewhere occur together with the verb in a complex word form:
@@ -10,3 +14,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/particle-01.
   * De gik sagen igennem [de gennemgik sagen]
   * De spiste med
   * Han hørte efter
+
+
+====See also====
+
+

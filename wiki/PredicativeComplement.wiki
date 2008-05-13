@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Predicative Complement ==
 
 '''Predicative complement''' The dependecy label pred is used for predicative complements. Semantically, these can be oriented towards the subject or the object. Subject-oriented predicative complements occur with copula verbs like "være", "synes", "blive":
@@ -19,3 +23,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/pred-01.png
 and as the predicative complement of a verb like "finde":
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/pred-02.png
+
+
+====See also====
+
+

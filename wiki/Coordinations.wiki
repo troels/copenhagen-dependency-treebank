@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Coordinations ==
 
 The first conjunct is analyzed as the head of the construction, coordinators are analyzed as adjuncts to the first conjunct, and other conjuncts are analyzed as complements of the coordinator. If no coordinator exists, then subsequent conjuncts are analyzed as conjuncts of the first conjunct. Punctuation is analyzed as an adjunct of the first conjunct. In the absence of a coordinator, a comma must obligatorily separate the conjuncts. If there are two or more coordinators, a comma can be used to disambiguate their operator precedence, since there is a strong preference for the comma to be attached to the highest operator.
@@ -38,3 +42,8 @@ In VP coordinations, the conjuncts may share peripheral dependents (ie, an adjac
   * Han skal lytte til og kan se på elefanterne.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-05.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-14.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-06.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-07.png
+
+
+====See also====
+
+

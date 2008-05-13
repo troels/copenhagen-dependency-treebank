@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Verb Complement Tests ==
 
 The linguistic tests are described in detail below:
@@ -17,3 +21,8 @@ The linguistic tests are described in detail below:
   * '''(7) agreement test:''' change number and gender of adjectival predicatives; adjectival subject predicatives should agree with subjects in number and gender; adjectival object predicatives should agree with direct objects in number and gender (eg, "De kalder dem *god/*godt/gode", "Hun gjorde den god/*godt/*gode igen", .
   * '''(8) paraphrase:''' predicatives can usually be paraphrased by APs (cf. Hudson); indirect objects can usually be paraphrased as PPs (cf. Jennifer Herriman, 1995. "The Indirect Object in Present-Day English". Acta Universitatis Gothoburgensis. Göteborg, Sweden.); direct objects usually cannot be paraphrased by PPs or APs.
     * ''De var venner'' =&gt; ''De var venlige mod hinanden''
+
+
+====See also====
+
+

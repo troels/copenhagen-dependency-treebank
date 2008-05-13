@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Time Indicating Objects ==
 
 === Time-indicating objects ===
@@ -27,3 +31,8 @@ List (unfinished) of verbs taking a tobj:
   * tage ("Turen derop '''tager''' næsten '''10''' timer.")
   * udkomme ("Bogen '''udkommer om''' to dage.")
   * vare ("Kurset '''varer 2''' uger.")
+
+
+====See also====
+
+

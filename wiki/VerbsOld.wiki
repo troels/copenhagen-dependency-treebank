@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ﻿==  Verbs Old ==
 
 '''Subject''' The dependency label subj is used for the subject of a finite (tensed?) verb. The subject can be a nominal, an infinitive construction headed by "at", or a finite clause headed by "at":
@@ -300,4 +304,9 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-08.pn
 The same dependency structure is found without extraposition in:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-09.png
+
+
+
+====See also====
+
 

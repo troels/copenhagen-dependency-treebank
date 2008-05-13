@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Verb Complements Of Nominal Type ==
 
 === Noun complements: subjects, direct objects, indirect objects, and predicatives ===
@@ -22,3 +26,8 @@ Different noun complement roles can be disambiguated with the following linguist
   * '''dobj vs iobj''': (1) question test, (6) expletive test, (8) PP-paraphrase
   * '''dobj vs pred''': (5) paradigm test, (6) expletive test, (7) agreement test
   * '''iobj vs pred''': (5) paradigm test, (6) expletive test, (7) agreement test, (8) PP-paraphrase
+
+
+====See also====
+
+

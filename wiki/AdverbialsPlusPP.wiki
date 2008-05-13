@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adverbials Plus P P ==
 
 ==== Expressions with verb + adverbial + PP ====
@@ -51,3 +55,8 @@ The marked paragraph above was written before the labels avobj and lobj came int
   * When there is a locative-directional element in the adverbial, they are tagged as lobj. The PP is tagged mod or pobj according to whether the expression is fixed or not (that is, could the preposition be exchanged with another preposition?). See under [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbs.html  verbs ] -&gt; locative-directional objects for a more thorough description.
 
  See under [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbs.html  verbs ] for principles demarkating avobj/lobj/part/mod and pobj.
+
+
+====See also====
+
+

@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Predicatives ==
 
 Verbal predicatives occur with present participles and with inflectet past participles:
@@ -7,3 +11,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine75.png 
 Also verbal predicatives occur with object predicatives:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine79.png
+
+
+====See also====
+
+

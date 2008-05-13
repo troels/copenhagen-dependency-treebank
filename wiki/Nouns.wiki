@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Nouns ==
 
 === Nouns ===
@@ -22,3 +26,8 @@ As the examples show, Danish noun phrases may consist of all combinations of pro
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-03.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-08.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-07.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-10.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-11.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-09.png
 
 The treebank does not distinguish between mass nouns and count nouns. Our view is that all nouns have a mass reading by default, which for most nouns can be type-shifted to a count meaning by an appropriate semantic operator (provided by plural morphemes and count determiners).
+
+
+====See also====
+
+

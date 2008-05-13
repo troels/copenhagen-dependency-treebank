@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Expletives ==
 
 === Expletive subjects ===
@@ -26,3 +30,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/expl-06.png 
 An alternative analysis is to tag the expletive as a regular subject (subj), but this analysis obscures the fact that the presence of the expletive subject affects the valency of the verb: it is only with expletive subjects that these verbs allow direct objects.
 
 Another alternative is to analyze the transformed subject as a subject rather than a direct object. However, this fails to capture the fact that the post-verbal nominal in most respects behaves as a direct object and not as a subject: it is accusative (not nominative), it appears exactly in the position of direct objects, and it does not allow the presence of another direct object.
+
+
+====See also====
+
+

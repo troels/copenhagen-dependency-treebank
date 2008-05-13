@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Coordinator ==
 
 Verbs often allow the coordinator to be omitted altogether:
@@ -7,3 +11,8 @@ Verbs often allow the coordinator to be omitted altogether:
   * Selvfølgelig er assistenten en pige, også hun en genial forsker.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/coord-15.png
+
+
+====See also====
+
+

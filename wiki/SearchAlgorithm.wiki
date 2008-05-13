@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Search Algorithm ==
 
 The search algorithm is given as follows:
@@ -100,3 +104,8 @@ function solve_simple(conjuncts (c1,..., cN), vars V) {
 }
 
 }}}
+
+
+====See also====
+
+

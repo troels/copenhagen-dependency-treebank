@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Danish Med ==
 
 '''MED''' Occurs with full range of complements.
@@ -25,3 +29,8 @@
        Alternatively, "med" could be (re)analyzed as a preposition and "på omkvædet" as a dependent (pobj) of "med".
       http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-34.png
        This would require that we allow (at least some) prepositions to take prepositional complements, which is otherwise not allowed.
+
+
+====See also====
+
+

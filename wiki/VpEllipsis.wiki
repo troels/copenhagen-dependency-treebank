@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Vp Ellipsis ==
 
 VP ellipsis is typically realized as VP anaphora, with the proform "det". The proform is tagged as a dobj to the verb:
@@ -12,3 +16,8 @@ VPE constructions without proforms are analyzed in terms of [vobj] fillers also 
   * Vi besøgte de byer (som) I gjorde.
 
  The last example involves antecedent contained deletion, and that here the proform is impossible: *Vi besøgte de byer (som) I gjorde '''det'''.
+
+
+====See also====
+
+

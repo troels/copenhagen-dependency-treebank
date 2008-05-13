@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Time Expressions ==
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-06.png
@@ -21,3 +25,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-20.png
 
   * De gik (klokken) to minutter i syv.
   * De gik *(klokken) syv.
+
+
+====See also====
+
+

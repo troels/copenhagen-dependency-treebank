@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Verb Complements Of Verbal Type ==
 
 The label vobj is used for verbal complements. Bare infinitives occur as verbal complements of modal verbs where they share the subject of their governor via a subject filler. Bare infinitives also occur as complements to verbs of perception, and some object control verbs.
@@ -11,3 +15,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-01.pn
 More complex verbal clusters form a chain of local vobj dependencies:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/vobj-03.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/vobj-04.png
+
+
+====See also====
+
+

@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Pronouns ==
 
 Pronouns are characterized by their ability to appear as subjects and direct objects on their own, without any complements.
@@ -48,3 +52,8 @@ The paradigms of "mange af X" allows definite plural nouns and pronouns, but not
 || A:adj_ord || første anden (tagged AO) tredje øvrige næste sidste || ? || ? ||
 
 The question here is whether the construction is headed by the determiner or the common noun, and whether the adjective is an adjunct of the determiner or the common noun -- a question that has been discussed at length in the literature. We will choose an analysis based on Richard Hudson's NP-analysis, with one slight difference due to the different formal frameworks employed: in constructions with a determiner and a noun, Hudson treats adjectives as dependents of both determiner and noun; since our formal framework does not allow double dependencies, and since there is definiteness-agreement between adjectives and determiners (and in German, strong-weak-mixed inflectional agreement), adjectives will be analyzed as dependents of the determiner.
+
+
+====See also====
+
+

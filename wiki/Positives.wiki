@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Positives ==
 
 === Positives ===
@@ -53,3 +57,8 @@ In the "nok" constructions, the predicative example where "nok" appears without 
   * Den er så god som ny.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-05.png
+
+
+====See also====
+
+

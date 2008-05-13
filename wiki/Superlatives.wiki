@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Superlatives ==
 
 === Superlatives ===
@@ -8,3 +12,8 @@
 Superlatives always allow the specification of a "contrast set" among which the predicated individual is superlative (ie, specification of :
 
   * den bedste/*gode/*bedre løber på hele holdet/i byen/af alle børnene
+
+
+====See also====
+
+

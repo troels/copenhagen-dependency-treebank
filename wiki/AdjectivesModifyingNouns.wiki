@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adjectives Modifying Nouns ==
 
 === Noun modifier ===
@@ -11,3 +15,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/ap-01.png
 
   * spor sjovt
   * han kommer hurtigst muligt
+
+
+====See also====
+
+

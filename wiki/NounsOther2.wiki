@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Nouns Other2 ==
 
 === Other phenomena ===
@@ -7,3 +11,8 @@
   * samtidig med at værnepligten enten er stærkt på retur eller helt afskaffet i de vestlige lande.
   * samtidig med at værnepligten enten vil kunne tænkes at være stærkt på retur eller helt afskaffet i de vestlige lande
   * de traditionelle to minutters stilhed
+
+
+====See also====
+
+

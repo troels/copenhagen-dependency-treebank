@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Relatives ==
 
 Relative clauses that modify a clause are analyzed as adjuncts of the finite verb. For these we use the special adjunct edge rel, which is also used for relative clauses that modify nominals.
@@ -243,3 +247,8 @@ These to tests for whether it is a relative or not, point in two directions. We 
 Regarding the adverbial "så længe", we believe that the correct analysis is that "så længe" takes a sentence as a relative. This is because this phrase actually tends to be able to take the relative pronoun "som" (e.g. "Jeg sover lige så længe, som jeg har lyst til"). Here is an axample of the analysis:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine09.png
+
+
+====See also====
+
+

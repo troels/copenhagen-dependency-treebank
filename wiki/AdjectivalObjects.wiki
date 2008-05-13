@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adjectival Objects ==
 
 Adjectival complements bear the dependency label aobj.
@@ -16,3 +20,8 @@ Some further examples:
   * have det godt/dårligt/vidunderligt
 
 An alternative is here, too, to analyse "alvorligt" and "godt" as pred, but these constructions are not truly predicative: "noget er alvorligt" is not the correct analysis (since you can take something funny seriously) and neither is "det er godt" the correct analysis.
+
+
+====See also====
+
+

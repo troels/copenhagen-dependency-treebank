@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Vocatives ==
 
 The adjunct label voc is used for nominals that refer to the intended listener, but serve no complement function with respect to the verb.
@@ -32,3 +36,8 @@ The vocative must be placed either at the beginning or the end of the sentence. 
   * Kom nu herhen, hest!
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/voc-01.png
+
+
+====See also====
+
+

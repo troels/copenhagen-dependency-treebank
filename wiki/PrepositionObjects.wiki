@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Preposition Objects ==
 
 We use "pobj" for complements headed by a preposition. Some prepositional complement express a (physical) location or direction, others express more abstract relations, including the "af"-phrase in a passive construction.
@@ -54,3 +58,8 @@ To distinguish prepositional complements from prepositional modifiers, we use th
     * Han ventede '''på stationen/i gården''' (mod)
   * ''' linear order''': Prepositional complements tend to precede prepositional modifiers:
     * Han venter på dem på stationen.[[BR]] --&gt; ??Han venter på stationen på dem. ("på dem" is pobj, "på stationen" is mod)  This really is only a tendency and cannot at all be used as an analysing guideline: Search in our tagged corpus reveals that a search for the construction verb + prepositional modifier + prepositional complement comes out with about 50 examples. A search for the construction verb + prepositional complement + prepositional modifier comes out with about 120 examples. The complement + modifier word order is clearly more frequent, but the word order modifier + complement is on the other hand quite common.
+
+
+====See also====
+
+

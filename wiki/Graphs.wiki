@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 The main idea in dependency theory is that syntactic structure can be described as a set of typed ''relations'' between ordered pairs of words: a main word (called a ''head'') and a subordinate word (called a ''subordinate''). The syntactic analysis is encoded as a graph containing labeled ''nodes'' (representing words) and labeled directed ''edges'' (representing relations between words). Different levels of syntactic structure are encoded with different types of relations:
 
   * '''surface relations (landing):''' relations between landing sites and landed nodes, and filler licensors and fillers.
@@ -21,3 +25,8 @@ Compared to the classical dependency layout and the phrase-structure layout, the
 || Phrasal nodes || no problem || awkward (but not used in a dependency framework) ||
 
 Since our linguistic theory uses multiple heads, cyclicity, discontinuities, and empty categories, but not phrasal nodes, the arc layout is the best choice of graphical representation in our framework -- especially because sentences in our corpus can be quite long (up to 70-90 words), and because we intend to eventually encode entire discourse structures in one graph, ie, we eventually need to create graphs that span entire texts. One relative advantage of the classical dependency layout and the phrase-structure layout is that most linguists are familiar with them. But the arc layout has been used in a few syntax theories, including [http://www.phon.ucl.ac.uk/home/dick/enc-gen.htm Word Grammar].
+
+
+====See also====
+
+

@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Names ==
 
 A ''proper name'' cannot be inflected as a noun, but can be modified by other names and nouns. We distinguish between ''first names'' (eg, "Peter"), ''last names'' (eg, "Nielsen"), ''non-person names'' (eg, "Volvo", "Buller", "København"), ''titles'' (eg, "Hr."), and ''professions'' (eg, "doktor", "bager"). The analysis of proper names is guided by the following rules (with the edge type shown in bold):
@@ -25,3 +29,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/name-03.png
 The internal structure of proper nouns can be revealed by looking at how first and last names combine with titles and professions. Eg, we have "Peter bager", but "*Jensen bager", which indicates that "bager" may modify a preceding first name, but not a last name. Moreover, "*Peter Jensen bager" suggests that the last name is the head of the construction. This is confirmed by the observation that "hr. Jensen" and "hr. Peter Jensen" are quite natural, whereas "???hr. Peter" is highly unnatural. The same applies to "bager Jensen", "bager Peter Jensen", and "???bager Peter". In the external syntax, our analysis of titles and professions as modifiers to the proper noun is confirmed by examples like "Jeg kender bager/hr. Jensen", as contrasted with "*Jeg kender bager/hr.".
 
 In morphological composition where words are connected by a hyphen, titles are perfectly capable of modifying any following proper name ("bager-Peter", "direktør-Jensen"), and the same holds for almost any other noun ("fodbold-Peter", "kage-Jensen"), and infinitive verb ("svømme-Peter", "gruble-Jensen").
+
+
+====See also====
+
+

@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adverbial Complements ==
 
 The label "avobj" applies to all adverbials analysed as complements (i. e. not displaying the optionality that characterize modifiers) and not interpretable as a particle, a locative-directional object or a time-indicating object (the last two, when applying to adverbs, being subcategories to the category adverbial object. Here are some examples:
@@ -44,3 +48,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine30.png 
   * Forestillingen varede '''3''' timer.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine33.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine34.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine35.png
+
+
+====See also====
+
+

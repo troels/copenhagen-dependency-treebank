@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  File Format ==
 
 There are obviously many ways to store the dependency analyses in the treebank. So far, the annotation program implements a very primitive XML-like data format. An example is shown below:
@@ -23,3 +27,8 @@ The word itself is enclosed within the &lt;W&gt; tags, and the attributes of the
 The annotation format is an extension of the notation used in the Danish PAROLE corpus. The tagging software treats all non-&lt;W&gt; tags as comments, so these tags are left unchanged by the software.
 
 In the future, we would like to add support for TIGER XML. In the distant future, we would also like to add support for the ATLAS interchange format.
+
+
+====See also====
+
+

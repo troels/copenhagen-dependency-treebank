@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Words Danish Så ==
 
 ==== Så ====
@@ -7,3 +11,8 @@ Like in the discussion of "hvor" in "hun ved, hvor svært det kan være" (see th
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine06.png
 
 For analysis of "så længe + [sentence]", see the paragraph "Relatives" under [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/verbs Verbs].
+
+
+====See also====
+
+

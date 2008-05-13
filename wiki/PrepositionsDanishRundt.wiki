@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Danish Rundt ==
 
 '''RUNDT''' Can behave as a preposition, when "rundt" occurs with a locational meaning:
@@ -16,3 +20,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine81.png
 
   * You can paraphrase the locational "De kørte landet rundt" to "De kørte rundt i landet" or to "De kørte rundt"; this indicates that "rundt" is the more important part of the phrase "landet rundt", and therefore "rundt" should be the head of the phrase.
   * You can paraphrase the time-indicating "De fester året rundt" to "De fester hele året" or "De fester året igennem"; this indicates that "året" is the more important part of the phrase "året rundt", and therefore "året" should be the head of the phrase.
+
+
+====See also====
+
+

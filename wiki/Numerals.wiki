@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Numerals ==
 
 === Numerals ===
@@ -61,3 +65,8 @@ Thus, the end result is that we have found no compelling evidence in favour of t
 In contrast, the analysis of numerals that we have presented above does satisfy this requirement in a very natural way, and since we have been unable to find any arguments against it -- or indeed any convincing arguments why numeral phrases should be analogous to noun phrases -- we believe that our analysis of numerals is the most natural one. One alternative, which is probably viable, is to analyze "multiplicative complements" and "additive complements" as adjuncts instead, but then one has to be very careful with multiple adjuncts, the order of application of the adjuncts in the functor-argument structure, etc. In the end, we felt that the complement approach was simpler from a conceptual and computational point of view.
 
 Another alternative, which seems perfectly viable, is to analyze the "og" plus second conjunct as a "coord"-complement instead of an adjunct. This analysis has the great advantage that the restrictions on the second conjunct can be expressed very easily, but differs from the normal analysis of coordination by analyzing the coordinator as an optional complement instead of an adjunct. Fortunately, this analysis is annotated in the same way as the ordinary coordination analysis that we have chosen, so the choice between the two analyses reduces to how one interprets the treebank annotation.
+
+
+====See also====
+
+

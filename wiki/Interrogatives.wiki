@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Interrogatives ==
 
 Polar questions, including alternative questions, exhibit subject-verb inversion. The dependency structure, however, is identical to that of the corresponding declarative:
@@ -36,3 +40,8 @@ As an alternative one can analyze "om" as a conjunction, which is linked to the 
 If "om" in embedded polar questions is analyzed as a preposition the two constructions would receive a unified analysis.
 
 A comment on the analysis of "hjem" as a modifier to "gik": alternatively "hjem" could be analyzed as a complement, either part or a locative-directional complement, if we decide to include such a dependency. This has no bearing on the analysis of interrogatives.
+
+
+====See also====
+
+

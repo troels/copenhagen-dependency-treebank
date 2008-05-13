@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Passives2 ==
 
 Passivization converts the subject of an active verb into an "af"-complement (tagged as pobj), and converts either a direct object, an indirect object, or (more limited) the nominal object of a prepositional object into a new subject (subj). Passivization can be expressed morphologically (verb stem + -"s") or syntactically ("blive" + past participle).
@@ -17,3 +21,8 @@ Passive verb forms occur as complements (vobj) to modals and "be":
   * Han er '''blevet undersøgt'''.
 
 Alternatively, one could analyze "af"+nominal as a modifier to the verb.
+
+
+====See also====
+
+

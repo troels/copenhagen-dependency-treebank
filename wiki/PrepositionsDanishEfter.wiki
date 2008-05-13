@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Danish Efter ==
 
 '''EFTER''' Occurs with full range of complements.
@@ -13,3 +17,8 @@
     * se (noget) efter, give efter, tænke efter,
   * CS: subordinate conjunction
     * Efter han blev dømt, flyttede de -- could this be analyzed as prep + finite clause (cf. "Efter '''at''' han blev dømt, flyttede de"?)
+
+
+====See also====
+
+

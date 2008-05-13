@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositional Object ==
 
 '''Prepositional object'''We use pobj for complements headed by a preposition. Some prepositional complement express a (physical) location or direction, others express more abstract relations. In the latter case the verb typically subcategorizes for a specific preposition.
@@ -8,3 +12,8 @@ It is important to distinguish prepositional complements from prepositional modi
 
   * Han ventede '''på dem''' (pobj)
   * Han ventede '''på stationen''' (mod)
+
+
+====See also====
+
+

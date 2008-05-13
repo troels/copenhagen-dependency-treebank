@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Predicative Complements ==
 
 '''Predicative complements''' Predicative complements are found in so-called absolutive constructions, headed by the prepositions "med" or "under". The preposition takes a nominal object (nobj) and a predicative complement (pred), which may be a preposition, adjective or noun. Note that a nominal predicative complement is preceded by "som" (as), which we analyze as the head of the predicative complement.
@@ -27,3 +31,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-19.png
   * Jeg kender ham ikke '''som privatperson'''.
 
   Is this a different "som"? Which means something like "qua"? If so, do we need to distinguish the two syntactically?
+
+
+====See also====
+
+

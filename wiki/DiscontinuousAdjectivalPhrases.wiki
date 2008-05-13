@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Discontinuous Adjectival Phrases ==
 
 === Discontinuous APs ===
@@ -9,3 +13,8 @@
   * en så god kage at det ikke kan beskrives
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-01.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-02.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-03.png http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-04.png
+
+
+====See also====
+
+

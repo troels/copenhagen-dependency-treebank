@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Prepositions Verbal Complements ==
 
 '''Verbal complements''' Finite clause complements without "at" are tagged as vobj:
@@ -14,3 +18,8 @@ Anternatively, finite clauses without "at" could be analyzed as nobj, where the 
   * '''At de kommer''' er vigtigt.
 
  If bare finite clauses are (type-shifted into) nominals, this contrast has to be encoded by specific selection restrictions on the subject. If bare finite clauses are verbal, it follows from the generalization that verbs cannot be subjects.
+
+
+====See also====
+
+

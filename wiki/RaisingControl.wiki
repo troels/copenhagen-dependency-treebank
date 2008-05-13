@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Raising Control ==
 
 In raising and subject control structures, the infinitive shares the subject of the raising/control verb via a subject filler:
@@ -47,3 +51,8 @@ Below is a list of the control verbs for which we have consequently added a subj
   * ønske
 
  This is an incomplete list. We have not yet had the resources to work on a more complete list. There are also some problems concerning parallel constructions with "V + P + at", e.g. "Han vil prøve på at komme til tiden" ("He will try to be on time"). These constructions should have a subject filler too, but again we have not had the resources to do the necessary analysing work in order to have a complete picture of these constructions. We have therefore not added a subject filler in such constructions.
+
+
+====See also====
+
+

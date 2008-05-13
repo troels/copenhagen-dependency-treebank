@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Syntactic Tests ==
 
 In many cases, more than one analysis is possible. In that case, the following principles will be used to select the "best" analysis:
@@ -16,3 +20,8 @@ Here are some tests that should be considered when weighing two analyses against
   * '''generation test:''' what kind of phrases does the corresponding lexicon generate -- look for undergeneration and overgeneration.
   * '''paradigm test:''' examine the entire paradigm of words that can replace the word you are considering -- this may generate related constructions that may help you disambiguate between the choices.
   * '''generalization test:''' try to think of as many related constructions as possible, and make an analysis for all of them at the same time -- the analyses should be as similar as possible, and create as little ambiguity as possible in the hypothesized lexicon.
+
+
+====See also====
+
+

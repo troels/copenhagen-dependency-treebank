@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Nouns Other ==
 
 Many theorists, eg, Ivan Sag, has pointed out noun phrases with a rather complicated structure. Følgende eksempler er oversat fra (Pollard-Sag, 1994, p. 364-365):
@@ -89,3 +93,8 @@ al/alt/alle hel/helt/hele mig dig ham hende den det Dem sig hinanden os jer dem 
  The pronoun "ham" ("him") may take any definite noun or pronoun as its nominal complement:
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/np-12.png
+
+
+====See also====
+
+

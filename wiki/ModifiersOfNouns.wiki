@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Modifiers Of Nouns ==
 
 All noun phrases allow a modifier to attach to them:
@@ -24,3 +28,8 @@ The label parenthetical modifier (modp) denotes a modifier that attaches to a no
   * På samme tidspunkt - '''i''' tidsrummet mellem klokken 12.00 og 13.00 - skulle hun til undervisning.
   * Alle pensionister (både '''enlige''' og ægtepar) har ret til denne ydelse.
   * Døre til boliger, såvel '''hoveddør''' som bagdør, bør være solide.
+
+
+====See also====
+
+

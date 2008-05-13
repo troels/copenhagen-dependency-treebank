@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Copulas ==
 
 '''Copula constructions:''' These are basically covered in the sections on 'pred' and 'expl'. One remaining question is whether we should distinguish between predicative and equative/specificational/identificational copula clauses, when both dependents are nominals:
@@ -31,3 +35,8 @@ The Penn Treebank treats all copular clauses as predicational, including ones wi
 The Corpus Gesproken Nederlands does not discuss copula clauses explicitly. Some predicational copula clauses are given under the discussion of the complement label 'PREDC'.
 
 This leaves two options for the Danish Dependency Treebank: (1) Treat all copula clauses as predicational -- tag all predicate complements as 'pred'. (2) Distinguish predicational copular clauses from equative/specificational/identificational copular clauses -- tag the complement of the former as 'pred' and the complement of the latter as 'dobj'.
+
+
+====See also====
+
+

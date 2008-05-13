@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Obligatory Modifiers ==
 
 ==== Obligatory modifiers ====
@@ -15,3 +19,8 @@ Both "end" and "som" are a little bit like gapping constructions: "Det er bedre 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/stine62.png
 
  In spite of the plausibility of this analysis we have decided to let the analysis of "end" and "som" be parallel to the other constructions; but the eliptical character should be kept in mind.
+
+
+====See also====
+
+

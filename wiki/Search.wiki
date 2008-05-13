@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Search ==
 
 A graph search is specified as a constraint satisfaction problem where we must find all possible variable instantiations that make those variables satisfy a given constraint. The constraint is a term composed of simple constraints connected by the logical operators "&amp;" or "," (and), "|" (or), and "!" (negation). Parentheses can be inserted to disambiguate operator arguments.
@@ -21,3 +25,8 @@ Possible constraints:
   * ''find graph with an expletive before its main verb:''` $1 expl $2,[[BR]] $1:word,[[BR]] $2:verb,[[BR]] $1&lt;$2 `
   * ''find graph with a topicalized non-subject'': ` $1 land-subj $2,[[BR]] $1:noun-vmod,[[BR]] $2:verb,[[BR]] $1&lt;$2 `
   * ''find a relativized object:'': ` $3 rel $1,[[BR]] $2 ref $1,[[BR]] $2 path({&gt;dep}+) $3,[[BR]] $1:noun+[obj],[[BR]] $2:word,[[BR]] $3:verb,[[BR]] $1&lt;$2,[[BR]] $2&lt;$3 `
+
+
+====See also====
+
+

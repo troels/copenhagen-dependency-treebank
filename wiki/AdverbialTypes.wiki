@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adverbial Types ==
 
   * '''locational adverbs''' (''bilen var fastgjort ___'')[[BR]] bagved borte fremme henne (henover) her hjemme inde indenfor nede nedenfor nedenunder (nedover) opad_til oppe ovenfor ovenpå overfor ovre ude udenfor (udover) (væk)
@@ -8,3 +12,8 @@
   * '''temporal adv.''' (''det fandt først sted ___'')[[BR]] derefter efter før inden samtidig
   * '''temporal prep.''' (''det fandt sted ___ middagen'')[[BR]] efter før inden
   * '''other:''' sammen med lige ad uden
+
+
+====See also====
+
+

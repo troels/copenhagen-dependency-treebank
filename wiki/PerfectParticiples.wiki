@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Perfect Participles ==
 
 In '''perfect participles''', there is no primary subject dependency, but all other complement roles are realized as normal. Perfect participles can function as modifiers of nouns and verbs, as verbal objects if they are uninflected, and as predicatives if they appear with adjectival "-n" or "-e" inflection (eg, "skåret"--&gt;"skåren"/"skårne").
@@ -20,3 +24,8 @@ Perfect participles have an active form and possibly one or more passive forms. 
 || '''accusatives:''' ane bede bo bære dele få føle føre give gøre have håbe høre koge købe lade lave lege leve lide love lyde lære læse løbe mene måle nyde opnå rive røre se sige slå sy søge tabe tage tale tro vide vise være yde åbne ~-''Hun giver børnene en ballon[[BR]] --&gt; Hun har givet børnene en ballon (subj)[[BR]] --&gt; ?Børnene er givet en ballon (?iobj)[[BR]] --&gt; ?En ballon er givet børnene (?dobj)[[BR]] --&gt; Børnene bliver givet en ballon (iobj)[[BR]] --&gt; En ballon bliver givet børnene (dobj)''-~ || active || passive || passive || passive ||
 || '''unaccusatives:''' blive dø? falde forsvinde gælde? komme lykkes ske stige synes[[BR]] ~-''Kursen falder[[BR]] --&gt; *Kursen[subj] har faldet[[BR]] --&gt; Kursen[subj] er faldet[[BR]] --&gt; *Kursen[subj] bliver faldet''-~ || * || active || * || active ||
 || '''neither:''' begynde foregå fortsætte følge gå komme køre medvirke møde nå optræde rejse ske skynde slippe slutte sove springe standse starte stege stige stå træde trænge undgå vende virke ~-''Vi går en tur i skoven[[BR]] --&gt; Vi[subj] har gået en tur i skoven[[BR]] --&gt; Vi[subj] er gået en tur i skoven[[BR]] --&gt; Ruten[dobj] er gået af os mange gange før[[BR]] --&gt; Ruten[dobj] bliver gået af os i morgen[[BR]] --&gt; *Vi[subj] bliver gået en tur i skoven''-~ || active || active/[[BR]]passive || passive || passive ||
+
+
+====See also====
+
+

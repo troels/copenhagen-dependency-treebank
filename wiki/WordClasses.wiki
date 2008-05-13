@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Word Classes ==
 
 The PAROLE tagset contains three morphologically defined word classes:
@@ -43,3 +47,8 @@ Gerundium occurs with almost all verbs by addition of "+en" (eg, "skaben", "undr
 Here is a graphical diagram of our organization of the PAROLE word classes (the word class CS is not recognized as a separate word class and its member words are mostly analyzed as prepositions). Moreover, cardinal adjectives are analyzed as cardinal numerals, a special group of pronouns.
 
 http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/wclasses.png
+
+
+====See also====
+
+

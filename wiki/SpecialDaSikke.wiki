@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Special Da Sikke ==
 
 === Sikke/sikken/sikket ===
@@ -17,3 +21,8 @@ Sikke/sikken/sikket should, according to ODS, be analysed as "se + hvilken" or "
 
   * Hvor han dog gør sig umage!
   * Som hun da strammer sig an!
+
+
+====See also====
+
+

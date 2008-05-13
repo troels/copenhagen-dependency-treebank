@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Adjectives Valency ==
 
 === General valency of adjectives ===
@@ -20,3 +24,8 @@ General complements:
   * A at Vinf: X = Vinf ("sejle")
 
 "så at sige" "så at de kunne lege"
+
+
+====See also====
+
+

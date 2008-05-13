@@ -1,3 +1,7 @@
+#labels Draft
+#summary Write summary here.
+
+
 ==  Clefts ==
 
 Clefts are analysed as copula clauses, where the relative clause is an extraposed dependent of the subject (below left). This analysis is supported by the fact that exactly this dependency structure found without extraposition (below right). These correspond to wh-clefts in English, also known as pseudo-clefts.
@@ -14,3 +18,8 @@ http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/copula-08.pn
   * Det sagdes/forlød at han kom.
   * Det var/blev klart at han ville komme.
   * Det forskrækkede/overraskede os at hun skreg.
+
+
+====See also====
+
+
