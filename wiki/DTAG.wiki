@@ -1,0 +1,3 @@
+==  D T A G ==
+
+The Danish Dependency Treebank has been created with the [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/dtag DTAG] treebank tool. DTAG also allows the user to search a treebank for syntactic constructions, specified with a constraint-based query language. We are currently working on extending DTAG with modules for learning a massively probabilistic dependency grammar from a treebank, and for parsing texts with a massively probabilistic dependency grammar.
