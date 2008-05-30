@@ -1,8 +1,7 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "mod"
 
-
-==  Prepositions Danish Mod ==
+== The Danish preposition "mod" ==
 
 *MOD* Occurs with full range of complements.
 
@@ -11,9 +10,9 @@
     * op *mod* 100 mennesker
   * Fixed expressions
     * på vej mod
-    * Adverbial uses (tagged as RG): None!
-
+  * Adverbial uses (tagged as RG): None!
 
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

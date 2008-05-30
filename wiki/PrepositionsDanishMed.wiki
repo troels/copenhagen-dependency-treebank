@@ -1,12 +1,11 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "med"
 
-
-==  Prepositions Danish Med ==
+==  The Danish preposition "med" ==
 
 *MED* Occurs with full range of complements.
 
-  * PAROLE sammensatninger: med_hensyn_til, med_rette
+  * PAROLE compounds: med_hensyn_til, med_rette
   * Special constructions: [Verb + part + pobj]
     * Den skrumper ind *med* 50%.
     * De holdt op *med* at synge.
@@ -34,3 +33,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

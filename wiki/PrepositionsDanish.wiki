@@ -1,0 +1,26 @@
+﻿#labels Draft
+#summary Danish prepositions
+
+== Annotation of Danish prepositions ==
+
+[PrepositionsDanishAf af]
+[PrepositionsDanishBag bag]
+[PrepositionsDanishEfter efter]
+[PrepositionsDanishFor for]
+[PrepositionsDanishFra fra]
+[PrepositionsDanishGennem gennem]
+[PrepositionsDanishHos hos]
+[PrepositionsDanishI i]
+[PrepositionsDanishMed med]
+[PrepositionsDanishMellem mellem]
+[PrepositionsDanishMod mod]
+[PrepositionsDanishOmkring omkring]
+[PrepositionsDanishOm om]
+[PrepositionsDanishOver over]
+[PrepositionsDanishPå på]
+[PrepositionsDanishRundt rundt]
+[PrepositionsDanishTil til]
+[PrepositionsDanishUden uden]
+[PrepositionsDanishUnder under]
+[PrepositionsDanishVed ved]
+[PrepositionsDanishOthers other prepositions]

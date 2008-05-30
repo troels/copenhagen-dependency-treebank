@@ -1,15 +1,15 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "i"
 
 
-==  Prepositions Danish I ==
+==  The Danish preposition "i" ==
 
 *I* Occurs with full range of complements.
 
-  * PAROLE sammensatninger:i_dag, i_nat, i_aftes, i_øvrigt, i_forvejen, i_det_hele_taget, i_gang, i_hvert_fald
+  * PAROLE compounds:i_dag, i_nat, i_aftes, i_øvrigt, i_forvejen, i_det_hele_taget, i_gang, i_hvert_fald
   * Special constructions
 
- Perhaps these are not special after all, and should instead be covered in a general section on the external syntax of prepositional phrases?
+Perhaps these are not special after all, and should instead be covered in a general section on the external syntax of prepositional phrases?
 
   * As pobj for a verb: De meldte sig ind *i partiet*.
   http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-41.png
@@ -40,3 +40,4 @@ This example presents several difficult, and partly interrelated, analytical cho
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

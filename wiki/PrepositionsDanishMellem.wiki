@@ -1,8 +1,8 @@
-#labels Draft
+﻿#labels Draft
 #summary Write summary here.
 
 
-==  Prepositions Danish Mellem ==
+==  The Danish preposition "mellem" ==
 
 *MELLEM* Occurs, at least in principle, with all types of complements
 
@@ -12,3 +12,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

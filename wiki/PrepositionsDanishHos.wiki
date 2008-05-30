@@ -1,5 +1,5 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "hos"
 
 
 ==  Prepositions Danish Hos ==
@@ -8,9 +8,10 @@
 
   * Special constructions
     * han er med hos os
-  * Adverbial uses (tagged as RG):None!
+  * Adverbial uses (tagged as RG): None!
 
 
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

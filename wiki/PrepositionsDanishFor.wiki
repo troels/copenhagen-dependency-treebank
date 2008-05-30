@@ -1,8 +1,8 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "for"
 
 
-==  Prepositions Danish For ==
+==  The Danish preposition "for" ==
 
 *FOR* Occurs with full range of complements.
 
@@ -39,3 +39,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

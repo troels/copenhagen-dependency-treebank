@@ -1,12 +1,12 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "på"
 
 
-==  Prepositions Danish På ==
+==  The Danish preposition "på" ==
 
 *På* Occurs with full range of complements.
 
-  * PAROLE sammensatninger: på_grund_af, på_tide, på_ny, på_fode
+  * PAROLE compounds: på_grund_af, på_tide, på_ny, på_fode
   * Special constructions
     * De boede *oppe på bjerget*
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-35.png
@@ -28,3 +28,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

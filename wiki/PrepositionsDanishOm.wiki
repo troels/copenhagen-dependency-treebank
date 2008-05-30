@@ -1,12 +1,11 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "om"
 
-
-==  Prepositions Danish Om ==
+==  The Danish preposition "om" ==
 
 *OM* Occurs with full range of complements.
 
-  * PAROLE sammensatninger: om_muligt, om_end, selv_om, som_om (these are based on "om" as a coordinator), om_bord
+  * PAROLE compounds: om_muligt, om_end, selv_om, som_om (these are based on "om" as a coordinator), om_bord
   * Fixed expressions
     * være tale om, ikke tale om
     * (stå) sammen om
@@ -27,3 +26,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

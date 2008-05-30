@@ -1,8 +1,8 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "efter"
 
 
-==  Prepositions Danish Efter ==
+==  The Danish preposition "efter" ==
 
 *EFTER* Occurs with full range of complements.
 
@@ -22,3 +22,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

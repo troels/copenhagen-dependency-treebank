@@ -1,12 +1,12 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "fra"
 
 
-==  Prepositions Danish Fra ==
+==  The Danish preposition "fra" ==
 
 *FRA* Occurs with full range of complements.
 
-  * PAROLE sammensatninger: bortset_fra
+  * PAROLE compounds: bortset_fra
   * Special constructions
     * *fra* syv *til* otte meter, *fra* 1979 *til* 1980
     * Han er *meget langt* fra Roskilde (modification of "fra", or is "fra" a complement to "langt"?)
@@ -29,3 +29,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

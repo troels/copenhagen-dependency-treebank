@@ -1,12 +1,12 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "til"
 
 
-==  Prepositions Danish Til ==
+==  The Danish preposition "til" ==
 
 *TIL* Occurs with full range of complements.
 
-  * PAROLE sammensatninger:til_sidst, til_bunds, til_fulde, til_døde, til_gode, til_rette, til_fods, til_huse, til_stede, til_tops, til_veje, til_tåls, til_vejrs, til_lands, til_lands, til_rors, til_orde, til_vægs, med_hensyn_til, af_og_til, nu_til_dags
+  * PAROLE compounds: til_sidst, til_bunds, til_fulde, til_døde, til_gode, til_rette, til_fods, til_huse, til_stede, til_tops, til_veje, til_tåls, til_vejrs, til_lands, til_lands, til_rors, til_orde, til_vægs, med_hensyn_til, af_og_til, nu_til_dags
   * Special constructions
     * efter to *til* fire måneder [analyzed as coordination]
     http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/prep-44.png
@@ -34,3 +34,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]

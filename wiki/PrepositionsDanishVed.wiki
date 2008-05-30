@@ -1,5 +1,5 @@
-#labels Draft
-#summary Write summary here.
+﻿#labels Draft
+#summary The Danish preposition "ved"
 
 
 ==  Prepositions Danish Ved ==
@@ -23,3 +23,4 @@
 ====See also====
 
 
+[PrepositionsDanish Danish prepositions]
