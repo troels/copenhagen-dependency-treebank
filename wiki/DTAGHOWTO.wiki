@@ -48,7 +48,7 @@ Advanced commands:
 
 === Annotating word segments ===
 
-  * *{{{segment <node> <segments>}}}*: segment the given node into smaller parts; opens a segment editor for the given node if {{{<segments>}}} is omitted. Eg, {{{segment 123}}} or {{{segment 123 auto|camper}}} (dependency graphs), {{{segment b17}}} or {{{segment b17 ¹hard²disk}}} (alignments). The segments are numbered with the superscript digits "¹²³" (press "shift+!altgr+1" or "^+1", similarly for 2 and 3) preceded by "^" (press "^+^") if there are more than 3 segments. These digits are used to identify the segments. If you insert a segment boundary, the vertical bar "|", the numbering is performed automatically by DTAG.
+  * *{{{segment <node> <segments>}}}*: segment the given node into smaller parts; opens a segment editor for the given node if {{{<segments>}}} is omitted. Eg, {{{segment 123}}} or {{{segment 123 auto|camper}}} (dependency graphs), {{{segment b17}}} or {{{segment b17 ¹hard²disk}}} (alignments). The segments are numbered with the superscript digits "¹²³" (press "shift+!altgr+1" or "{{{^+1}}}", similarly for 2 and 3) preceded by "{{{^}}}" (press "^+^") if there are more than 3 segments. These digits are used to identify the segments. If you insert a segment boundary, the vertical bar "|", the numbering is performed automatically by DTAG.
   * *alignment edges for segments:* specify the relevant segments in the edge label, eg when aligning "¹wind²shield" with "wind shield", simply specify alignment edges {{{0 ¹= 0}}} and {{{0 ²= 1}}}. 
   * *dependency edges for segments:* specify the relevant segments in the edge label, eg when annotating internal dependency structure of "¹wind²shield", create alignment edges {{{0 ¹mod² 0}}}. 
 
