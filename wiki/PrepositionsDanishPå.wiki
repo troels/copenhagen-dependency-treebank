@@ -1,4 +1,5 @@
 ﻿#labels Draft
+#parents PrepositionsDanish
 #summary The Danish preposition "på"
 
 

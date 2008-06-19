@@ -1,10 +1,7 @@
-#labels Draft
+﻿#labels Draft
 #summary Write summary here.
 
-
-==  Nouns ==
-
-=== Nouns ===
+== Nouns ==
 
 Nouns can be subdivided into common nouns, proper names, and pronouns (which include cardinal numerals and special pronouns like "at" (infinitival "to" and complementizer "that") and "om" ("whether")). Determiners are simply viewed as pronouns that take a usually optional noun complement. Common nouns are inflected in number and definiteness, proper names are inflected in number (although this is somewhat rare), and pronouns do not exhibit any systematic inflection at all.
 

@@ -1,0 +1,41 @@
+﻿== DTAG HOWTO ==
+
+This document describes how to use DTAG for different tasks. 
+
+=== Starting DTAG ===
+
+Start DTAG by clicking on the "DTAG" icon on your desktop. If you are 
+connected to the Internet, you should update DTAG first by clicking on the "Update DTAG" icon. 
+
+*Note.* At CBS, you have to enter your username and password before you get a
+network connection: open a browser by clicking on the Firefox icon at the top
+menu bar, open an arbitrary internet page, and enter your CBS username and
+password when prompted. You can choose wireless LAN by clicking on the Network 
+icon at the top menu bar on the right.
+
+=== Tasks and revision control ===
+
+  * *{{{opentask}}}*: open the first unfinished task that has been assigned to you (the _current task_).
+  * *{{{closetask}}}*: mark the current task as closed, eg, tell DTAG that you are completely done with it so that {{{opentask}}} will return another task.
+  * *{{{tasks}}}*: open your task list in an editor; you can then reorder the tasks (if you want to do them in a different order), add tasks, or reopen tasks that you have closed inadvertently.
+  * *{{{save}}}*: save your current work on your hard disk (you should do this frequently). 
+  * *{{{update}}}*: update your local copy of the central CDT repository with all the annotations.
+  * *{{{commit}}}*: upload your local annotations to the central CDT repository.
+
+=== Annotating alignment graphs ===
+
+
+=== Annotating dependency graphs ===
+
+=== Annotating word segments ===
+
+=== Comparing annotations with diff ===
+
+=== Searching dependency graphs ===
+
+=== Printing to PDF files ===
+
+=== Other useful commands ===
+
+
+

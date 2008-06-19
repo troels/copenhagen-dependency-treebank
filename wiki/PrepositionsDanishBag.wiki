@@ -1,4 +1,5 @@
 ﻿#labels Draft
+#parents PrepositionsDanish
 #summary The Danish Preposition "bag"
 
 ==  The Danish preposition "bag" ==
