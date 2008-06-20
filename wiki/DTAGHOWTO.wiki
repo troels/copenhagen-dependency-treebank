@@ -15,6 +15,8 @@ icon at the top menu bar on the right.
 
   * *{{{viewer}}}*: show the current graph in a window (if the viewer doesn't display correctly, simply restart the viewer by closing the viewer window and typing {{{viewer}}} again.
   * *{{{manual}}}*: open a web browser with a local copy of the CDT treebank.dk website; click on the "Dependency maps" link in order to get access to more than 10.000 searchable treebank examples. 
+  * *{{{note <node> <text>}}}*: make a note at the given node with the given text (used if you want to comment on a certain part of the graph, eg, for later post-editing).
+  * *{{{notes}}}*: print all notes associated with nodes in the visible text.
   * *command line:* you can use up- and down-arrows to see previous commands, left- and right-arrows to edit previous commands; hit return to re-execute the command. 
 
 === Tasks and revision control ===
