@@ -17,6 +17,7 @@ icon at the top menu bar on the right.
   * *{{{manual}}}*: open a web browser with a local copy of the CDT treebank.dk website; click on the "Dependency maps" link in order to get access to more than 10.000 searchable treebank examples. 
   * *{{{note <node> <text>}}}*: make a note at the given node with the given text (used if you want to comment on a certain part of the graph, eg, for later post-editing).
   * *{{{notes}}}*: print all notes associated with nodes in the visible text.
+  * *{{{edges <node>}}}*: show all alignment edges or incoming edges at the given node. The command can be abbreviated *{{{<node>}}}*, and in an alignment graph, the node key is assumed to be "a" unless otherwise stated. Eg, in an alignment graph, the following three commands are equivalent: {{{edges a12}}}, {{{a12}}}, {{{12}}}. 
   * *command line:* you can use up- and down-arrows to see previous commands, left- and right-arrows to edit previous commands; hit return to re-execute the command. 
 
 === Tasks and revision control ===
@@ -46,7 +47,8 @@ Advanced commands:
   * *{{{<node> <label> <node>}}}*: create a dependency edge stating that the first node is a {{{label}}} dependent of the second node (eg, {{{23 subj 45}}}). The dependency is drawn as an arrow that starts at the governor (head word) and ends at the dependent (subordinate word).
   * *{{{edel <node>}}}*: delete all in-coming edges at the given node.
   * *{{{edgel <node> <label> <node>}}}*: delete the given dependency edge.
-  * *{{{oshow <offset>}}}*: display the graph from the given node, renumbering it as node 0. Eg: {{{oshow 30}}}, {{{oshow -30}}}, {{{oshow =0}}} (show entire graph).
+  * *{{{show <node>}}}*: display the graph starting from the given node. Uses relative node numbering (+-=), as in offset. Eg: {{{show 30}}}, {{{show -30}}}, {{{show =0}}} (show entire graph).
+  * *{{{oshow <offset>}}}*: display the graph from the given node, renumbering it as node 0. Eg: {{{oshow 30}}}, {{{oshow -30}}}, {{{oshow =0}}} (show entire graph). 
 
 === Annotating word segments ===
 
@@ -58,6 +60,7 @@ Advanced commands:
 
   * *{{{diff <file>}}}*: compare the current dependency graph with the given dependency graph. Prints statistics and shows differences graphically. Eg: {{{diff 0502-it-morten.tag}}} (when working on {{{0502-it-iørn.tag}}}).
   * *{{{adiff <file>}}}*: compare the current alignment with the given alignment. Prints statistics and shows differences graphically. Eg: {{{adiff 0502-da-it-morten.atag}}} (when working on {{{0502-da-it-iørn.atag}}}).
+  * *{{{undiff}}}*: turn off diff mode again.
 
 === Searching dependency graphs ===
 
