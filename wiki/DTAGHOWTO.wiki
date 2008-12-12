@@ -70,6 +70,9 @@ Advanced commands:
     * {{{find $X =~ /^at$/}}}  <br>_(all occurences of a word $X that matches the regular expression {{{/^at$/}}} ("{{{^}}}" = start of string, "$" = end of string)_
     * {{{find $X[msd] =~ /^NP/}}}  <br>_(all occurrences of a word $X whose word class ("msd") starts with "NP" (a proper noun))_
     * {{{find ( $X expl $Y ) & ( $X[lemma] =~ /^der$/ ) & ( $X > $Y )}}}  <br>_(all occurences of the expletive word $X with lemma "der" which has been analyzed as an "expl" dependent of a preceding word $Y)_
+  * *{{{next}}}*: goto the next match in the search
+  * *{{{prev}}}*: goto the previous match in the search
+  * 
 
 === Other useful commands ===
 
