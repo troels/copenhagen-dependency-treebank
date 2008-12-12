@@ -68,14 +68,12 @@ Advanced commands:
   * *{{{find [-corpus] <constraint>}}}*: search the graph (or the entire corpus co nsisting of all dependency graphs) for all occurrences that match the given constraint. The constraint consists of simple constraints on labels, edges, and word order that can be combined with logical AND "&", OR "|", and NOT "!", as well as universal and existential quantifier expressions ({{{exist(<var>, <constraint>)}}} and {{{all(<var>, <constraint>)}}}. Examples:
     * {{{find $X subj $Y}}} _(all occurences of a subject $X and its head word $Y)_
     * {{{find $X =~ /^at$/}}}  _(all occurences of a word $X that matches the regular expression /^at$/ ("^" = start of string, "$" = end of string)_
-	* {{{find $X[msd] =~ /^NP/}}}  _(all occurrences of a word $X whose word class ("msd") starts with "NP" (a proper noun))_
-	* {{{find ( $X expl $Y ) & ( $X[lemma] =~ /^der$/ ) & ( $X > $Y )}}}  _(all occurences of the expletive word $X with lemma "der" which has been analyzed as an "expl" dependent of a preceding word $Y)_
+    * {{{find $X[msd] =~ /^NP/}}}  _(all occurrences of a word $X whose word class ("msd") starts with "NP" (a proper noun))_
+    * {{{find ( $X expl $Y ) & ( $X[lemma] =~ /^der$/ ) & ( $X > $Y )}}}  _(all occurences of the expletive word $X with lemma "der" which has been analyzed as an "expl" dependent of a preceding word $Y)_
 
 === Other useful commands ===
 
   * *{{{!ls <pattern>}}}*: list all files in current directory that match the pattern {{{<pattern>}}}; the wild-card character is "{{{*}}}". Eg: {{{ls 0001*.tag}}}. 
   * *{{{pwd}}}*: print current working directory.
   * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
-
-
 
