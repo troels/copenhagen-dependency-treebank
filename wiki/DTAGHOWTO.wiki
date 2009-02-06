@@ -2,6 +2,8 @@
 
 This document describes how to use DTAG for different tasks. 
 
+<wiki:toc max_depth="1"/>
+
 === Starting and closing DTAG ===
 
 Start DTAG by clicking on the "DTAG" icon on your desktop. If you are 
