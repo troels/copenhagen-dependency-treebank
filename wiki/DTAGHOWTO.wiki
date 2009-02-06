@@ -81,7 +81,7 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
   * Start the autoreplacer by specifying the relations you want to replace, eg "mod" and "subj":<br>*{{{autoreplace -corpus mod subj}}}*
   * The autoreplacer shows the current match. The following commands are used to go to the next match (the files are saved automatically as the autoreplacer moves from one file to the next):
     * *{{{=myrel}}}*: replace the matching relation with the relation name "myrel" (eg, "dobj"), and proceed to next match.
-	* *{{{=}}}*: leave the matching relation unchanged, and proceed to the next match.
+    * *{{{=}}}*: leave the matching relation unchanged, and proceed to the next match.
 
 
 === Other useful commands ===
