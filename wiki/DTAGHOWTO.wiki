@@ -2,7 +2,7 @@
 
 This document describes how to use DTAG for different tasks. 
 
-<wiki:toc max_depth="1"/>
+<wiki:toc max_depth="3"/>
 
 === Starting and closing DTAG ===
 
