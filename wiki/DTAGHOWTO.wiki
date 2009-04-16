@@ -52,6 +52,8 @@ Advanced commands:
   * *{{{show <node>}}}*: display the graph starting from the given node. Uses relative node numbering (+-=), as in offset. Eg: {{{show 30}}}, {{{show -30}}}, {{{show =0}}} (show entire graph).
   * *{{{oshow <offset>}}}*: display the graph from the given node, renumbering it as node 0. Eg: {{{oshow 30}}}, {{{oshow -30}}}, {{{oshow =0}}} (show entire graph). 
   * *{{{text}}}*: print the entire graph as plain text with node numbering.
+  * *{{{discourse}}}*: display the graph with a color scheme suitable for discourse annotation.
+  * *{{{syntax}}}*: display the graph with a color scheme suitable for syntax annotation.
 
 === Annotating word segments ===
 
