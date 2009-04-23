@@ -42,7 +42,7 @@ icon at the top menu bar on the right.
 Advanced commands:
 
   * *{{{offset [=+-][ab][offset]}}}*: specify offset for alignment graph, either absolutely ("=") or relatively ("+" and "-", with "+" as the default). This changes the numbering of the nodes, and hides negatively numbered nodes. Eg: {{{offset a30 b20}}}, {{{offset a-30}}}, {{{offset =a0 =b0}}}. 
-  * *{{{autoalign <files>}}}:* start autoaligner using the listed files as training material, eg, {{{autoalign *.atag}}}. 
+  * *{{{autoalign <files>}}}:* start autoaligner using the listed files as training material, eg, {{{autoalign *.atag}}}. You can save the alignment lexicon with the command *{{{save <file>.alex}}}* and reload the alignment lexicon the next time with {{{autoalign <file>.alex}}}.
 
 === Annotating dependency graphs ===
 
