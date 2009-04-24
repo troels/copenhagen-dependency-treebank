@@ -1,12 +1,11 @@
-﻿#labels Draft
-#summary Write summary here.
+﻿#summary Write summary here.
+#labels Draft
 
 
 == DTAG ==
 
-The Danish Dependency Treebank has been created with the [http://copenhagen-dependency-treebank.googlecode.com/svn/dtag DTAG] treebank tool. DTAG also allows the user to search a treebank for syntactic constructions, specified with a constraint-based query language. We are currently working on extending DTAG with modules for learning a massively probabilistic dependency grammar from a treebank, and for parsing texts with a massively probabilistic dependency grammar.
-
+The Copenhagen Dependency Treebanks have been created with the [http://copenhagen-dependency-treebank.googlecode.com/svn/dtag DTAG] treebank tool. DTAG also allows the user to search a treebank for syntactic constructions, specified with a constraint-based query language. DTAG is distributed with the Copenhagen Dependency Treebanks in the directory dtag. 
 
 ====See also====
 
-
+   * [DTAGHOWTO]
