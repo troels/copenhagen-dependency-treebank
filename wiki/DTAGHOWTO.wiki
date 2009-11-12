@@ -61,6 +61,15 @@ Advanced commands:
   * *alignment edges for segments:* specify the relevant segments in the edge label, eg when aligning "¹wind²shield" with "wind shield", simply specify alignment edges {{{0 ¹= 0}}} and {{{0 ²= 1}}}. 
   * *dependency edges for segments:* specify the relevant segments in the edge label, eg when annotating internal dependency structure of "¹wind²shield", create alignment edges {{{0 ¹mod² 0}}}. 
 
+=== Annotating morphology ===
+
+  * *{{{autotag [-default] <feature> <files>}}}*: start the autotagger for the given feature on the current file, using the given files as training data. Eg, {{{autotag morph *.tag}}} will start the autotagger on the {{{morph}}} feature, using all tag-files in the current directory as training data.
+  * *{{{autotag -off}}}*: turn off the autotagger.
+  * *<<value>*: set the feature value of the current word in the autotagger. Shortcuts can be specified in the value string as "#1", "#2", etc. Eg, {{{<word+s}}} and {{{<#1+#2+s}}}.
+  * *<position><<value>*: set the feature value for the word with the given relative position in the autotagger. Eg, {{{37<word+s}}}.
+  * *autotag -pos <position>*: move the autotagger to the word with the given position.
+  * *autotag -offset <offset>*: increment/decrement the offset in the autotagger with the specified amount. Eg, {{{autotag -offset -37}}}.
+
 === Comparing annotations with diff ===
 
   * *{{{diff <file>}}}*: compare the current dependency graph with the given dependency graph. Prints statistics and shows differences graphically. Eg: {{{diff 0502-it-morten.tag}}} (when working on {{{0502-it-iørn.tag}}}).
