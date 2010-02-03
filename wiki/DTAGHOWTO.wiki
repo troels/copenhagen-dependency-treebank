@@ -32,6 +32,44 @@ icon at the top menu bar on the right.
   * *{{{exit}}}*: close DTAG (without saving!)
   * *{{{tasks}}}*: open your task list in an editor; you can then reorder the tasks (if you want to do them in a different order), add tasks, or reopen tasks that you have closed inadvertently.
 
+=== Annotation status in the CDT project ===
+
+In the CDT project, all annotated files have an associated annotation
+status with respect to the following five dimensions:
+
+<pre>
+KEY DIMENSION   DESCRIPTION
+p   postag      Part-of-speech tags
+s   syntax      Syntactic annotation
+m   morphology  Morphological annotation
+d   discourse   Discourse annotation
+a   alignment   Alignment
+</pre>
+
+Each dimension can be abbreviated with a key (eg, "s" for syntax). The
+possible status values for each dimension are listed below:
+
+<pre>
+KEY STATUS          DESCRIPTION
+    none            no annotation
+    auto            automatic annotation
+1   first           first-pass independent human annotation (before discussion)
+d   discussed       discussed with other annotators, possibly corrected
+f   final           final revision complete
+    outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
+</pre>
+
+The following commands are used to query or set the status of the
+annotated files:
+
+  * *{{{closetask <dim>=<status> ...}}}*: close the current task and specify the dimensions that have changed status.
+  * *{{{status}}}*: display the annotation status for the current file
+  * *{{{statusall <dir1> <dir2> <dir3> ...}}}*: display the number of texts in the specified directories that have been annotated in each dimension, grouped by status; if there are no specified directories, all directories are shown. Example: "statusall da it da-it", "statusall".
+  * *{{{setstatus <dim1>=<status1> <dim2>=<status2> ...}}}:*  set the status of the current text for the specified dimensions. Example: "setstatus m=1 s=f".
+  * *{{{findfiles <dim>=<status> <files>}}}:* find all texts where the given dimension has the specified status; if no files are specified, use all files in the current directory by default.
+
+  * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
+
 === Annotating alignment graphs ===
 
   * *{{{<nodes> [<label>] <nodes>}}}*: create alignment -- eg, {{{1+3 label 2..7}}} or {{{a1..3 a1..3}}} if you want to align the nodes 1..3 on the a-side with themselves. You do not have to provide a label.
