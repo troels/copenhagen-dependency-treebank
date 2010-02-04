@@ -48,10 +48,10 @@ Advanced commands:
 
   * *{{{<node> <label> <node>}}}*: create a dependency edge stating that the first node is a {{{label}}} dependent of the second node (eg, {{{23 subj 45}}}). The dependency is drawn as an arrow that starts at the governor (head word) and ends at the dependent (subordinate word).
   * *{{{edel <node>}}}*: delete all in-coming edges at the given node.
-  * *{{{edgel <node> <label> <node>}}}*: delete the given dependency edge.
+  * *{{{edel <node> <label> <node>}}}*: delete the given dependency edge.
   * *{{{show <node>}}}*: display the graph starting from the given node. Uses relative node numbering (+-=), as in offset. Eg: {{{show 30}}}, {{{show -30}}}, {{{show =0}}} (show entire graph).
   * *{{{oshow <offset>}}}*: display the graph from the given node, renumbering it as node 0. Eg: {{{oshow 30}}}, {{{oshow -30}}}, {{{oshow =0}}} (show entire graph). 
-  * *{{{text}}}*: print the entire graph as plain text with node numbering.
+  * *{{{text}}}*: print the entire graph as plain text with node numbering; use *{{{textn}}}* if you want a more detailed numbering.
   * *{{{discourse}}}*: display the graph with a color scheme suitable for discourse annotation.
   * *{{{syntax}}}*: display the graph with a color scheme suitable for syntax annotation.
 
@@ -102,6 +102,7 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
   * *{{{!ls <pattern>}}}*: list all files in current directory that match the pattern {{{<pattern>}}}; the wild-card character is "{{{*}}}". Eg: {{{ls 0001*.tag}}}. 
   * *{{{pwd}}}*: print current working directory.
   * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
+  * *{{{cdt <directory>}}}*: change to the given cdt directory. Eg: {{{cdt da}}}
   * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
 
 
