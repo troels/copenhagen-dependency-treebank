@@ -90,7 +90,7 @@ Advanced commands:
 
 The autoreplacer can search an entire corpus for a given list of edge relations, and replace them with new relations. Here is what you need to do in order to use the autoreplacer:
 
-  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/&42;.tag}}}*
+  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/}}}&42{{{;.tag}}}*
   * Start the autoreplacer by specifying the relations you want to replace, eg "mod" and "subj":<br>*{{{autoreplace -corpus mod subj}}}*
   * The autoreplacer shows the current match. The following commands are used to go to the next match (the files are saved automatically as the autoreplacer moves from one file to the next):
     * *{{{=myrel}}}*: replace the matching relation with the relation name "myrel" (eg, "dobj"), and proceed to next match.
@@ -110,7 +110,7 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
 The following commands are used to query or set the status of the
 annotated files:
 
-  * *{{{closetask <dim>=<status> ...}}}*: close the current task and specify the dimensions that have changed status.
+  * *{{{closetask <dim>=<status> ...}}}*: close the current task and specify the dimensions that have changed status. Example: "closetask m=1 s=d d=f".
   * *{{{status}}}*: display the annotation status for the current file
   * *{{{statusall <dir1> <dir2> <dir3> ...}}}*: display the number of texts in the specified directories that have been annotated in each dimension, grouped by status; if there are no specified directories, all directories are shown. Example: "statusall da it da-it", "statusall".
   * *{{{setstatus <dim1>=<status1> <dim2>=<status2> ...}}}:*  set the status of the current text for the specified dimensions. Example: "setstatus m=1 s=f".
