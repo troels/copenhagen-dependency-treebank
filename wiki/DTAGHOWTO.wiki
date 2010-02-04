@@ -90,7 +90,7 @@ Advanced commands:
 
 The autoreplacer can search an entire corpus for a given list of edge relations, and replace them with new relations. Here is what you need to do in order to use the autoreplacer:
 
-  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/`*`.tag}}}*
+  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/*.tag}}}*
   * Start the autoreplacer by specifying the relations you want to replace, eg "mod" and "subj":<br>*{{{autoreplace -corpus mod subj}}}*
   * The autoreplacer shows the current match. The following commands are used to go to the next match (the files are saved automatically as the autoreplacer moves from one file to the next):
     * *{{{=myrel}}}*: replace the matching relation with the relation name "myrel" (eg, "dobj"), and proceed to next match.
