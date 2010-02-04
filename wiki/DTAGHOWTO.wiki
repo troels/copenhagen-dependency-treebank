@@ -25,7 +25,7 @@ icon at the top menu bar on the right.
 === Tasks and revision control ===
 
   * *{{{opentask}}}*: open the first unfinished task that has been assigned to you (the _current task_).
-  * *{{{closetask}}}*: mark the current task as closed, eg, tell DTAG that you are completely done with it so that {{{opentask}}} will return another task.
+  * *{{{closetask dim=status ...}}}*: mark the current task as closed with the specified new status (see the section "Annotation status"), eg, tell DTAG that you are completely done with it so that {{{opentask}}} will return another task.
   * *{{{save}}}*: save your current work on your hard disk (you should do this frequently). 
   * *{{{update}}}*: update your local copy of the central CDT repository with all the annotations.
   * *{{{commit}}}*: upload your local annotations to the central CDT repository.
