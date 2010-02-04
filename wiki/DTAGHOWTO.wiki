@@ -107,6 +107,15 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
 
 === Annotation status in the CDT project ===
 
+The following commands are used to query or set the status of the
+annotated files:
+
+  * *{{{closetask <dim>=<status> ...}}}*: close the current task and specify the dimensions that have changed status.
+  * *{{{status}}}*: display the annotation status for the current file
+  * *{{{statusall <dir1> <dir2> <dir3> ...}}}*: display the number of texts in the specified directories that have been annotated in each dimension, grouped by status; if there are no specified directories, all directories are shown. Example: "statusall da it da-it", "statusall".
+  * *{{{setstatus <dim1>=<status1> <dim2>=<status2> ...}}}:*  set the status of the current text for the specified dimensions. Example: "setstatus m=1 s=f".
+  * *{{{findfiles <dim>=<status> <files>}}}:* find all texts where the given dimension has the specified status; if no files are specified, use all files in the current directory by default.
+
 In the CDT project, all annotated files have an associated annotation
 status with respect to the following five dimensions:
 
@@ -131,13 +140,3 @@ d   discussed       discussed with other annotators, possibly corrected
 f   final           final revision complete
     outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
 </pre>
-
-The following commands are used to query or set the status of the
-annotated files:
-
-  * *{{{closetask <dim>=<status> ...}}}*: close the current task and specify the dimensions that have changed status.
-  * *{{{status}}}*: display the annotation status for the current file
-  * *{{{statusall <dir1> <dir2> <dir3> ...}}}*: display the number of texts in the specified directories that have been annotated in each dimension, grouped by status; if there are no specified directories, all directories are shown. Example: "statusall da it da-it", "statusall".
-  * *{{{setstatus <dim1>=<status1> <dim2>=<status2> ...}}}:*  set the status of the current text for the specified dimensions. Example: "setstatus m=1 s=f".
-  * *{{{findfiles <dim>=<status> <files>}}}:* find all texts where the given dimension has the specified status; if no files are specified, use all files in the current directory by default.
-
