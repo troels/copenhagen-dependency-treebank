@@ -56,7 +56,7 @@ Matthias Buch-Kromann, 2009. Discontinuous Grammar. A dependency-based model of 
 
 Matthias Buch-Kromann, Jürgen Wedekind, and Jakob Elming, 2007. The Copenhagen Danish-English Dependency Treebank v. 2.0. Parallel dependency treebank for Danish-English with 100,000 words based on the Danish Dependency Treebank. [http://www.buch-kromann.dk/matthias/cdt2.0 link]
 
-Matthias Buch-Kromann, 2007. Computing translation units and quantifying parallelism in parallel dependency treebanks. Linguistic Annotation Workshop (LAW-2007) at ACL-2007, June 28-29, Prague. [http://www.aclweb.org/anthology/W/W07/W07-1512 pdf]
+Matthias Buch-Kromann, 2007. Computing translation units and quantifying parallelism in parallel dependency treebanks. Linguistic Annotation Workshop (LAW-2007) at ACL-2007, June 28-29, Prague. [http://www.aclweb.org/anthology/W/W07/W07-1512.pdf pdf]
 
 Matthias Buch-Kromann, 2006. Discontinuous Grammar. A dependency-based model of human parsing and language learning. Dr.ling.merc. dissertation, Copenhagen Business School. 432+xvi pp. [http://www.buch-kromann.dk/matthias/thesis download]
 
