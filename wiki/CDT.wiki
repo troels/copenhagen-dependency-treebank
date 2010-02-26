@@ -1,9 +1,9 @@
 #summary The Copenhagen Dependency Treebank
 #labels CDT
 
-= Introduction =
+= The Copenhagen Dependency Treebanks =
 
-The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2006). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
+The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2009). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
 
 The project has so far resulted in three sets of treebanks:
 
@@ -20,23 +20,21 @@ The main status of the treebanks is listed below.
 
 We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
-= License = 
+== License == 
 
 The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the Lesser Gnu Public License). 
 
-= Exploring the treebank =
+== Exploring the treebank ==
 
 We have created a [http://treebank.dk/map treebank map] which can be used to quickly get statistics and samples of the dependency relations used in the current treebank. You can also browse the [
 
-= Downloading the treebank = 
+== Downloading the treebank ==
 
 The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
 
-= Documentation = 
+== Documentation ==
 
-
-
-
+The currently best description of the treebank is given in Buch-Kromann et al (2009). 
 
 = Acknowledgements = 
 
