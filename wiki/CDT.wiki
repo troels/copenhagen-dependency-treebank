@@ -3,25 +3,63 @@
 
 = Introduction =
 
-The Copenhagen Dependency Treebank is an ongoing project which seeks to create linguistically annotated translation corpora (parallel treebanks). The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
+The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2006). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
 
-   * *CDT1:* The Danish Dependency Treebank
-   * *CDT2:* The Danish-English Parallel Dependency Treebank
-   * *CDT3:* The Copenhagen Dependency Treebanks
+The project has so far resulted in three sets of treebanks:
 
-= Status =
+   * *CDT1:* The 100,000 word Danish Dependency Treebank, which was used as training material in the CoNLL 2006 shared task.
+   * *CDT2:* The 100,000 word Danish-English Parallel Dependency Treebank
+   * *CDT3:* The 40-50,000 Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (work-in-progress)
+
+The main status of the treebanks is listed below. 
 
 || *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
 || CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
 || CDT2 || Danish to English || part-of-speech, syntax || 100,000 || near complete ||
 || CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, discourse structure, anaphora, morphology || 40-50,000 expected || in progress ||
 
-= Download = 
+We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
-[http://treebank.dk/map treebank map]
-= Details =
+= License = 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the Lesser Gnu Public License). 
+
+= Exploring the treebank =
+
+We have created a [http://treebank.dk/map treebank map] which can be used to quickly get statistics and samples of the dependency relations used in the current treebank. You can also browse the [
+
+= Downloading the treebank = 
+
+The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
+
+= Documentation = 
+
+
+
+
+
+= Acknowledgements = 
+
+   * CDT1 was funded by an internal grant from the Copenhagen Business School.
+   * CDT2 was funded by a grant from the Strategic Research Council in Denmark (via the Danish Program Committee for IT research)
+   * CDT2 was funded by a grant from the Free Research Council in Denmark.
+
+= References = 
+
+Please cite the treebank as follows if you use it in scholarly work:
+
+   * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009)
+   * *CDT2*: Please cite Kromann et al (2007)
+   * *CDT3*: Please cite: Buch-Kromann et al (2009)
+
+Matthias Buch-Kromann, Iørn Korzen, and Henrik Høeg Müller, 2009. Uncovering the 'lost' structure of translations with parallel treebanks. In special issue of Copenhagen Studies of Language, vol. 38, pp. 199-224: Fabio Alves, Susanne Göpferich, and Inger Mees (eds.). Methodology, Technology and Innovation in Translation Process Research. 
+
+Matthias Buch-Kromann, 2009. Discontinuous Grammar. A dependency-based model of human parsing and language learning. VDM Verlag. [http://www.amazon.co.uk/Discontinuous-Grammar-dependency-based-language-learning/dp/3639172817/ref=sr_1_1?ie=UTF8&s=books&qid=1267188603&sr=8-1 buy] Republication of Buch-Kromann (2006). 
+
+Matthias Buch-Kromann, Jürgen Wedekind, and Jakob Elming, 2007. The Copenhagen Danish-English Dependency Treebank v. 2.0. Parallel dependency treebank for Danish-English with 100,000 words based on the Danish Dependency Treebank. [http://www.buch-kromann.dk/matthias/cdt2.0 link]
+
+Matthias Buch-Kromann, 2007. Computing translation units and quantifying parallelism in parallel dependency treebanks. Linguistic Annotation Workshop (LAW-2007) at ACL-2007, June 28-29, Prague. [http://www.aclweb.org/anthology/W/W07/W07-1512 pdf]
+
+Matthias Buch-Kromann, 2006. Discontinuous Grammar. A dependency-based model of human parsing and language learning. Dr.ling.merc. dissertation, Copenhagen Business School. 432+xvi pp. [http://www.buch-kromann.dk/matthias/thesis download]
+
+Matthias Trautner Kromann, 2003. The Danish Dependency Treebank and the DTAG treebank tool. In Proceedings of the Second Workshop on Treebanks and Linguistic Theories (TLT 2003), 14-15 November, Växjö.  pp. 217-220. [http://www.buch-kromann.dk/matthias/files/030730-tlt-norfa.pdf pdf]
