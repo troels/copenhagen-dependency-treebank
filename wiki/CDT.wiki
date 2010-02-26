@@ -1,0 +1,27 @@
+#summary The Copenhagen Dependency Treebank
+#labels CDT
+
+= Introduction =
+
+The Copenhagen Dependency Treebank is an ongoing project which seeks to create linguistically annotated translation corpora (parallel treebanks). The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
+
+   * *CDT1:* The Danish Dependency Treebank
+   * *CDT2:* The Danish-English Parallel Dependency Treebank
+   * *CDT3:* The Copenhagen Dependency Treebanks
+
+= Status =
+
+|| *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
+|| CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
+|| CDT2 || Danish to English || part-of-speech, syntax || 100,000 || near complete ||
+|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, discourse structure, anaphora, morphology || 40-50,000 expected || in progress ||
+
+= Download = 
+
+[http://treebank.dk/map treebank map]
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
