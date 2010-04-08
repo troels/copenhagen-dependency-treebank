@@ -22,18 +22,6 @@ icon at the top menu bar on the right.
   * *{{{edges <node>}}}*: show all alignment edges or incoming edges at the given node. The command can be abbreviated *{{{<node>}}}*, and in an alignment graph, the node key is assumed to be "a" unless otherwise stated. Eg, in an alignment graph, the following three commands are equivalent: {{{edges a12}}}, {{{a12}}}, {{{12}}}. 
   * *command line:* you can use up- and down-arrows to see previous commands, left- and right-arrows to edit previous commands; hit return to re-execute the command. 
 
-=== Annotating alignment graphs ===
-
-  * *{{{<nodes> [<label>] <nodes>}}}*: create alignment -- eg, {{{1+3 label 2..7}}} or {{{a1..3 a1..3}}} if you want to align the nodes 1..3 on the a-side with themselves. You do not have to provide a label.
-  * *{{{del <node>}}}*: delete all alignment edges at the given node, eg, {{{del a3}}}. 
-  * *{{{ok}}}*: accept all the red edges proposed by the autoaligner.
-
-Advanced commands:
-
-  * *{{{offset [=+-][ab][offset]}}}*: specify offset for alignment graph, either absolutely ("=") or relatively ("+" and "-", with "+" as the default). This changes the numbering of the nodes, and hides negatively numbered nodes. Eg: {{{offset a30 b20}}}, {{{offset a-30}}}, {{{offset =a0 =b0}}}. 
-  * *{{{autoalign <files>}}}:* start autoaligner using the listed files as training material, eg, {{{autoalign *.atag}}}. You can save the alignment lexicon with the command *{{{save <file>.alex}}}* and reload the alignment lexicon the next time with {{{autoalign <file>.alex}}}.
-  * *{{{autoalign -off}}}*: turn off the autoaligner (started automatically by {{{opentask}}}).
-
 === Annotating dependency graphs ===
 
   * *{{{<node> <label> <node>}}}*: create a dependency edge stating that the first node is a {{{label}}} dependent of the second node (eg, {{{23 subj 45}}}). The dependency is drawn as an arrow that starts at the governor (head word) and ends at the dependent (subordinate word).
@@ -69,6 +57,18 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
   * *{{{<position> < <value>}}}*: set the feature value for the word with the given relative position in the autotagger. Eg, {{{37<word+s}}}.
   * *{{{autotag -pos <position>}}}*: move the autotagger to the word with the given position.
   * *{{{autotag -offset <offset>}}}*: increment/decrement the offset in the autotagger with the specified amount. Eg, {{{autotag -offset -37}}}.
+
+=== Annotating alignment graphs ===
+
+  * *{{{<nodes> [<label>] <nodes>}}}*: create alignment -- eg, {{{1+3 label 2..7}}} or {{{a1..3 a1..3}}} if you want to align the nodes 1..3 on the a-side with themselves. You do not have to provide a label.
+  * *{{{del <node>}}}*: delete all alignment edges at the given node, eg, {{{del a3}}}. 
+  * *{{{ok}}}*: accept all the red edges proposed by the autoaligner.
+
+Advanced commands:
+
+  * *{{{offset [=+-][ab][offset]}}}*: specify offset for alignment graph, either absolutely ("=") or relatively ("+" and "-", with "+" as the default). This changes the numbering of the nodes, and hides negatively numbered nodes. Eg: {{{offset a30 b20}}}, {{{offset a-30}}}, {{{offset =a0 =b0}}}. 
+  * *{{{autoalign <files>}}}:* start autoaligner using the listed files as training material, eg, {{{autoalign *.atag}}}. You can save the alignment lexicon with the command *{{{save <file>.alex}}}* and reload the alignment lexicon the next time with {{{autoalign <file>.alex}}}.
+  * *{{{autoalign -off}}}*: turn off the autoaligner (started automatically by {{{opentask}}}).
 
 === Comparing annotations with diff ===
 
