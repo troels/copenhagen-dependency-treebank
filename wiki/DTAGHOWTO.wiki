@@ -22,27 +22,17 @@ icon at the top menu bar on the right.
   * *{{{edges <node>}}}*: show all alignment edges or incoming edges at the given node. The command can be abbreviated *{{{<node>}}}*, and in an alignment graph, the node key is assumed to be "a" unless otherwise stated. Eg, in an alignment graph, the following three commands are equivalent: {{{edges a12}}}, {{{a12}}}, {{{12}}}. 
   * *command line:* you can use up- and down-arrows to see previous commands, left- and right-arrows to edit previous commands; hit return to re-execute the command. 
 
-=== Tasks and revision control ===
-
-  * *{{{opentask}}}*: open the first unfinished task that has been assigned to you (the _current task_).
-  * *{{{closetask dim=status ...}}}*: mark the current task as closed with the specified new status (see the section "Annotation status"), eg, tell DTAG that you are completely done with it so that {{{opentask}}} will return another task.
-  * *{{{save}}}*: save your current work on your hard disk (you should do this frequently). 
-  * *{{{update}}}*: update your local copy of the central CDT repository with all the annotations.
-  * *{{{commit}}}*: upload your local annotations to the central CDT repository.
-  * *{{{exit}}}*: close DTAG (without saving!)
-  * *{{{tasks}}}*: open your task list in an editor; you can then reorder the tasks (if you want to do them in a different order), add tasks, or reopen tasks that you have closed inadvertently.
-
 === Annotating alignment graphs ===
 
   * *{{{<nodes> [<label>] <nodes>}}}*: create alignment -- eg, {{{1+3 label 2..7}}} or {{{a1..3 a1..3}}} if you want to align the nodes 1..3 on the a-side with themselves. You do not have to provide a label.
   * *{{{del <node>}}}*: delete all alignment edges at the given node, eg, {{{del a3}}}. 
   * *{{{ok}}}*: accept all the red edges proposed by the autoaligner.
-  * *{{{autoalign -off}}}*: turn off the autoaligner (started automatically by {{{opentask}}}).
 
 Advanced commands:
 
   * *{{{offset [=+-][ab][offset]}}}*: specify offset for alignment graph, either absolutely ("=") or relatively ("+" and "-", with "+" as the default). This changes the numbering of the nodes, and hides negatively numbered nodes. Eg: {{{offset a30 b20}}}, {{{offset a-30}}}, {{{offset =a0 =b0}}}. 
   * *{{{autoalign <files>}}}:* start autoaligner using the listed files as training material, eg, {{{autoalign *.atag}}}. You can save the alignment lexicon with the command *{{{save <file>.alex}}}* and reload the alignment lexicon the next time with {{{autoalign <file>.alex}}}.
+  * *{{{autoalign -off}}}*: turn off the autoaligner (started automatically by {{{opentask}}}).
 
 === Annotating dependency graphs ===
 
@@ -60,6 +50,16 @@ Advanced commands:
   * *{{{segment <node> <segments>}}}*: segment the given node into smaller parts; opens a segment editor for the given node if {{{<segments>}}} is omitted. Eg, {{{segment 123}}} or {{{segment 123 auto|camper}}} (dependency graphs), {{{segment b17}}} or {{{segment b17 ¹hard²disk}}} (alignments). The segments are numbered with the superscript digits "¹²³" (press "shift+!altgr+1" or "{{{^+1}}}", similarly for 2 and 3) preceded by "{{{^}}}" (press "^+^") if there are more than 3 segments. These digits are used to identify the segments. If you insert a segment boundary, the vertical bar "|", the numbering is performed automatically by DTAG.
   * *alignment edges for segments:* specify the relevant segments in the edge label, eg when aligning "¹wind²shield" with "wind shield", simply specify alignment edges {{{0 ¹= 0}}} and {{{0 ²= 1}}}. 
   * *dependency edges for segments:* specify the relevant segments in the edge label, eg when annotating internal dependency structure of "¹wind²shield", create alignment edges {{{0 ¹mod² 0}}}. 
+
+=== Autoreplace ===
+
+The autoreplacer can search an entire corpus for a given list of edge relations, and replace them with new relations. Here is what you need to do in order to use the autoreplacer:
+
+  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/*.tag}}}*
+  * Start the autoreplacer by specifying the relations you want to replace, eg "mod" and "subj":<br>*{{{autoreplace -corpus mod subj}}}*
+  * The autoreplacer shows the current match. The following commands are used to go to the next match (the files are saved automatically as the autoreplacer moves from one file to the next):
+    * *{{{=myrel}}}*: replace the matching relation with the relation name "myrel" (eg, "dobj"), and proceed to next match.
+    * *{{{=}}}*: leave the matching relation unchanged, and proceed to the next match.
 
 === Annotating morphology ===
 
@@ -86,24 +86,15 @@ Advanced commands:
   * *{{{next}}}*: goto the next match in the search
   * *{{{prev}}}*: goto the previous match in the search
 
-=== Autoreplace ===
+=== Tasks and revision control ===
 
-The autoreplacer can search an entire corpus for a given list of edge relations, and replace them with new relations. Here is what you need to do in order to use the autoreplacer:
-
-  * Set the corpus you want to work with with the {{{corpus}}} command:<br>*{{{corpus /home/cdt/cdt/da/*.tag}}}*
-  * Start the autoreplacer by specifying the relations you want to replace, eg "mod" and "subj":<br>*{{{autoreplace -corpus mod subj}}}*
-  * The autoreplacer shows the current match. The following commands are used to go to the next match (the files are saved automatically as the autoreplacer moves from one file to the next):
-    * *{{{=myrel}}}*: replace the matching relation with the relation name "myrel" (eg, "dobj"), and proceed to next match.
-    * *{{{=}}}*: leave the matching relation unchanged, and proceed to the next match.
-
-
-=== Other useful commands ===
-
-  * *{{{!ls <pattern>}}}*: list all files in current directory that match the pattern {{{<pattern>}}}; the wild-card character is "{{{*}}}". Eg: {{{ls 0001*.tag}}}. 
-  * *{{{pwd}}}*: print current working directory.
-  * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
-  * *{{{cdt <directory>}}}*: change to the given cdt directory. Eg: {{{cdt da}}}
-  * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
+  * *{{{opentask}}}*: open the first unfinished task that has been assigned to you (the _current task_).
+  * *{{{closetask dim=status ...}}}*: mark the current task as closed with the specified new status (see the section "Annotation status"), eg, tell DTAG that you are completely done with it so that {{{opentask}}} will return another task.
+  * *{{{save}}}*: save your current work on your hard disk (you should do this frequently). 
+  * *{{{update}}}*: update your local copy of the central CDT repository with all the annotations.
+  * *{{{commit}}}*: upload your local annotations to the central CDT repository.
+  * *{{{exit}}}*: close DTAG (without saving!)
+  * *{{{tasks}}}*: open your task list in an editor; you can then reorder the tasks (if you want to do them in a different order), add tasks, or reopen tasks that you have closed inadvertently.
 
 
 === Annotation status in the CDT project ===
@@ -141,3 +132,11 @@ d   discussed       discussed with other annotators, possibly corrected
 f   final           final revision complete
     outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
 </pre>
+
+=== Other useful commands ===
+
+  * *{{{!ls <pattern>}}}*: list all files in current directory that match the pattern {{{<pattern>}}}; the wild-card character is "{{{*}}}". Eg: {{{ls 0001*.tag}}}. 
+  * *{{{pwd}}}*: print current working directory.
+  * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
+  * *{{{cdt <directory>}}}*: change to the given cdt directory. Eg: {{{cdt da}}}
+  * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
