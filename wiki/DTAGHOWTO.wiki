@@ -60,7 +60,7 @@ Each node consists of a node specification followed by an optional edge specific
   * *{{{example [-add] [-title=<title>] <specification>}}}*: create a graph from the given example specification. The graph title is optional and can be used to specify glosses. The option {{{-add}}} ensures that the example is added to the bottom of the current graph, otherwise the example is created as a new graph. Eg: {{{example -add -title="Here it is" Her|Here<2:expl> er|is den|it<2:preds>}}}
   * *{{{as.example [<node-variables>] [<range>]}}}*: prints a graph as an example string. The optional node variables are given as a list of node variable names separated by vertical bars "|". The optional range specification is given as a space-separated list of node numbers ("n") or node ranges ("n1..n2"); nodes can be given either as absolute node positions (prefixed by "=") or as relative node positions (prefixed by "-", "+", or nothing). Eg: {{{as.example cat|gloss -1 3..5 7..12 =27}}}
 
-The example format is used to specify examples in the spreadsheet that defines our inventory of relations. These examples are shown automatically in DTAG when the user invokes the help function for a given relation.
+The example format is used to specify examples in the spreadsheet that defines our inventory of relations. These examples are shown automatically in DTAG when the user invokes the help function for a given relation. The output from as.example can be pasted directly into the spreadsheet. You can insert several examples into the spreadsheet, separated by a blank line (use ctrl-enter in Google spreadsheets).
 
 
 === Annotating word segments ===
