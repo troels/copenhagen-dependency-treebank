@@ -51,9 +51,9 @@ DTAG allows the set of permitted relations to be encoded as a spreadsheet (csv f
 
 DTAG supports a very condensed example format. In this format, the graph is specified by a sequence of space-separated node specifications. Eg: 
 
-  They<2:subj,3:[subj]> did help<2:vobj> us<3:iobj> .<2:pnct>
+  They<2:subj,3:[[subj]]> did help<2:vobj> us<3:iobj> .<2:pnct>
 
-  They|N<2:subj,3:[subj]> did|V help|V<2:vobj> us|N<3:iobj> .|Pnct<2:pnct>
+  They|N<2:subj,3:[[subj]]> did|V help|V<2:vobj> us|N<3:iobj> .|Pnct<2:pnct>
 
 Each node consists of a node specification followed by an optional edge specification in angled brackets. The node specification consists of a word followed by an arbitrary number of features separated by a vertical bar. The edge specification consists of a comma-separated list of &lt;position&gt;:&lt;label&gt; pairs. The position is specified absolutely, with the first word at position 1. 
 
