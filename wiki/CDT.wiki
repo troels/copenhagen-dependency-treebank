@@ -8,8 +8,8 @@ The purpose of the Copenhagen Dependency Treebank project is to create linguisti
 The project has so far resulted in three sets of treebanks:
 
    * *CDT1:* The Danish Dependency Treebank (100,000 words), which was used as training material in the CoNLL 2006 shared task.
-   * *CDT2:* The Danish-English Parallel Dependency Treebank (100,000 words)
-   * *CDT3:* The Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (2x100,000 + 3x60,000 words, work-in-progress)
+   * *CDT2:* The Danish-English Parallel Dependency Treebank (100,000 words).
+   * *CDT3:* The Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (2x100,000 + 3x60,000 words, work-in-progress).
 
 The main status of the treebanks is listed below. 
 
