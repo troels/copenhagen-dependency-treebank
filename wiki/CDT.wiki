@@ -50,7 +50,7 @@ Please cite the treebank as follows if you use it in scholarly work:
 
 Matthias Buch-Kromann, Morten Gylling-Jørgensen, Lotte Jelsbech Knudsen, Iørn Korzen, and 
 Henrik Høeg Müller, 2010. _The inventory of linguistic relations used in the
-Copenhagen Dependency Treebanks._ Technical report. Center for Research and Innovation in Translation and Translation Technology, Copenhagen Business School. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/cdt-manual.pdf pdf]
+Copenhagen Dependency Treebanks._ Technical report. Center for Research and Innovation in Translation and Translation Technology, Copenhagen Business School. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf pdf]
 
 Matthias Buch-Kromann and Iørn Korzen, 2010. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. In Proc. of Linguistic Annotation Workshop, ACL 2010, Uppsala. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf]
 
