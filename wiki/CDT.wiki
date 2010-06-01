@@ -16,7 +16,7 @@ The main status of the treebanks is listed below.
 || *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
 || CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
 || CDT2 || Danish to English || part-of-speech, syntax, word alignments || 100,000 || near complete ||
-|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, word alignments, discourse structure, anaphora, morphology || 40-50,000 expected || [AnnotationStatusCDT3 in progress] ||
+|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, word alignments, discourse structure, anaphora, morphology || 40-50,000 expected || in progress ||
 
 We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
@@ -26,18 +26,11 @@ The treebanks are released to the computational linguistics and natural language
 
 == Downloading the treebank ==
 
-The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
-
-We plan to release the treebanks in a variety of formats (CONLL, TigerXML). Please contact us if you are interested in other formats.
-
-== Annotation status ==
-
-The current annotation status for the CDT3 project can be seen [AnnotationStatusCDT3 here]. 
+The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online]. We plan to release the treebanks in a variety of formats (CONLL, TigerXML). Please contact us if you are interested in obtaining the treebanks in a particular format, and we will do our best to help you.
 
 == Documentation ==
 
-The currently best description of the treebank is given in Buch-Kromann et al (2009). 
-The relations used in the trebank are described in detail in our most recent draft [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf annotation manual], a work-in-progress which is undergoing major revisions at the moment. We have also created a [http://treebank.dk/map treebank map] which can be used to quickly get statistics and samples of the dependency relations used in the current treebank (it may be slightly outdated). Finally, you can [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
+The currently best description of the treebank is given in Buch-Kromann et al (2009) and Buch-Kromann and Korzen (2010). The relations used in the trebank, including the current annotation status and confusion scores for individual relations, are described in detail in our most recent draft [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf annotation manual], a work-in-progress which is undergoing major revisions at the moment. We have also created a [http://treebank.dk/map treebank map] which can be used to quickly get statistics and samples of the dependency relations used in the current treebank (it may be slightly outdated). Finally, you can [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
 
 = Acknowledgements = 
 
@@ -51,8 +44,7 @@ Please cite the treebank as follows if you use it in scholarly work:
 
    * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009)
    * *CDT2*: Please cite Kromann et al (2007)
-   * *CDT3*: Please cite: Buch-Kromann et al (2009)
-
+   * *CDT3*: Please cite: Buch-Kromann et al (2009) or Buch-Kromann and Korzen (2010)
 
 Matthias Buch-Kromann, Morten Gylling-Jørgensen, Lotte Jelsbech Knudsen, Iørn Korzen, and 
 Henrik Høeg Müller, 2010. _The inventory of linguistic relations used in the
