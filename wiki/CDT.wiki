@@ -47,11 +47,16 @@ Please cite the treebank as follows if you use it in scholarly work:
    * *CDT2*: Please cite Kromann et al (2007)
    * *CDT3*: Please cite: Buch-Kromann et al (2009)
 
-Matthias Buch-Kromann and Iørn Korzen, 2010. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf]
 
-Matthias Buch-Kromann, Iørn Korzen, and Henrik Høeg Müller, 2009. Uncovering the 'lost' structure of translations with parallel treebanks. In special issue of Copenhagen Studies of Language, vol. 38, pp. 199-224: Fabio Alves, Susanne Göpferich, and Inger Mees (eds.). _Methodology, Technology and Innovation in Translation Process Research._[http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2009-csl-cdt.pdf pdf]
+Matthias Buch-Kromann, Morten Gylling-Jørgensen, Lotte Jelsbech Knudsen, Iørn Korzen, and 
+Henrik Høeg Müller, 2010. _The inventory of linguistic relations used in the
+Copenhagen Dependency Treebanks._ Technical report. Center for Research and Innovation in Translation and Translation Technology, Copenhagen Business School. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/cdt-manual.pdf pdf]
 
-Matthias Buch-Kromann, 2009. _Discontinuous Grammar. A dependency-based model of human parsing and language learning._ VDM Verlag. [http://www.amazon.co.uk/Discontinuous-Grammar-dependency-based-language-learning/dp/3639172817/ref=sr_1_1?ie=UTF8&s=books&qid=1267188603&sr=8-1 buy] Republication of Buch-Kromann (2006). 
+Matthias Buch-Kromann and Iørn Korzen, 2010. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. In Proc. of Linguistic Annotation Workshop, ACL 2010, Uppsala. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf]
+
+Matthias Buch-Kromann, Iørn Korzen, and Henrik Høeg Müller, 2009. Uncovering the 'lost' structure of translations with parallel treebanks. In special issue of Copenhagen Studies of Language, vol. 38, pp. 199-224: Fabio Alves, Susanne Göpferich, and Inger Mees (eds.). _Methodology, Technology and Innovation in Translation Process Research._ [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2009-csl-cdt.pdf pdf]
+
+Matthias Buch-Kromann, 2009. _Discontinuous Grammar. A dependency-based model of human parsing and language learning._ VDM Verlag. [http://www.amazon.co.uk/Discontinuous-Grammar-dependency-based-language-learning/dp/3639172817/ref=sr_1_1?ie=UTF8&s=books&qid=1267188603&sr=8-1 purchase] Republication of Buch-Kromann (2006). 
 
 Matthias Buch-Kromann, Jürgen Wedekind, and Jakob Elming, 2007. _The Copenhagen Danish-English Dependency Treebank v. 2.0._ Parallel dependency treebank for Danish-English with 100,000 words based on the Danish Dependency Treebank. [http://www.buch-kromann.dk/matthias/cdt2.0 link]
 
