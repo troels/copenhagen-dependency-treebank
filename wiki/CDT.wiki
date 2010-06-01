@@ -7,16 +7,16 @@ The purpose of the Copenhagen Dependency Treebank project is to create linguisti
 
 The project has so far resulted in three sets of treebanks:
 
-   * *CDT1:* The 100,000 word Danish Dependency Treebank, which was used as training material in the CoNLL 2006 shared task.
-   * *CDT2:* The 100,000 word Danish-English Parallel Dependency Treebank
-   * *CDT3:* The 40-50,000 Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (work-in-progress)
+   * *CDT1:* The Danish Dependency Treebank (100,000 words), which was used as training material in the CoNLL 2006 shared task.
+   * *CDT2:* The Danish-English Parallel Dependency Treebank (100,000 words)
+   * *CDT3:* The Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (2x100,000 + 3x60,000 words, work-in-progress)
 
 The main status of the treebanks is listed below. 
 
 || *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
 || CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
 || CDT2 || Danish to English || part-of-speech, syntax || 100,000 || near complete ||
-|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, discourse structure, anaphora, morphology || 40-50,000 expected || in progress ||
+|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, discourse structure, anaphora, morphology || 40-50,000 expected || [AnnotationStatusCDT3 in progress] ||
 
 We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
@@ -27,6 +27,12 @@ The treebanks are released to the computational linguistics and natural language
 == Downloading the treebank ==
 
 The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online].
+
+We plan to release the treebanks in a variety of formats (CONLL, TigerXML). Please contact us if you are interested in other formats.
+
+== Annotation status ==
+
+The current annotation status for the CDT3 project can be seen [AnnotationStatusCDT3 here]. 
 
 == Documentation ==
 
