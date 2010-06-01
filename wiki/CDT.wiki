@@ -15,8 +15,8 @@ The main status of the treebanks is listed below.
 
 || *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
 || CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
-|| CDT2 || Danish to English || part-of-speech, syntax || 100,000 || near complete ||
-|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, discourse structure, anaphora, morphology || 40-50,000 expected || [AnnotationStatusCDT3 in progress] ||
+|| CDT2 || Danish to English || part-of-speech, syntax, word alignments || 100,000 || near complete ||
+|| CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, word alignments, discourse structure, anaphora, morphology || 40-50,000 expected || [AnnotationStatusCDT3 in progress] ||
 
 We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
