@@ -163,6 +163,26 @@ f   final           final revision complete
     outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
 </pre>
 
+
+=== Loading and saving files in various formats ===
+
+DTAG supports two native formats: ".tag" for dependency graphs, and ".atag" for alignments. The ".tag" format is a line-based format in which every line of the form 
+
+   {{{<W in="ipos1:itype1|ipos2:itype2|..." out="opos1:otype1|..." a1="f1" a2="f2" ...>token</W>}}}
+
+encodes a graph node with token given by {{{token}}}, attribute value pairs a1=f1,...,an=fn, and the in- and out-edges given by the "in" and "out" attributes. Each edge is encoded as a pair "rpos:type" where "rpos" is the relative position of the other node on the edge (-1=previous line, 1=next line, 10=10 lines after, etc.) and "type" is the edge type. 
+
+   * *{{{load <file>}}}*: load the given file, assuming the format given by the file name extension.
+   * *{{{load -<format> <file>}}}:* load the given file, using the specified format (".tag", ".atag", ".malt", ".conll")
+   * *{{{save <file>}}}*: save the given file, using the format given by the file name extension.
+   * *{{{save -<format> <file>}}}:* save the given file, using the specified format (".tag", ".atag", ".malt", ".conll")
+   * *{{{option conll_postag=<var>}}}*: when saving in conll-format, the "postag" part-of-speech feature is read off from node attribute {{{var}}}. When using the PAROLE "msd" attribute, a special conversion filter kicks in to convert the complex PAROLE tag into a 1-2 letter part-of-speech tag and features for number, case, definiteness, etc.
+   * *{{{option conll_cpostag=<var>}}}*: when saving in conll-format, the "cpostag" course part-of-pseech feature is read off from node attribute {{{var}}}. This option is ignored if {{{conll_postag}}} is set to "msd". 
+
+
+
+
+
 === Other useful commands ===
 
   * *{{{!ls <pattern>}}}*: list all files in current directory that match the pattern {{{<pattern>}}}; the wild-card character is "{{{*}}}". Eg: {{{ls 0001*.tag}}}. 
