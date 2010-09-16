@@ -44,13 +44,17 @@ Please cite the treebank as follows if you use it in scholarly work:
 
    * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009)
    * *CDT2*: Please cite Kromann et al (2007)
-   * *CDT3*: Please cite: Buch-Kromann et al (2009) or Buch-Kromann and Korzen (2010)
+   * *CDT3*: Please cite: Buch-Kromann et al (2009) or Buch-Kromann and Korzen (2010a)
+
+Iørn Korzen and Matthias Buch-Kromann, to appear. Anaphoric relations in the Copenhagen Dependency Treebanks. To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011.
+
+Matthias Buch-Kromann and Iørn Korzen, to appear. Syntax-centered and semantics-centered views of discourse. Can they be reconciled? To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011. 
 
 Matthias Buch-Kromann, Morten Gylling-Jørgensen, Lotte Jelsbech Knudsen, Iørn Korzen, and 
 Henrik Høeg Müller, 2010. _The inventory of linguistic relations used in the
-Copenhagen Dependency Treebanks._ Technical report. Center for Research and Innovation in Translation and Translation Technology, Copenhagen Business School. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf pdf]
+Copenhagen Dependency Treebanks._ Technical report. Center for Research and Innovation in Translation and Translation Technology, Copenhagen Business School. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf pdf] [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-poster-mbk-ik.pdf poster]
 
-Matthias Buch-Kromann and Iørn Korzen, 2010. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. In Proc. of Linguistic Annotation Workshop, ACL 2010, Uppsala. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf]
+Matthias Buch-Kromann and Iørn Korzen, 2010a. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. In Proc. of Linguistic Annotation Workshop, ACL 2010, Uppsala. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf]
 
 Matthias Buch-Kromann, Iørn Korzen, and Henrik Høeg Müller, 2009. Uncovering the 'lost' structure of translations with parallel treebanks. In special issue of Copenhagen Studies of Language, vol. 38, pp. 199-224: Fabio Alves, Susanne Göpferich, and Inger Mees (eds.). _Methodology, Technology and Innovation in Translation Process Research._ [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2009-csl-cdt.pdf pdf]
 
