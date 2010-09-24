@@ -3,7 +3,7 @@
 
 = The Copenhagen Dependency Treebanks =
 
-The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2009). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. 
+The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2009). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. The Danish source texts and the Danish part-of-speech tags were created by the PAROLE-DK project (Keson 2000a,b) by the [http://www.dsl.dk Danish Society for Language and Literature]. 
 
 The project has so far resulted in three sets of treebanks:
 
@@ -22,7 +22,7 @@ We expect CDT2 and CDT3 to be completed in the fall of 2010.
 
 == License == 
 
-The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the Lesser Gnu Public License). 
+The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the Lesser Gnu Public License). The [http://www.dsl.dk Danish Society for Language and Literature] owns the copyright to the underlying Danish PAROLE corpus, but has agreed to dual-license PAROLE-DK under the LGPL as well so that it can be distributed along with the treebank. The PAROLE-DK corpus, as well as other corpus resources for Danish, can also be downloaded from DSL's website.
 
 == Downloading the treebank ==
 
@@ -40,11 +40,14 @@ The currently best description of the treebank is given in Buch-Kromann et al (2
 
 = References = 
 
-Please cite the treebank as follows if you use it in scholarly work:
+If you use the treebanks in scholarly work, please cite them as follows:
 
-   * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009)
+   * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009). When using the Danish PAROLE-DK corpus and its part-of-speech tags (the "msd" feature in Danish), please cite Keson (2010) and link to [http://korpus.dsl.dk/e-resurser/parole-korpus.html DSL].
    * *CDT2*: Please cite Kromann et al (2007)
    * *CDT3*: Please cite: Buch-Kromann et al (2009) or Buch-Kromann and Korzen (2010a)
+
+There are no restrictions on the commercial use of the treebanks, other than the LGPL. But please let us know if you use the treebanks in commercial products or open-source products, by sending a mail to mbk.isv@cbs.dk -- this is the best way you can support us and help us make the case to our sponsors that our treebanks have been used to create useful language technology. 
+
 
 Iørn Korzen and Matthias Buch-Kromann, to appear. Anaphoric relations in the Copenhagen Dependency Treebanks. To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011.
 
@@ -67,3 +70,8 @@ Matthias Buch-Kromann, 2007. _Computing translation units and quantifying parall
 Matthias Buch-Kromann, 2006. _Discontinuous Grammar. A dependency-based model of human parsing and language learning._ Dr.ling.merc. dissertation, Copenhagen Business School. 432+xvi pp. [http://www.buch-kromann.dk/matthias/thesis link]
 
 Matthias Trautner Kromann, 2003. _The Danish Dependency Treebank and the DTAG treebank tool._ In Proceedings of the Second Workshop on Treebanks and Linguistic Theories (TLT 2003), 14-15 November, Växjö.  pp. 217-220. [http://www.buch-kromann.dk/matthias/files/030730-tlt-norfa.pdf pdf]
+
+Britt Keson, 2000a. _Vejledning til det danske morfosyntaktisk taggede
+PAROLE-korpus_. Technical report, Det Danske Sprog- og Litteraturselskab (DSL). [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/paroledoc_dk.pdf pdf]
+
+Britt Keson, 2000b. _The Danish Morphosyntactically Tagged PAROLE Corpus_. English summary of Keson (2000a), Det Danske Sprog- og Litteraturselskab (DSL). [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/paroledoc_en.pdf pdf]
