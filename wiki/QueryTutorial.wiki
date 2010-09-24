@@ -9,9 +9,12 @@ DTAG has a rich query language based on first-order logic. This page describes t
 
 = Query language syntax =
 
-   * *{{{<node1> isa(<relation>) <node2>}}}*: matches any edge that goes from the second node into the first, and which matches a relation type that is dominated by the given relation in the relation hierarchy. 
-      * {{{$X isa(subj) $Y}}}: find all subject relations into $X from $Y
-      * {{{$X isa(ANA) 113}}}: find all anaphoric relations into $X from node 113.
+   * *{{{<node1> <relation> <node2>}}}*: the first node is connected to the second via an in-coming edge with the given relation name (quoted or unqouted). 
+      * {{{$X "subj" $Y}}}: find all edges into $X from $Y with label "subj".
+      * {{{$X coref $Y}}}: find all edges into $X from $Y with label "coref".
+   * *{{{<node1> isa(<relation>) <node2>}}}*: the first node is connected to the second via an in-coming edge whose relation name is dominated by the given relation in the relation hierarchy. 
+      * {{{$X isa(subj) $Y}}}: find all subject-type relations into $X from $Y.
+      * {{{$X isa(ANA) $Y}}}: find all anaphor-type relations into $X from $Y.
 
 = Example queries =
 
