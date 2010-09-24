@@ -16,8 +16,8 @@ DTAG has a rich query language based on first-order logic. This page describes t
       * {{{$X /^(subj|dobj)$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
       * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
    * *{{{<node>[<attribute>] eq <value>}}}*: the given attribute for the node matches the given value. The input string for the node is used if the attribute is omitted.
-      * {{{$X[] eq "They"}}}: find all nodes where the input string is "They".
-      * {{{$X[lemma] eq "they"}}}: find all nodes the lemma attribute equals "they". 
+      * {{{$X[lemma] eq "they"}}}: find all nodes where the lemma attribute equals "they". 
+      * {{{$X[] eq "They"}}}: find all nodes where the input string equals "They".
 
 
 = Example queries =
