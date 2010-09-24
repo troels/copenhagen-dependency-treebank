@@ -36,7 +36,7 @@ The currently best description of the treebank is given in Buch-Kromann et al (2
 
    * CDT1 was funded by an internal grant from the Copenhagen Business School.
    * CDT2 was funded by a grant from the Strategic Research Council in Denmark (via the Danish Program Committee for IT research)
-   * CDT3 was funded by a grant from the Free Research Council in Denmark.
+   * CDT3 was funded by grants from the Free Research Council in Denmark and from the Copenhagen Business School.
 
 = References = 
 
