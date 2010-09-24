@@ -9,6 +9,8 @@ DTAG has a rich query language based on first-order logic. This page describes t
 
 = Query language syntax =
 
+   * *<node> isa(synadj) <node>*: 
+
 = Example queries =
 
 = Find and replace =
