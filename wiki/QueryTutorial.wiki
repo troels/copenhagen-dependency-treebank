@@ -13,7 +13,7 @@ DTAG has a rich query language based on first-order logic. This page describes t
       * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
       * {{{$X coref $Y}}}: find all edges into $X from $Y with atomic label "coref".
       * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
-      * {{{$X /^(su|do)bj$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
+      * {{{$X /^(subj|dobj)$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
       * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
 
 = Example queries =
