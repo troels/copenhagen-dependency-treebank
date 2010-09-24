@@ -9,12 +9,12 @@ DTAG has a rich query language based on first-order logic. This page describes t
 
 = Query language syntax =
 
-   * *{{{<node1> <relation> <node2>}}}*: the first node is connected to the second via an in-coming edge with the given relation name (quoted or unqouted). 
-      * {{{$X "subj" $Y}}}: find all edges into $X from $Y with label "subj".
-      * {{{$X coref $Y}}}: find all edges into $X from $Y with label "coref".
-   * *{{{<node1> isa(<relation>) <node2>}}}*: the first node is connected to the second via an in-coming edge whose relation name is dominated by the given relation in the relation hierarchy. 
-      * {{{$X isa(subj) $Y}}}: find all subject-type relations into $X from $Y.
-      * {{{$X isa(ANA) $Y}}}: find all anaphor-type relations into $X from $Y.
+   * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. The relation constraint is either an atomic relation name (quoted or unquoted), a [http://perldoc.perl.org/perlre.html regular expression in Perl] of the form {{{/<regexp>/}}}, or an isa-constraint of the form {{{isa(<super>)}}} that matches relations which equals or are dominated by the relation {{{<super>}}} in the relation hierarchy.
+      * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
+      * {{{$X coref $Y}}}: find all edges into $X from $Y with atomic label "coref".
+      * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
+      * {{{$X /^(su|do)bj$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
+      * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
 
 = Example queries =
 
