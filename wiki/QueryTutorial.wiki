@@ -4,7 +4,8 @@
 
 DTAG has a rich query language based on first-order logic. This page describes the detailed syntax of the query language, provides examples of queries that can be performed with DTAG, and briefly describes how the query system works internally. 
 
-#contents
+
+<wiki:toc max_depth="3"/>
 
 = Query language syntax =
 
