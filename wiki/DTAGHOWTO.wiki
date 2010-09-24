@@ -116,6 +116,8 @@ Advanced commands:
   * *{{{next}}}*: goto the next match in the search
   * *{{{prev}}}*: goto the previous match in the search
 
+There is a more detailed description of the query language in the [QueryTutorial query tutorial].
+
 === Tasks and revision control ===
 
   * *{{{opentask}}}*: open the first unfinished task that has been assigned to you (the _current task_).
