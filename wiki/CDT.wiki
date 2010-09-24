@@ -3,7 +3,7 @@
 
 = The Copenhagen Dependency Treebanks =
 
-The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2009). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse. The Danish source texts and the Danish part-of-speech tags were created by the PAROLE-DK project (Keson 2000a,b) by the [http://www.dsl.dk Danish Society for Language and Literature]. 
+The purpose of the Copenhagen Dependency Treebank project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar (Buch-Kromann 2009). The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications. The treebanks are based on a unified dependency annotation, where texts are analyzed as a single dependency structure that spans all levels of analysis, from morphology to discourse.  
 
 The project has so far resulted in three sets of treebanks:
 
@@ -34,6 +34,7 @@ The currently best description of the treebank is given in Buch-Kromann et al (2
 
 = Acknowledgements = 
 
+   * The Danish source texts and the Danish part-of-speech tags were created by the PAROLE-DK project (Keson 2000a,b) by the [http://www.dsl.dk Danish Society for Language and Literature].
    * CDT1 was funded by an internal grant from the Copenhagen Business School.
    * CDT2 was funded by a grant from the Strategic Research Council in Denmark (via the Danish Program Committee for IT research)
    * CDT3 was funded by grants from the Free Research Council in Denmark and from the Copenhagen Business School.
