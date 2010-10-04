@@ -26,7 +26,7 @@ The treebanks are released to the computational linguistics and natural language
 
 == Downloading the treebank ==
 
-The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online]. We plan to release the treebanks in a variety of formats (CONLL, TigerXML). Please contact us if you are interested in obtaining the treebanks in a particular format, and we will do our best to help you.
+The development version of the treebank is stored in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout CDT Google Code repository]. You can also [http://code.google.com/p/copenhagen-dependency-treebank/source/browse/#svn/trunk browse the treebank sources online]. We plan to release the treebanks in a variety of formats (CONLL-2007, TigerXML). Please contact us if you are interested in obtaining the treebanks in a particular format, and we will do our best to help you.
 
 == Documentation ==
 
