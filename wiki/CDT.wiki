@@ -8,17 +8,17 @@ The purpose of the Copenhagen Dependency Treebank project is to create linguisti
 The project has so far resulted in three sets of treebanks:
 
    * *CDT1:* The Danish Dependency Treebank (100,000 words), which was used as training material in the CoNLL 2006 shared task.
-   * *CDT2:* The Danish-English Parallel Dependency Treebank (100,000 words).
+   * *CDT2:* The Danish-English Parallel Dependency Treebank (95,000 words).
    * *CDT3:* The Copenhagen Dependency Treebanks for Danish, English, German, Italian and Spanish (2x100,000 + 3x60,000 words, work-in-progress).
 
 The main status of the treebanks is listed below. 
 
 || *Treebank* || *Languages* || *Annotation* || *Word tokens* || *Status* ||
 || CDT1 || Danish || part-of-speech, syntax || 100,000 || complete ||
-|| CDT2 || Danish to English || part-of-speech, syntax, word alignments || 100,000 || near complete ||
+|| CDT2 || Danish to English || part-of-speech, syntax, word alignments || 95,000 || complete ||
 || CDT3 || Danish to English, Italian, Spanish, German || part-of-speech, syntax with extended adverbial annotation, word alignments, discourse structure, anaphora, morphology || 2x100,000 + 3x60,000 expected || in progress ||
 
-We expect CDT2 and CDT3 to be completed in the fall of 2010.
+CDT3 uses a much improved annotation scheme, compared to the annotation scheme used in CDT1+2. We expect CDT3 to be completed in the spring of 2011.
 
 == License == 
 
