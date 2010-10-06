@@ -22,7 +22,7 @@ CDT3 uses a much improved annotation scheme, compared to the annotation scheme u
 
 == License == 
 
-The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/LICENSE-GPL GNU General Public License]). The license means that you can use the treebank freely, both for research and commercially, but if you create or distribute a linguistic resource that is derived from the treebanks, either on its own or as a part of a software application or service, the derived linguistic resource must be made freely available under the GPL. For questions about the license, please contact Matthias Buch-Kromann <matthias@buch-kromann.dk>. 
+The treebanks are released to the computational linguistics and natural language processing community under an open-source license (the [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/LICENSE-GPL GNU General Public License]). The license means that you can use the treebank freely, both for research and commercially, but if you create or distribute a linguistic resource that is derived from the treebanks, either on its own or as a part of a software application or service, the derived linguistic resource must be made freely available under the GPL. For borderline cases and special licensing needs, please contact Matthias Buch-Kromann <matthias@buch-kromann.dk>.
 
 The [http://www.dsl.dk Danish Society for Language and Literature] owns the copyright to the underlying Danish PAROLE corpus, but has agreed to dual-license PAROLE-DK under the  GPL as well so that it can be distributed along with the treebank. The PAROLE-DK corpus, as well as other corpus resources for Danish, can also be downloaded from DSL's website.
 
@@ -36,7 +36,7 @@ The currently best description of the treebank is given in Buch-Kromann et al (2
 
 == Feedback and bug reports ==
 
-Please let us know if you use the treebanks in commercial products or open-source products, by sending a mail to u-s - this is the best way you can support us and help us make the case to our sponsors that our treebanks have been used to create useful language technology. 
+Please let us know if you use the treebanks in commercial products or open-source products, by sending a mail to us - this is the best way you can support us and help us make the case to our sponsors that our treebanks have been used to create useful language technology. 
 
 Please also contact us with feedback and bug reports. We are very interested in improving the quality of the annotations, so if you can send us a list of errors and potential problems in the treebanks, and perhaps even fixes to these problems, we will try to incorporate them in the treebanks. Emails should be directed to:
 
