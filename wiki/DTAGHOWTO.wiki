@@ -35,7 +35,7 @@ icon at the top menu bar on the right.
 
 It is possible to create your own dependency graphs within DTAG, for example eg, for small examples.
 
-  * *{{{vars <variable>:<abbreviation>}}}*: specify the permitted node features. Eg: {{{vars cat:c gloss:g}}} defines the node variable {{{cat}}} with abbreviation {{{c}, and the variable {{{gloss}}} with abbreviation {{{g}}}; {{{vars cat gloss}}} defines the variables without abbreviations; and {{{vars}}} without arguments prints the currently defined variables.
+  * *{{{vars <variable>:<abbreviation>}}}*: specify the permitted node features. Eg: {{{vars cat:c gloss:g}}} defines the node variable {{{cat}}} with abbreviation {{{c}}}, and the variable {{{gloss}}} with abbreviation {{{g}}}; {{{vars cat gloss}}} defines the variables without abbreviations; and {{{vars}}} without arguments prints the currently defined variables.
   * *{{{node <position> <word> <variable>=<value>...}}}*: insert a new node in the graph for the given word at the given position, setting the specified node variables. Eg: {{{node 3 Mann g="man" c="N"}}} inserts a node for "Mann" at position 3, and {{{node Mann}}} inserts a node for "Mann" as the final node in the graph. As a brief-hand, you can use a single space instead of typing "node". Eg: {{{" Mann"}}} is equivalent to {{{"node Mann"}}}.
   * *{{{edit <position> <variable>=<value>...}}}*: edit the node features at the given node. Eg: {{{edit 3 g="man" c="N"}}} sets the "g" feature to "man", etc., and {{{edit 3}}} edits all features of node 3. 
   * *{{{move <position1> <position2>}}}*: reorder the nodes in the graph by moving the node at the first position to the second position.
