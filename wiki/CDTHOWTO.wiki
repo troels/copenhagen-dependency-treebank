@@ -1,0 +1,19 @@
+#summary HOWTO for different CDT tasks
+
+= HOWTO manual for performing different CDT tasks =
+
+<wiki:toc max_depth="3"/>
+
+== Adding new texts for annotation ==
+
+Here is a list of steps needed to add a new text corpus to the CDT repository. The texts should be in .odt format. 
+
+  * *Source files*
+    * Save the .odt file in the directory "cdt/src" with a name of the form "LANG-CORPUS.odt" (eg, "da-mycorpus.odt").
+    * Save the .odt file in UTF8 format as "cdt/src/LANG-CORPUS.utf8" (use OpenOffice, "Save as", select "Text Encoded" format and then "UTF8").
+    * Add the source files to the svn repository (from DTAG: "!svn add ~/cdt/src/da-mycorpus.*").
+  * *Text files*
+    * The UTF8 file must be segmented into individual files and saved in the "cdt/LANG" directory. Use names of the form "CORPUS-XXXX-LANG.txt", save any citation references in "CORPUS-XXXX-LANG.cite". You can use your favorite text editor for this task. 
+  * *TAG files*
+
+
