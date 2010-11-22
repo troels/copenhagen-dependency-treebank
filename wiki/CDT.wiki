@@ -53,7 +53,7 @@ Please also contact us with feedback and bug reports. We are very interested in 
 
 If you use the treebanks in scholarly work, please cite them as follows:
 
-   * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009). When using the Danish PAROLE-DK corpus and its part-of-speech tags (the "msd" feature in Danish), please cite Keson (2010) and link to [http://korpus.dsl.dk/e-resurser/parole-korpus.html DSL].
+   * *CDT1*: Please cite one of: Kromann (2003), Buch-Kromann (2006), or Buch-Kromann (2009). When using the Danish PAROLE-DK corpus and its part-of-speech tags (the "msd" feature in Danish), please cite Keson (2000a) and link to [http://korpus.dsl.dk/e-resurser/parole-korpus.html DSL].
    * *CDT2*: Please cite Kromann et al (2007)
    * *CDT3*: Please cite: Buch-Kromann et al (2009) or Buch-Kromann and Korzen (2010a)
 
