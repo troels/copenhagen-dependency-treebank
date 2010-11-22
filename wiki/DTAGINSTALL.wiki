@@ -1,0 +1,11 @@
+#summary DTAG Installation HOWTO
+
+= Installation of DTAG =
+
+= Requirements =
+
+The annotation program DTAG only runs on UNIX machines, and requires Perl and the PostScript viewer GV. 
+
+= Download =
+
+To download DTAG, you have to check out the source code with anonymous subversion as described in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout checkout] page. 
