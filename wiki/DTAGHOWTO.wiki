@@ -1,6 +1,6 @@
 ﻿== DTAG HOWTO ==
 
-This document describes how to use DTAG for different tasks. 
+This document describes how to use DTAG for different tasks. See [DTAGINSTALL DTAG installation HOWTO] for how to install DTAG.
 
 <wiki:toc max_depth="3"/>
 
