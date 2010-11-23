@@ -16,7 +16,8 @@ password when prompted. You can choose wireless LAN by clicking on the Network
 icon at the top menu bar on the right.
 
   * *{{{viewer}}}*: show the current graph in a window (if the viewer doesn't display correctly, simply restart the viewer by closing the viewer window and typing {{{viewer}}} again.
-  * *{{{manual}}}*: open a web browser with a local copy of the CDT treebank.dk website; click on the "Dependency maps" link in order to get access to more than 10.000 searchable treebank examples. 
+  * *{{{manual}}}*: open a web browser with a local copy of the CDT treebank.dk website; click on the "Dependency maps" link in order to get access to more than 10.000 searchable treebank examples.
+  * *{{{cdtmanual}}}*: open the CDT manual with the inventory of linguistic relations used in the Copenhagen Dependency Treebanks, agreement scores and status. 
   * *{{{note <node> <text>}}}*: make a note at the given node with the given text (used if you want to comment on a certain part of the graph, eg, for later post-editing).
   * *{{{notes}}}*: print all notes associated with nodes in the visible text.
   * *{{{edges <node>}}}*: show all alignment edges or incoming edges at the given node. The command can be abbreviated *{{{<node>}}}*, and in an alignment graph, the node key is assumed to be "a" unless otherwise stated. Eg, in an alignment graph, the following three commands are equivalent: {{{edges a12}}}, {{{a12}}}, {{{12}}}. 
@@ -32,6 +33,7 @@ icon at the top menu bar on the right.
   * *{{{text}}}*: print the entire graph as plain text with node numbering; use *{{{textn}}}* if you want a more detailed numbering.
   * *{{{discourse}}}*: display the graph with a color scheme suitable for discourse annotation.
   * *{{{syntax}}}*: display the graph with a color scheme suitable for syntax annotation.
+  * *{{{morphology}}}*:display the graph with the morphological annotations below the node.
 
 It is possible to create your own dependency graphs within DTAG, for example eg, for small examples.
 
@@ -59,6 +61,8 @@ Each node consists of a node specification followed by an optional edge specific
 
   * *{{{example [-add] [-title=<title>] <specification>}}}*: create a graph from the given example specification. The graph title is optional and can be used to specify glosses. The option {{{-add}}} ensures that the example is added to the bottom of the current graph, otherwise the example is created as a new graph. Eg: {{{example -add -title="Here it is" Her|Here<2:expl> er|is den|it<2:preds>}}}
   * *{{{as.example [<node-variables>] [<range>]}}}*: prints a graph as an example string. The optional node variables are given as a list of node variable names separated by vertical bars "|". The optional range specification is given as a space-separated list of node numbers ("n") or node ranges ("n1..n2"); nodes can be given either as absolute node positions (prefixed by "=") or as relative node positions (prefixed by "-", "+", or nothing). Eg: {{{as.example cat|gloss -1 3..5 7..12 =27}}}
+  * *{{{nocolors}}}*: remove all colors (e.g. red or green) from the graph.
+  * *{{{nonumbers}}}*: remove all numbers below the graph.
 
 The example format is used to specify examples in the spreadsheet that defines our inventory of relations. These examples are shown automatically in DTAG when the user invokes the help function for a given relation. The output from as.example can be pasted directly into the spreadsheet. You can insert several examples into the spreadsheet, separated by a blank line (use ctrl-enter in Google spreadsheets).
 
@@ -162,6 +166,7 @@ KEY STATUS          DESCRIPTION
 1   first           first-pass independent human annotation (before discussion)
 d   discussed       discussed with other annotators, possibly corrected
 f   final           final revision complete
+f1  final           final version without discussing with other annotators
     outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
 </pre>
 
