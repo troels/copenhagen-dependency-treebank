@@ -166,7 +166,7 @@ KEY STATUS          DESCRIPTION
 1   first           first-pass independent human annotation (before discussion)
 d   discussed       discussed with other annotators, possibly corrected
 f   final           final revision complete
-f1  final           final version without discussing with other annotators
+f1  final           final version that has not been discussed with other annotators
     outdated-final  outdated-final status (for pre-CDT treebank annotations, ie, Danish and English syntax)
 </pre>
 
