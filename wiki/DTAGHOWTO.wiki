@@ -6,17 +6,16 @@ This document describes how to use DTAG for different tasks. See [DTAGINSTALL DT
 
 === Starting and closing DTAG ===
 
-Start DTAG by clicking on the "DTAG" icon on your desktop. If you are 
-connected to the Internet, you should update DTAG first by clicking on the "Update DTAG" icon. 
+Start DTAG by clicking on the "DTAG" icon on your desktop. 
 
-*Note.* At CBS, you have to enter your username and password before you get a
-network connection: open a browser by clicking on the Firefox icon at the top
-menu bar, open an arbitrary internet page, and enter your CBS username and
-password when prompted. You can choose wireless LAN by clicking on the Network 
-icon at the top menu bar on the right.
+    CBS only: If you are  connected to the Internet, you should update DTAG first by 
+    clicking on the "Update DTAG" icon. You may have to enter your username and password 
+    before you get a network connection: open a browser by clicking on the Firefox icon 
+    at the top menu bar, open an arbitrary internet page, and enter your CBS username and
+    password when prompted. You can choose wireless LAN by clicking on the Network 
+    icon at the top menu bar on the right.
 
   * *{{{viewer}}}*: show the current graph in a window (if the viewer doesn't display correctly, simply restart the viewer by closing the viewer window and typing {{{viewer}}} again.
-  * *{{{manual}}}*: open a web browser with a local copy of the CDT treebank.dk website; click on the "Dependency maps" link in order to get access to more than 10.000 searchable treebank examples.
   * *{{{cdtmanual}}}*: open the CDT manual with the inventory of linguistic relations used in the Copenhagen Dependency Treebanks, agreement scores and status. 
   * *{{{note <node> <text>}}}*: make a note at the given node with the given text (used if you want to comment on a certain part of the graph, eg, for later post-editing).
   * *{{{notes}}}*: print all notes associated with nodes in the visible text.
@@ -34,6 +33,7 @@ icon at the top menu bar on the right.
   * *{{{discourse}}}*: display the graph with a color scheme suitable for discourse annotation.
   * *{{{syntax}}}*: display the graph with a color scheme suitable for syntax annotation.
   * *{{{morphology}}}*:display the graph with the morphological annotations below the node.
+  * *{{{noerrors}}}*: turn off all coloring of errors etc. to produce a nice black-white image of the graph.
 
 It is possible to create your own dependency graphs within DTAG, for example eg, for small examples.
 
@@ -63,6 +63,7 @@ Each node consists of a node specification followed by an optional edge specific
   * *{{{as.example [<node-variables>] [<range>]}}}*: prints a graph as an example string. The optional node variables are given as a list of node variable names separated by vertical bars "|". The optional range specification is given as a space-separated list of node numbers ("n") or node ranges ("n1..n2"); nodes can be given either as absolute node positions (prefixed by "=") or as relative node positions (prefixed by "-", "+", or nothing). Eg: {{{as.example cat|gloss -1 3..5 7..12 =27}}}
   * *{{{nocolors}}}*: remove all colors (e.g. red or green) from the graph.
   * *{{{nonumbers}}}*: remove all numbers below the graph.
+  * *{{{etypes -add -$category $types}}}*: manually specify a list of edge types that DTAG should recognize as valid. $types is a space-separated list of edge type names. $category can be any category name; predefined names include "comp" (complements), "adj" (adjuncts), and "ref" (coreference relations). The optional {{{-add}}} specifies that the edge types are added to the category, rather than replacing it.
 
 The example format is used to specify examples in the spreadsheet that defines our inventory of relations. These examples are shown automatically in DTAG when the user invokes the help function for a given relation. The output from as.example can be pasted directly into the spreadsheet. You can insert several examples into the spreadsheet, separated by a blank line (use ctrl-enter in Google spreadsheets).
 
@@ -87,6 +88,7 @@ The autoreplacer can search an entire corpus for a given list of edge relations,
 
   * *{{{autotag [-matches] [-default] <feature> <files>}}}*: start the autotagger for the given feature on the current file, using the given files as training data. Eg, {{{autotag morph *.tag}}} will start the autotagger on the {{{morph}}} feature, using all tag-files in the current directory as training data. With the {{{-default}}} option, the autotagger reuses an existing autotagger lexicon if it already exists. With the {{{-matches}}} option, the autotagger only tags words that were matched by the last {{{find}}} command.
   * *{{{autotag -off}}}*: turn off the autotagger.
+  * *{{{autotagm}}}*: a shorthand for {{{find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag}}} which is used for morphological annotation in the CDT project. 
   * *{{{< <value>}}}*: set the feature value of the current word in the autotagger. Shortcuts can be specified in the value string as "#1", "#2", etc. Eg, {{{<word+s}}} and {{{<#1+#2+s}}}.
   * *{{{<position> < <value>}}}*: set the feature value for the word with the given relative position in the autotagger. Eg, {{{37<word+s}}}.
   * *{{{autotag -pos <position>}}}*: move the autotagger to the word with the given position.
@@ -197,3 +199,4 @@ encodes a graph node with token given by {{{token}}}, attribute value pairs a1=f
   * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
   * *{{{cdt <directory>}}}*: change to the given cdt directory. Eg: {{{cdt da}}}
   * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
+  * *{{{makemanual}}}*: compile the CDT manual based on the relation spreadsheet combined with statistics collected from the latest annotations. 
