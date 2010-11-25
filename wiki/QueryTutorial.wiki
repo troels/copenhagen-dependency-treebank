@@ -48,9 +48,9 @@ Constraints can be placed on the adjacency or near-adjacency of nodes:
   * *{{{<node1> >range> <node2>}}}*: the first node succeeds the second node within the given adjacency range.
 
 Adjacency ranges are specified as:
-  * *<number>*: the exact distance.
-  * *<number1>..<number2>*: a range of distances from first to second number.
-  * *<range1>,<range2>,...*: any comma-separated list of ranges. 
+  * *{{{<number>}}}*: the exact distance.
+  * *{{{<number1>..<number2>}}}*: a range of distances from first to second number.
+  * *{{{<range1>,<range2>,...}}}*: any comma-separated list of ranges. 
 
 == Value constraints and comparisons ==
 
