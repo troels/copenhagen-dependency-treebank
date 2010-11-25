@@ -205,5 +205,5 @@ encodes a graph node with token given by {{{token}}}, attribute value pairs a1=f
   {{{ls}}}<br>
   {{{cd syntax}}}<br>
   {{{ls}}}<br>
-  {{{!rm *morten*}}}   (deleting morten locally)<br>
-  {{{!svn rm *iorn*}}} (deleting iorn globally)
+  {{{!rm *morten*}}}                  (deleting morten locally)<br>
+  {{{!svn rm *iorn*}}}                (deleting iorn globally)
