@@ -89,6 +89,13 @@ For example:
   * {{{$X > $Y}}}: the first node succeeds the second in the linear order.
   * {{{$X[time] > 20.7}}}: the time attribute associated with $X must be at least 20.7.
 
+== Alignment constraints ==
+
+  * *{{{@(<nodes1>;<nodes2>)}}}*: there is an alignment edge from the first set of nodes to the second.
+  * *{{{@<relation-constraint>(<nodes1>;<nodes2>)}}}*: there is an alignment edge from the first set of nodes to the second, with a relation name that matches the given relation constraint.
+  
+Node lists are specified as comma-separated lists of nodes.
+
 == Logical constraints ==
 
 It is advisable to enclose simple queries in parentheses "(...)" when joining them with logical operators.
