@@ -63,8 +63,9 @@ Values can be given as atomic values (numbers or strings enclosed in double quot
   * *{{{<node>[<attribute>]}}}*: the string or number associated with the given feature in the given node (eg, '{{{$X[msd]}}}'). The interpretation as string or number depends on the operator that is applied to the value. 
   * *{{{etypes(<node1>, <node2>)}}}*: a string containing a space-separated list of the relation types associated with the edges to the first node from the second, in alphabetical order.
     * {{{etypes($X, $Y)}}}
-  * *{{{etypes(<node1> <relation-constraint> <node2>)}}}*: a string containing a space-separated list of the relation types associated with the edges to the first node from the second, in alphabetical order.
-    * {{{etypes($X isa(SYNCOMP) $Y)}}}: a list will all SYNCOMP relation names to $X from $Y. 
+  * *{{{etypes(<node1> <relation-constraint> <node2>)}}}*: a string containing a space-separated list of the relation types associated with the edges to the first node from the second, in alphabetical order. Most useful within a "-do(...)" statement.
+    * {{{etypes($X isa(SYNCOMP) $Y)}}}: a list with all SYNCOMP relation names to $X from $Y. 
+    * {{{find -yes ($X isa(COMP) $Y) -do(echo $X `etypes($X isa(COMP) $Y)` $Y\n)}}}: print edge specifications for all COMP-edges connecting any two nodes in the graph. 
 
 String values can be compared with the following operators:
 
