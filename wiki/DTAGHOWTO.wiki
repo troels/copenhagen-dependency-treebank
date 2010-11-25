@@ -199,11 +199,12 @@ encodes a graph node with token given by {{{token}}}, attribute value pairs a1=f
   * *{{{cd <directory>}}}*: change to the given directory. Eg: {{{cd da-it}}}; {{{cd /home/cdt/cdt}}}. 
   * *{{{cdt <directory>}}}*: change to the given cdt directory. Eg: {{{cdt da}}}
   * *{{{lpr}}}*: print the currently annotated text on the printer (only works if your Linux machine has been set up for printing, and is connected to the network by ethernet cable).
-  * *{{{makemanual}}}*: compile the CDT manual based on the relation spreadsheet combined with statistics collected from the latest annotations in the cdt/first directories. Run "update" first if you want the manual to be generated from the newest files in the repository. Outdated files in the cdt/first directories can be deleted either locally (using the "rm" UNIX command) or in the svn repository (using the "svn rm" command). If files are deleted locally, they will be restored automatically the next time the local copy of the repository is updated (eg, after "update" or "commit"). For example, in DTAG you can run the following commands to see the files in the cdt/first directory and delete all syntax files created by morten:
+  * *{{{makemanual}}}*: compile the CDT manual based on the relation spreadsheet combined with statistics collected from the latest annotations in the cdt/first directories. Run "update" first if you want the manual to be generated from the newest files in the repository. Outdated files in the cdt/first directories can be deleted either locally (using the "rm" UNIX command) or in the svn repository (using the "svn rm" command). If files are deleted locally, they will be restored automatically the next time the local copy of the repository is updated (eg, after "update" or "commit"). For example, in DTAG you can run the following commands to see the files in the cdt/first directory, delete all syntax files created by morten locally, and syntax files with id 0001 created by matthias globally (wildcard "*" matches any sequence of characters):
 
   {{{cdt first}}}<br>
   {{{ls}}}<br>
   {{{cd syntax}}}<br>
+  {{{ls *morten*}}}<br>
+  {{{!rm *morten*}}}<br>
   {{{ls}}}<br>
-  {{{!rm *morten*}}}                  (deleting morten locally)<br>
-  {{{!svn rm *iorn*}}}                (deleting iorn globally)
+  {{{!svn rm 0001*matthias*}}}
