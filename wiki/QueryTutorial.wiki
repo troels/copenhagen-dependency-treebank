@@ -65,13 +65,16 @@ It is advisable to enclose simple queries in parentheses "(...)" when joining th
     * {{{($X subj $Y) & ($X < $Y)}}}: $X is a subject of $Y and located before $Y.
   * *{{{<cond1> | <cond2>}}}*: satisfied by at least one of the conditions (logical OR). The operators "∨", "||", "OR", "or" can be used instead of "|". 
     * {{{($X subj $Y) | ($X subj $Z)}}}: $X is a subject of $Y or $Z.
-    * {{{($X subj $Y) or ($X dobj $Y)}}}: $X is a subject or direct object of $Y.
-  Note that the second query is much more efficiently performed using a regular expression on the relation:
-    * {{{$X /^(subj|dobj)$/ $Y}}}: $X is a subject or direct object of $Y.
-  * *{{{<cond1> -> <cond2>}}}*: satisfied by the second condition if satisfied by the first (logical IMPLIES). The operators "→", "⇒", "IMPLIES", "implies" can be used instead of "->". 
-  * *{{{<cond1> <- <cond2>}}}*: satisfied by the first condition if satisfied by the second (as IMPLIES, but reversed direction). The operators "←", "⇐", "IF", "if" can be used instead of "<-".
+    * {{{($X subj $Y) or ($X dobj $Y)}}}: $X is a subject or direct object of $Y (this query is much more efficiently performed as the query {{{$X /^(subj|dobj)$/ $Y}}}).
+  * *{{{<cond1> implies <cond2>}}}*: satisfied by the second condition if satisfied by the first (logical IMPLIES). The operators "->", "→", "⇒", "IMPLIES" can be used instead of "implies". 
+    * {{{($X subj $Y) implies ($X < $Y)}}}
+  * *{{{<cond1> if <cond2>}}}*: satisfied by the first condition if satisfied by the second (as IMPLIES, but reversed direction). The operators "<-", "←", "⇐", "IF" can be used instead of "if".
+    * {{{($X < $Y) if ($X subj $Y)}}}
   * *{{{E<var>(<cond>)}}}*: there exists a variable instantiation of {{{<var>}}} that makes the condition true (existential quantification). The quantifiers "∃", "EXISTS", "exists" can be used instead of the quantifier "E".
+    * {{{E$Y($Y expl $X)}}}: matches any node $X with an expletive subject $Y.
   * *{{{A<var>(<cond>)}}}*: the condition is satisfied for all instantiations of {{{<var>}}} (universal quantification). The quantifiers "∀", "ALL", "all" can be used instead of the quantifier "A". 
+    * {{{A$Y($Y > $X if ($Y isa(SYNADJ) $X))}}}: matches any node $X which only has succeeding adjuncts.
+
 
 = Example queries =
 
