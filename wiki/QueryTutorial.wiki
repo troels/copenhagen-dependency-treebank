@@ -71,9 +71,11 @@ It is advisable to enclose simple queries in parentheses "(...)" when joining th
   * *{{{<cond1> if <cond2>}}}*: satisfied by the first condition if satisfied by the second (as IMPLIES, but reversed direction). The operators "<-", "←", "⇐", "IF" can be used instead of "if".
     * {{{($X < $Y) if ($X subj $Y)}}}
   * *{{{E<var>(<cond>)}}}*: there exists a variable instantiation of {{{<var>}}} that makes the condition true (existential quantification). The quantifiers "∃", "EXISTS", "exists" can be used instead of the quantifier "E".
-    * {{{E$Y($Y expl $X)}}}: matches any node $X with an expletive subject $Y.
+    * {{{E$Y($Y expl $X)}}}: matches any node $X with an expletive subject $Y.    
+    * {{{E$Y($Y expl $X)}}}: as previous example, but specifies that variable $Y belongs to graph with key "a".
   * *{{{A<var>(<cond>)}}}*: the condition is satisfied for all instantiations of {{{<var>}}} (universal quantification). The quantifiers "∀", "ALL", "all" can be used instead of the quantifier "A". 
     * {{{A$Y($Y > $X if ($Y isa(SYNADJ) $X))}}}: matches any node $X without preceding adjuncts.
+    * {{{A$Y@a($Y > $X if ($Y isa(SYNADJ) $X))}}}: as previous example, but specifies that variable $Y belongs to graph with key "a".
 
 
 = Example queries =
