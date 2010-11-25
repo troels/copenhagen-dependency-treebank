@@ -4,10 +4,11 @@
 
 DTAG has a rich query language based on first-order logic. This page describes the detailed syntax of the query language, provides examples of queries that can be performed with DTAG, and briefly describes how the query system works internally. 
 
-
 <wiki:toc max_depth="3"/>
 
 = Query language syntax =
+
+== Relation constraints ==
 
    * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. The relation constraint is either an atomic relation name (quoted or unquoted), a [http://perldoc.perl.org/perlre.html regular expression in Perl] of the form {{{/<regexp>/}}}, or an isa-constraint of the form {{{isa(<super>)}}} that matches relations at or below the super relation {{{<super>}}} in the relation hierarchy.
       * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
@@ -15,14 +16,45 @@ DTAG has a rich query language based on first-order logic. This page describes t
       * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
       * {{{$X /^(subj|dobj)$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
       * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
-   * *{{{<node>[<attribute>] eq <value>}}}*: the given attribute for the node matches the given value. The input string for the node is used if the attribute is omitted.
+
+== Comparison operators ==
+
+Values can be given as atomic values (numbers or strings enclosed in double quotes), or as nodes or node features:
+
+   * *{{{"<string>"}}}*: the given string as an atomic string value (eg '"hello world!"').
+   * *{{{<number>}}}*: the given number as an atomic number value (eg '123', '-13.3').
+   * *{{{<node>}}}*: the node number as a numerical value (eg, '$X').
+   * *{{{<node>[]}}}*: the string associated with the node (eg, '$NODE[]').
+   * *{{{<node>[<attribute>]}}}*: the string or number associated with the given feature in the given node (eg, '$X[msd]'). The interpretation as string or number depends on the operator that is applied to the value. 
+
+String values can be compared with the following operators:
+  * *{{{<value1> eq <value2>}}}*: the two values are equal as strings, eg:
       * {{{$X[lemma] eq "they"}}}: find all nodes where the lemma attribute equals "they". 
       * {{{$X[] eq "They"}}}: find all nodes where the input string equals "They".
+  * *{{{<value> =~ /<regexp>/}}}*: the string value matches the given regular expression, eg:
+      * {{{$X[lemma] =~ /ics$/}}}: find all nodes where the lemma attribute ends with "ics".
+  * *{{{<value> !~ /<regexp>/}}}*: the string value does not match the given regular expression.
 
+Numerical values can be compared with the following operators:
+  * *{{{<value1> < <value2>}}}*: the first value is numerically smaller than the second.
+  * *{{{<value1> <= <value2>}}}*: the first value is numerically smaller than or equal to the second.
+  * *{{{<value1> = <value2>}}}*: the first value is numerically equal to the second.
+  * *{{{<value1> > <value2>}}}*: the first value is numerically larger than the second.
+  * *{{{<value1> >= <value2>}}}*: the first value is numerically larger than or equal to the second.
+
+== Complex queries ==
+
+It is advisable to enclose simple queries in parentheses "(...)" when joining them with logical operators.
+
+  * *{{{<cond1> & <cond2>}}}*: satisfied by both conditions.
+  * *{{{<cond1> | <cond2>}}}*: satisfied by at least one of the conditions.
+  * *{{{! <cond>}}}*: satisfied if condition fails.
 
 = Example queries =
 
 = Find and replace =
+
+   * *{{{etypes(<relation>)}}}*: the "|"-concatenated alphabetically sorted list of relation types for all edges that match the given relation (eg, {{{etypes($X isa(PRIM) $Y}}}). 
 
 = Working with corpora =
 
