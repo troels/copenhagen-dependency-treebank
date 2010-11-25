@@ -10,7 +10,12 @@ DTAG has a rich query language based on first-order logic. This page describes t
 
 == Relation constraints ==
 
-   * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. The relation constraint is either an atomic relation name (quoted or unquoted), a [http://perldoc.perl.org/perlre.html regular expression in Perl] of the form {{{/<regexp>/}}}, or an isa-constraint of the form {{{isa(<super>)}}} that matches relations at or below the super relation {{{<super>}}} in the relation hierarchy.
+   * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. The relation constraint can be:
+      * *{{{<string>}}}*: an unquoted atomic relation name.
+      * *{{{"<string>"}}}*: a quoted atomic relation name.
+      * *{{{/<regexp>/}}}*: a [http://perldoc.perl.org/perlre.html regular expression in Perl].
+      * *{{{isa(<super>)}}}*: an isa-constraint that matches relations that are either subrelations of the super relation {{{<super>}}}, or equal to the super relation itself,  in the relation hierarchy.
+      Examples include:
       * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
       * {{{$X coref $Y}}}: find all edges into $X from $Y with atomic label "coref".
       * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
