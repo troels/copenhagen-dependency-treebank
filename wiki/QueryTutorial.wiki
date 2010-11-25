@@ -10,17 +10,21 @@ DTAG has a rich query language based on first-order logic. This page describes t
 
 == Relation constraints ==
 
-   * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. The relation constraint can be:
-      * *{{{<string>}}}*: an unquoted atomic relation name.
-      * *{{{"<string>"}}}*: a quoted atomic relation name.
-      * *{{{/<regexp>/}}}*: a [http://perldoc.perl.org/perlre.html regular expression in Perl].
-      * *{{{isa(<super>)}}}*: an isa-constraint that matches relations that are either subrelations of the super relation {{{<super>}}}, or equal to the super relation itself,  in the relation hierarchy.
-      Examples include:
-      * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
-      * {{{$X coref $Y}}}: find all edges into $X from $Y with atomic label "coref".
-      * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
-      * {{{$X /^(subj|dobj)$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
-      * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
+  * *{{{<node1> <relation-constraint> <node2>}}}*: the first node is connected to the second via an in-edge whose relation name matches the given relation constraint. 
+
+The relation constraint can be of the form:
+  * *{{{<string>}}}*: an unquoted atomic relation name.
+  * *{{{"<string>"}}}*: a quoted atomic relation name.
+  * *{{{/<regexp>/}}}*: a [http://perldoc.perl.org/perlre.html regular expression in Perl].
+  * *{{{isa(<super>)}}}*: an isa-constraint that matches relations that are either subrelations of the super relation {{{<super>}}}, or equal to the super relation itself,  in the relation hierarchy.
+
+Examples include:
+
+  * {{{$X "subj" $Y}}}: find all edges into $X from $Y with atomic label "subj".
+  * {{{$X coref $Y}}}: find all edges into $X from $Y with atomic label "coref".
+  * {{{$X /obj/ $Y}}}: find all edges into $X from $Y whose name contains "obj".
+  * {{{$X /^(subj|dobj)$/ $Y}}}: find all edges into $X from $Y whose name matches either "subj" or "dobj".
+  * {{{$X isa(SYNADJ) $Y}}}: find all syntactic adjunct edges into $X from $Y. 
 
 == Comparison operators ==
 
@@ -33,6 +37,7 @@ Values can be given as atomic values (numbers or strings enclosed in double quot
    * *{{{<node>[<attribute>]}}}*: the string or number associated with the given feature in the given node (eg, '$X[msd]'). The interpretation as string or number depends on the operator that is applied to the value. 
 
 String values can be compared with the following operators:
+
   * *{{{<value1> eq <value2>}}}*: the two values are equal as strings, eg:
       * {{{$X[lemma] eq "they"}}}: find all nodes where the lemma attribute equals "they". 
       * {{{$X[] eq "They"}}}: find all nodes where the input string equals "They".
