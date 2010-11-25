@@ -51,6 +51,10 @@ Numerical values can be compared with the following operators:
   * *{{{<value1> = <value2>}}}*: the first value is numerically equal to the second.
   * *{{{<value1> > <value2>}}}*: the first value is numerically larger than the second.
   * *{{{<value1> >= <value2>}}}*: the first value is numerically larger than or equal to the second.
+For example:
+  * {{{$X < $Y}}}: the first node precedes the second in the linear order.
+  * {{{$X > $Y}}}: the first node succeeds the second in the linear order.
+  * {{{$X[time] > 20.7}}}: the time attribute associated with $X must be at least 20.7.
 
 == Complex queries ==
 
