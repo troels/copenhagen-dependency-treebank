@@ -73,7 +73,7 @@ It is advisable to enclose simple queries in parentheses "(...)" when joining th
   * *{{{E<var>(<cond>)}}}*: there exists a variable instantiation of {{{<var>}}} that makes the condition true (existential quantification). The quantifiers "∃", "EXISTS", "exists" can be used instead of the quantifier "E".
     * {{{E$Y($Y expl $X)}}}: matches any node $X with an expletive subject $Y.
   * *{{{A<var>(<cond>)}}}*: the condition is satisfied for all instantiations of {{{<var>}}} (universal quantification). The quantifiers "∀", "ALL", "all" can be used instead of the quantifier "A". 
-    * {{{A$Y($Y > $X if ($Y isa(SYNADJ) $X))}}}: matches any node $X which only has succeeding adjuncts.
+    * {{{A$Y($Y > $X if ($Y isa(SYNADJ) $X))}}}: matches any node $X without preceding adjuncts.
 
 
 = Example queries =
