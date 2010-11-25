@@ -40,7 +40,7 @@ Constraints can be placed on the adjacency or near-adjacency of nodes:
 
   * *{{{<node1> << <node2>}}}*: the first node immediately precedes the second.
     * {{{$X << $Y}}}
-  * *{{{<node1> >> <node2>}}}: the first node immediately succeeds the second.
+  * *{{{<node1> >> <node2>}}}*: the first node immediately succeeds the second.
   * *{{{<node1> <range< <node2>}}}*: the first node precedes the second node within the given adjacency range.
     * {{{$X <2< $Y}}}: $X is the second word before $Y.
     * {{{$X <2..8< $Y}}}: $X is 2 to 8 words before $Y.
