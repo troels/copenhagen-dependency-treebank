@@ -61,9 +61,14 @@ For example:
 It is advisable to enclose simple queries in parentheses "(...)" when joining them with logical operators.
 
   * *{{{<cond1> & <cond2>}}}*: satisfied by both conditions.
-  * *{{{<cond1> | <cond2>}}}*: satisfied by at least one of the conditions.
+    * {{{($X subj $Y) & ($X < $Y)}}}: $X is a subject of $Y and located before $Y.
+  * *{{{<cond1> | <cond2>}}}*: satisfied by at least one of the conditions. 
+    * {{{($X subj $Y) | ($X subj $Z)}}}: $X is a subject of $Y or $Z.
+    * {{{($X subj $Y) | ($X dobj $Y)}}}: $X is a subject or direct object of $Y.
+  Note that the second query is much more efficiently performed using a regular expression on the relation:
+    * {{{$X /^(subj|dobj)$/ $Y}}}: $X is a subject or direct object of $Y.
   * *{{{! <cond>}}}*: satisfied if condition fails.
-
+  * *{{{E<var>(<cond>)}}}*: there exists a variable 
 = Example queries =
 
 = Find and replace =
