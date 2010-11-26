@@ -2,9 +2,25 @@
 
 = Introduction =
 
-DTAG has a rich query language based on first-order logic. This page describes the detailed syntax of the query language, provides examples of queries that can be performed with DTAG, and briefly describes how the query system works internally. 
+DTAG has a sophisticated query language that can be used to search dependency graphs and alignments, extract tables, and perform automatic replace operations. The query language is based on first-order logic. This page describes the detailed syntax of the query language, provides examples of queries that can be performed with DTAG, and briefly describes how the query system works internally. 
 
 <wiki:toc max_depth="3"/>
+
+= Overview =
+
+The most important commands are summarized below.  
+
+  * *{{{corpus <filespec>}}}*: specify the current corpus as a UNIX glob-pattern (ie, a file pattern where "*" matches any character). 
+    * {{{corpus ~/cdt/da/*.tag}}}
+    * {{{corpus da-en/00*.atag}}}
+  * *{{{find <options> <constraint> [-do(<command>)]}}}*: search the graph (or the entire corpus) for all occurrences that match the given constraint. 
+    * {{{find $X "subj" $Y}}}: find any subject $X of $Y.
+    * {{{find ($X "subj" $Y) & ($X < $Y)}}}: find any preceding subject $X of $Y.
+    * {{{find -corpus $X "subj" $Y}}}: search the entire corpus for subjects.
+    * {{{find $X isa(PRIM) $Y -do(echo $X `etypes($X isa(PRIM) $Y)` $Y\n)}}}: search entire corpus for primary dependencies, and print out the dependencies to screen (as they would have been entered in DTAG). 
+    * {{{find -corpus -vars($X@a,$Y@b) @($X;$Y)}}}: search entire corpus for alignments between two nodes $X and $Y.
+  * *{{{next}}}*: goto the next match in the search (can be abbreviated as "n").
+  * *{{{prev}}}*: goto the previous match in the search (can be abbreviated as "p").
 
 = Query language syntax =
 
@@ -118,13 +134,8 @@ It is advisable to enclose simple queries in parentheses "(...)" when joining th
     * {{{A$Y@a($Y > $X if ($Y isa(SYNADJ) $X))}}}: as previous example, but specifies that variable $Y belongs to graph with key "a".
 
 
-= Example queries =
-
-
 = Find and replace =
 
    * *{{{etypes(<relation>)}}}*: the "|"-concatenated alphabetically sorted list of relation types for all edges that match the given relation (eg, {{{etypes($X isa(PRIM) $Y}}}). 
 
-= Working with corpora =
-
-= Querying multi-file graphs =
+= Example queries =
