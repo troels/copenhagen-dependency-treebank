@@ -10,7 +10,7 @@ DTAG has a sophisticated query language that can be used to search dependency gr
 
 The most important commands are summarized below.  
 
-  * *{{{corpus <filespec>}}}*: specify the current corpus as a UNIX glob-pattern (ie, a file pattern where "*" matches any character). 
+  * *{{{corpus <filespec>}}}*: specify the current corpus as a UNIX glob-pattern (ie, a file pattern where "{{{*}}}" matches any character). 
     * {{{corpus ~/cdt/da/*.tag}}}
     * {{{corpus da-en/00*.atag}}}
   * *{{{find <options> <constraint> [-do(<command>)]}}}*: search the graph (or the entire corpus) for all occurrences that match the given constraint. 
