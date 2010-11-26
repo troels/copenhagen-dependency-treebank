@@ -136,6 +136,25 @@ It is advisable to enclose simple queries in parentheses "(...)" when joining th
 
 = Find and replace =
 
-   * *{{{etypes(<relation>)}}}*: the "|"-concatenated alphabetically sorted list of relation types for all edges that match the given relation (eg, {{{etypes($X isa(PRIM) $Y}}}). 
+DTAG provides a "-do(<command>)" option that can be used to print matches (eg, as comma-separated files), or to perform find-replace functionality. Every time a match is found, the command is executed. Before the execution, all variable names and value specifications (enclosed in backquotes `...`) are replaced with the corresponding values for the given match. Some examples are given below.
+
+The following command can be used to find all complement edges and print them as DTAG edge specifications:
+
+  {{{find -yes $X isa(COMP) $Y -do(echo $X `etypes($X isa(COMP) $Y)` $Y\n)}}}: find all complement edges and print them as the corresponding DTAG specification.
+
+The following command can be used to find all "subj" edges and replace the edge label with "SUBJ":
+
+  {{{find -yes $X "subj" $Y -do(edel $X subj $Y ; $X SUBJ $Y)}}}
+
+The following command replaces all edges of type COMP with "MYCOMP" edges:
+
+  {{{find -yes $X isa(COMP) $Y -do(edel $X `etypes($X isa(COMP) $Y)` ; $X MYCOMP $Y)}}}
+
+
+  * {{{tell@MYTABLE /tmp/mytable.csv}}}
+    {{{find $X isa(COMP) $Y -do(echo@MYTABLE $X `etypes($X isa(COMP) $Y)` $Y\n)}}}
+    }}}: find all   * {{{f
+
+= Options =
 
 = Example queries =
