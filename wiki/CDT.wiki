@@ -71,6 +71,8 @@ Matthias Buch-Kromann, 2010c. Open challenges in treebanking: some thoughts base
 Matthias Buch-Kromann, 2010b. Dependency grammar for computational linguists.
 Course notes for ESSLLI 2010 in Copenhagen. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-mbk-esslli.pdf pdf]
 
+Matthias Buch-Kromann, 2010a. The DTAG treebank tool. Annotating and querying treebanks and parallel treebanks. Working paper. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-wp-dtag.pdf pdf]
+
 Matthias Buch-Kromann and Iørn Korzen, 2010. _The unified annotation of syntax and discourse in the Copenhagen Dependency Treebanks_. In Proc. of Linguistic Annotation Workshop, ACL 2010, Uppsala. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-short-mbk-ik.pdf pdf] [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-law-poster-mbk-ik.pdf poster]
 
 Matthias Buch-Kromann, Iørn Korzen, and Henrik Høeg Müller, 2009. Uncovering the 'lost' structure of translations with parallel treebanks. In special issue of Copenhagen Studies of Language, vol. 38, pp. 199-224: Fabio Alves, Susanne Göpferich, and Inger Mees (eds.). _Methodology, Technology and Innovation in Translation Process Research._ [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2009-csl-cdt.pdf pdf]
