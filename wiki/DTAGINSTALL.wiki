@@ -4,8 +4,25 @@
 
 = Requirements =
 
-The annotation program DTAG only runs on UNIX machines, and requires Perl and the PostScript viewer GV. 
+The annotation program DTAG only runs on UNIX machines, and requires Perl and the !PostScript viewer GV. 
 
 = Download =
 
 To download DTAG, you have to check out the source code with anonymous subversion as described in the [http://code.google.com/p/copenhagen-dependency-treebank/source/checkout checkout] page. 
+
+= Installation =
+
+The easiest way to install DTAG is to install Ubuntu on your machine, and open a terminal window where you can execute the following commands, which will change to root user and download and install DTAG as well as all packages on which it depends:
+
+  {{{sudo su}}}
+  {{{wget http://www.buch-kromann.dk/cdt/install-root.sh}}}
+  {{{sh install-root.sh}}}
+
+Follow the instructions on the screen, logout as root when finished, and execute:
+
+  {{{sh install.sh}}}
+
+This will also download the entire CDT treebank. You can then run DTAG with the command:
+
+  {{{perl ~/cdt/dtag/dtag.pl}}}
+
