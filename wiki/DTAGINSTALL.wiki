@@ -14,8 +14,8 @@ To download DTAG, you have to check out the source code with anonymous subversio
 
 The easiest way to install DTAG is to install Ubuntu on your machine, and open a terminal window where you can execute the following commands, which will change to root user and download and install DTAG as well as all packages on which it depends:
 
-  {{{sudo su}}}
-  {{{wget http://www.buch-kromann.dk/cdt/install-root.sh}}}
+  {{{sudo su}}}<br>
+  {{{wget http://www.buch-kromann.dk/cdt/install-root.sh}}}<br>
   {{{sh install-root.sh}}}
 
 Follow the instructions on the screen, logout as root when finished, and execute:
@@ -25,4 +25,3 @@ Follow the instructions on the screen, logout as root when finished, and execute
 This will also download the entire CDT treebank. You can then run DTAG with the command:
 
   {{{perl ~/cdt/dtag/dtag.pl}}}
-
