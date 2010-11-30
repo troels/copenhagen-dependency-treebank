@@ -60,7 +60,7 @@ If you use the treebanks in scholarly work, please cite them as follows:
 
 Iørn Korzen and Matthias Buch-Kromann, 2011. Anaphoric relations in the Copenhagen Dependency Treebanks. To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-beyondsem-anaphora.pdf pdf]
 
-Matthias Buch-Kromann, Iørn Korzen, and Daniel Hardt, 2011. Syntax-centered and semantics-centered views of discourse. Can they be reconciled? To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-beyondsem-discourse.pdf pdf]
+Matthias Buch-Kromann, Daniel Hardt, and Iørn Korzen, 2011. Syntax-centered and semantics-centered views of discourse. Can they be reconciled? To be presented at Beyond Semantics 2011, DGfS Workshop, Göttingen, February 23-25, 2011. [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-beyondsem-discourse.pdf pdf]
 
 Matthias Buch-Kromann, Morten Gylling-Jørgensen, Lotte Jelsbech Knudsen, Iørn Korzen, and 
 Henrik Høeg Müller, 2010. _The inventory of linguistic relations used in the
