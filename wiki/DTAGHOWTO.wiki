@@ -1,6 +1,7 @@
 ﻿== DTAG HOWTO ==
 
-This document describes how to use DTAG for different tasks. See [DTAGINSTALL DTAG installation HOWTO] for how to install DTAG.
+This document describes how to use DTAG for different tasks. See the paper [http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/2010-wp-dtag.pdf The DTAG treebank tool. Annotating and querying treebanks and
+parallel treebanks] for an overview of DTAG, and [DTAGINSTALL DTAG installation HOWTO] for how to install DTAG.
 
 <wiki:toc max_depth="3"/>
 
