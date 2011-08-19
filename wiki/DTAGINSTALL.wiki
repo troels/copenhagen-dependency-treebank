@@ -31,7 +31,7 @@ This will also download the entire CDT treebank. You can then run DTAG with the 
 
 == Other UNIX users (including Mac OS X users) ==
 
-You will have to install Subversion (svn), Perl, and GV manually first, and then execute the commands in the scripts install-root.sh and install.sh manually, adapting the commands to your specific system. Send a mail to [mailto:matthias@buch-kromann.dk] if you find out how to install DTAG on your system, and I will include your installation instructions and scripts here.
+You will have to install Subversion (svn), Perl, and GV manually first, and then execute the commands in the scripts install-root.sh and install.sh manually, adapting the commands to your specific system. Send a [mailto:matthias@buch-kromann.dk mail] if you find out how to install DTAG on your system, and I will include your installation instructions and scripts here.
 
 == Windows users ==
 
