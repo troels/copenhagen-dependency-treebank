@@ -4,7 +4,7 @@
 
 = Requirements =
 
-The annotation program DTAG only runs on UNIX machines, and requires Perl and the !PostScript viewer GV. 
+The annotation program DTAG only runs on UNIX machines, and requires Perl, subversion, and the !PostScript viewer GV. 
 
 = Download =
 
